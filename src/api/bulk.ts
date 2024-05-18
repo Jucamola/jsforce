@@ -201,6 +201,7 @@ type CreateQueryJobV2Options<S extends Schema> = {
   operation: QueryOperation;
   query: string;
   pollingOptions: BulkV2PollingOptions;
+  tooling: boolean;
 };
 
 type BulkV2PollingOptions = {
@@ -1111,13 +1112,17 @@ export class BulkV2<S extends Schema> {
    */
   async query(
     soql: string,
-    options?: Partial<BulkV2PollingOptions> & { scanAll?: boolean },
+    options?: Partial<BulkV2PollingOptions> & {
+      scanAll?: boolean;
+      tooling?: boolean;
+    },
   ): Promise<Record[]> {
     const queryJob = new QueryJobV2({
       connection: this.#connection,
       operation: options?.scanAll ? 'queryAll' : 'query',
       query: soql,
       pollingOptions: this,
+      tooling: options?.tooling || false,
     });
     try {
       await queryJob.open();
@@ -1138,6 +1143,7 @@ export class QueryJobV2<S extends Schema> extends EventEmitter {
   readonly #operation: QueryOperation;
   readonly #query: string;
   readonly #pollingOptions: BulkV2PollingOptions;
+  readonly #tooling: boolean;
   #queryResults: Record[] | undefined;
   #error: Error | undefined;
   jobInfo: Partial<JobInfoV2> | undefined;
@@ -1150,6 +1156,7 @@ export class QueryJobV2<S extends Schema> extends EventEmitter {
     this.#operation = options.operation;
     this.#query = options.query;
     this.#pollingOptions = options.pollingOptions;
+    this.#tooling = options.tooling;
     // default error handler to keep the latest error
     this.on('error', (error) => (this.#error = error));
   }
@@ -1288,9 +1295,8 @@ export class QueryJobV2<S extends Schema> extends EventEmitter {
   }
 
   private getResultsUrl(): string {
-    const url = `${this.#connection.instanceUrl}/services/data/v${
-      this.#connection.version
-    }/jobs/query/${getJobIdOrError(this.jobInfo)}/results`;
+    const url = `${this.#connection.instanceUrl}/services/data/v${this.#connection.version
+      }${this.#tooling ? '/tooling' : ''}/jobs/query/${getJobIdOrError(this.jobInfo)}/results`;
 
     return this.locator ? `${url}?locator=${this.locator}` : url;
   }
@@ -1339,6 +1345,7 @@ export class QueryJobV2<S extends Schema> extends EventEmitter {
       this.#connection.instanceUrl,
       'services/data',
       `v${this.#connection.version}`,
+      ...(this.#tooling ? ['tooling'] : []),
       'jobs/query',
     ].join('/');
 

@@ -613,67 +613,69 @@ var Apex = /*#__PURE__*/function () {
 /* harmony import */ var _babel_runtime_corejs3_core_js_stable_weak_map__WEBPACK_IMPORTED_MODULE_24___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_corejs3_core_js_stable_weak_map__WEBPACK_IMPORTED_MODULE_24__);
 /* harmony import */ var _babel_runtime_corejs3_helpers_slicedToArray__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(53073);
 /* harmony import */ var _babel_runtime_corejs3_helpers_slicedToArray__WEBPACK_IMPORTED_MODULE_25___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_corejs3_helpers_slicedToArray__WEBPACK_IMPORTED_MODULE_25__);
-/* harmony import */ var _babel_runtime_corejs3_core_js_stable_date_now__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(2332);
-/* harmony import */ var _babel_runtime_corejs3_core_js_stable_date_now__WEBPACK_IMPORTED_MODULE_26___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_corejs3_core_js_stable_date_now__WEBPACK_IMPORTED_MODULE_26__);
-/* harmony import */ var _babel_runtime_corejs3_core_js_stable_json_stringify__WEBPACK_IMPORTED_MODULE_27__ = __webpack_require__(63414);
-/* harmony import */ var _babel_runtime_corejs3_core_js_stable_json_stringify__WEBPACK_IMPORTED_MODULE_27___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_corejs3_core_js_stable_json_stringify__WEBPACK_IMPORTED_MODULE_27__);
-/* harmony import */ var _babel_runtime_corejs3_helpers_classPrivateFieldGet__WEBPACK_IMPORTED_MODULE_28__ = __webpack_require__(79900);
-/* harmony import */ var _babel_runtime_corejs3_helpers_classPrivateFieldGet__WEBPACK_IMPORTED_MODULE_28___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_corejs3_helpers_classPrivateFieldGet__WEBPACK_IMPORTED_MODULE_28__);
-/* harmony import */ var _babel_runtime_corejs3_helpers_classPrivateFieldSet__WEBPACK_IMPORTED_MODULE_29__ = __webpack_require__(11789);
-/* harmony import */ var _babel_runtime_corejs3_helpers_classPrivateFieldSet__WEBPACK_IMPORTED_MODULE_29___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_corejs3_helpers_classPrivateFieldSet__WEBPACK_IMPORTED_MODULE_29__);
-/* harmony import */ var _babel_runtime_corejs3_helpers_typeof__WEBPACK_IMPORTED_MODULE_30__ = __webpack_require__(60189);
-/* harmony import */ var _babel_runtime_corejs3_helpers_typeof__WEBPACK_IMPORTED_MODULE_30___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_corejs3_helpers_typeof__WEBPACK_IMPORTED_MODULE_30__);
-/* harmony import */ var _babel_runtime_corejs3_core_js_stable_instance_map__WEBPACK_IMPORTED_MODULE_31__ = __webpack_require__(7667);
-/* harmony import */ var _babel_runtime_corejs3_core_js_stable_instance_map__WEBPACK_IMPORTED_MODULE_31___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_corejs3_core_js_stable_instance_map__WEBPACK_IMPORTED_MODULE_31__);
-/* harmony import */ var _babel_runtime_corejs3_core_js_stable_set_timeout__WEBPACK_IMPORTED_MODULE_32__ = __webpack_require__(46652);
-/* harmony import */ var _babel_runtime_corejs3_core_js_stable_set_timeout__WEBPACK_IMPORTED_MODULE_32___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_corejs3_core_js_stable_set_timeout__WEBPACK_IMPORTED_MODULE_32__);
-/* harmony import */ var _babel_runtime_corejs3_core_js_stable_parse_int__WEBPACK_IMPORTED_MODULE_33__ = __webpack_require__(15481);
-/* harmony import */ var _babel_runtime_corejs3_core_js_stable_parse_int__WEBPACK_IMPORTED_MODULE_33___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_corejs3_core_js_stable_parse_int__WEBPACK_IMPORTED_MODULE_33__);
-/* harmony import */ var _babel_runtime_corejs3_core_js_stable_object_keys__WEBPACK_IMPORTED_MODULE_34__ = __webpack_require__(64452);
-/* harmony import */ var _babel_runtime_corejs3_core_js_stable_object_keys__WEBPACK_IMPORTED_MODULE_34___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_corejs3_core_js_stable_object_keys__WEBPACK_IMPORTED_MODULE_34__);
-/* harmony import */ var _babel_runtime_corejs3_helpers_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_35__ = __webpack_require__(10443);
-/* harmony import */ var _babel_runtime_corejs3_helpers_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_35___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_corejs3_helpers_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_35__);
-/* harmony import */ var _babel_runtime_corejs3_helpers_wrapNativeSuper__WEBPACK_IMPORTED_MODULE_36__ = __webpack_require__(65105);
-/* harmony import */ var _babel_runtime_corejs3_helpers_wrapNativeSuper__WEBPACK_IMPORTED_MODULE_36___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_corejs3_helpers_wrapNativeSuper__WEBPACK_IMPORTED_MODULE_36__);
-/* harmony import */ var _babel_runtime_corejs3_core_js_stable_array_is_array__WEBPACK_IMPORTED_MODULE_37__ = __webpack_require__(81720);
-/* harmony import */ var _babel_runtime_corejs3_core_js_stable_array_is_array__WEBPACK_IMPORTED_MODULE_37___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_corejs3_core_js_stable_array_is_array__WEBPACK_IMPORTED_MODULE_37__);
-/* harmony import */ var _babel_runtime_corejs3_core_js_stable_promise__WEBPACK_IMPORTED_MODULE_38__ = __webpack_require__(80678);
-/* harmony import */ var _babel_runtime_corejs3_core_js_stable_promise__WEBPACK_IMPORTED_MODULE_38___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_corejs3_core_js_stable_promise__WEBPACK_IMPORTED_MODULE_38__);
-/* harmony import */ var _babel_runtime_corejs3_regenerator__WEBPACK_IMPORTED_MODULE_39__ = __webpack_require__(93501);
-/* harmony import */ var _babel_runtime_corejs3_regenerator__WEBPACK_IMPORTED_MODULE_39___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_corejs3_regenerator__WEBPACK_IMPORTED_MODULE_39__);
-/* harmony import */ var regenerator_runtime_runtime__WEBPACK_IMPORTED_MODULE_40__ = __webpack_require__(32390);
-/* harmony import */ var regenerator_runtime_runtime__WEBPACK_IMPORTED_MODULE_40___default = /*#__PURE__*/__webpack_require__.n(regenerator_runtime_runtime__WEBPACK_IMPORTED_MODULE_40__);
-/* harmony import */ var _babel_runtime_corejs3_helpers_asyncToGenerator__WEBPACK_IMPORTED_MODULE_41__ = __webpack_require__(3471);
-/* harmony import */ var _babel_runtime_corejs3_helpers_asyncToGenerator__WEBPACK_IMPORTED_MODULE_41___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_corejs3_helpers_asyncToGenerator__WEBPACK_IMPORTED_MODULE_41__);
-/* harmony import */ var _babel_runtime_corejs3_core_js_stable_instance_concat__WEBPACK_IMPORTED_MODULE_42__ = __webpack_require__(86922);
-/* harmony import */ var _babel_runtime_corejs3_core_js_stable_instance_concat__WEBPACK_IMPORTED_MODULE_42___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_corejs3_core_js_stable_instance_concat__WEBPACK_IMPORTED_MODULE_42__);
-/* harmony import */ var _babel_runtime_corejs3_core_js_stable_instance_trim__WEBPACK_IMPORTED_MODULE_43__ = __webpack_require__(75076);
-/* harmony import */ var _babel_runtime_corejs3_core_js_stable_instance_trim__WEBPACK_IMPORTED_MODULE_43___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_corejs3_core_js_stable_instance_trim__WEBPACK_IMPORTED_MODULE_43__);
-/* harmony import */ var _babel_runtime_corejs3_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_44__ = __webpack_require__(87884);
-/* harmony import */ var _babel_runtime_corejs3_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_44___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_corejs3_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_44__);
-/* harmony import */ var _babel_runtime_corejs3_helpers_createClass__WEBPACK_IMPORTED_MODULE_45__ = __webpack_require__(41173);
-/* harmony import */ var _babel_runtime_corejs3_helpers_createClass__WEBPACK_IMPORTED_MODULE_45___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_corejs3_helpers_createClass__WEBPACK_IMPORTED_MODULE_45__);
-/* harmony import */ var _babel_runtime_corejs3_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_46__ = __webpack_require__(10669);
-/* harmony import */ var _babel_runtime_corejs3_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_46___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_corejs3_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_46__);
-/* harmony import */ var _babel_runtime_corejs3_helpers_inherits__WEBPACK_IMPORTED_MODULE_47__ = __webpack_require__(60374);
-/* harmony import */ var _babel_runtime_corejs3_helpers_inherits__WEBPACK_IMPORTED_MODULE_47___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_corejs3_helpers_inherits__WEBPACK_IMPORTED_MODULE_47__);
-/* harmony import */ var _babel_runtime_corejs3_helpers_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_48__ = __webpack_require__(20997);
-/* harmony import */ var _babel_runtime_corejs3_helpers_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_48___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_corejs3_helpers_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_48__);
-/* harmony import */ var _babel_runtime_corejs3_helpers_getPrototypeOf__WEBPACK_IMPORTED_MODULE_49__ = __webpack_require__(39754);
-/* harmony import */ var _babel_runtime_corejs3_helpers_getPrototypeOf__WEBPACK_IMPORTED_MODULE_49___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_corejs3_helpers_getPrototypeOf__WEBPACK_IMPORTED_MODULE_49__);
-/* harmony import */ var _babel_runtime_corejs3_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_50__ = __webpack_require__(31655);
-/* harmony import */ var _babel_runtime_corejs3_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_50___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_corejs3_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_50__);
-/* harmony import */ var events__WEBPACK_IMPORTED_MODULE_51__ = __webpack_require__(5939);
-/* harmony import */ var events__WEBPACK_IMPORTED_MODULE_51___default = /*#__PURE__*/__webpack_require__.n(events__WEBPACK_IMPORTED_MODULE_51__);
-/* harmony import */ var stream__WEBPACK_IMPORTED_MODULE_52__ = __webpack_require__(20202);
-/* harmony import */ var stream__WEBPACK_IMPORTED_MODULE_52___default = /*#__PURE__*/__webpack_require__.n(stream__WEBPACK_IMPORTED_MODULE_52__);
-/* harmony import */ var multistream__WEBPACK_IMPORTED_MODULE_53__ = __webpack_require__(44125);
-/* harmony import */ var multistream__WEBPACK_IMPORTED_MODULE_53___default = /*#__PURE__*/__webpack_require__.n(multistream__WEBPACK_IMPORTED_MODULE_53__);
-/* harmony import */ var _record_stream__WEBPACK_IMPORTED_MODULE_54__ = __webpack_require__(74782);
-/* harmony import */ var _http_api__WEBPACK_IMPORTED_MODULE_55__ = __webpack_require__(1315);
-/* harmony import */ var _jsforce__WEBPACK_IMPORTED_MODULE_56__ = __webpack_require__(91439);
-/* harmony import */ var _util_stream__WEBPACK_IMPORTED_MODULE_57__ = __webpack_require__(23029);
-/* harmony import */ var _util_function__WEBPACK_IMPORTED_MODULE_58__ = __webpack_require__(27645);
+/* harmony import */ var _babel_runtime_corejs3_helpers_toConsumableArray__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(58446);
+/* harmony import */ var _babel_runtime_corejs3_helpers_toConsumableArray__WEBPACK_IMPORTED_MODULE_26___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_corejs3_helpers_toConsumableArray__WEBPACK_IMPORTED_MODULE_26__);
+/* harmony import */ var _babel_runtime_corejs3_core_js_stable_date_now__WEBPACK_IMPORTED_MODULE_27__ = __webpack_require__(2332);
+/* harmony import */ var _babel_runtime_corejs3_core_js_stable_date_now__WEBPACK_IMPORTED_MODULE_27___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_corejs3_core_js_stable_date_now__WEBPACK_IMPORTED_MODULE_27__);
+/* harmony import */ var _babel_runtime_corejs3_core_js_stable_json_stringify__WEBPACK_IMPORTED_MODULE_28__ = __webpack_require__(63414);
+/* harmony import */ var _babel_runtime_corejs3_core_js_stable_json_stringify__WEBPACK_IMPORTED_MODULE_28___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_corejs3_core_js_stable_json_stringify__WEBPACK_IMPORTED_MODULE_28__);
+/* harmony import */ var _babel_runtime_corejs3_helpers_classPrivateFieldGet__WEBPACK_IMPORTED_MODULE_29__ = __webpack_require__(79900);
+/* harmony import */ var _babel_runtime_corejs3_helpers_classPrivateFieldGet__WEBPACK_IMPORTED_MODULE_29___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_corejs3_helpers_classPrivateFieldGet__WEBPACK_IMPORTED_MODULE_29__);
+/* harmony import */ var _babel_runtime_corejs3_helpers_classPrivateFieldSet__WEBPACK_IMPORTED_MODULE_30__ = __webpack_require__(11789);
+/* harmony import */ var _babel_runtime_corejs3_helpers_classPrivateFieldSet__WEBPACK_IMPORTED_MODULE_30___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_corejs3_helpers_classPrivateFieldSet__WEBPACK_IMPORTED_MODULE_30__);
+/* harmony import */ var _babel_runtime_corejs3_helpers_typeof__WEBPACK_IMPORTED_MODULE_31__ = __webpack_require__(60189);
+/* harmony import */ var _babel_runtime_corejs3_helpers_typeof__WEBPACK_IMPORTED_MODULE_31___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_corejs3_helpers_typeof__WEBPACK_IMPORTED_MODULE_31__);
+/* harmony import */ var _babel_runtime_corejs3_core_js_stable_instance_map__WEBPACK_IMPORTED_MODULE_32__ = __webpack_require__(7667);
+/* harmony import */ var _babel_runtime_corejs3_core_js_stable_instance_map__WEBPACK_IMPORTED_MODULE_32___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_corejs3_core_js_stable_instance_map__WEBPACK_IMPORTED_MODULE_32__);
+/* harmony import */ var _babel_runtime_corejs3_core_js_stable_set_timeout__WEBPACK_IMPORTED_MODULE_33__ = __webpack_require__(46652);
+/* harmony import */ var _babel_runtime_corejs3_core_js_stable_set_timeout__WEBPACK_IMPORTED_MODULE_33___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_corejs3_core_js_stable_set_timeout__WEBPACK_IMPORTED_MODULE_33__);
+/* harmony import */ var _babel_runtime_corejs3_core_js_stable_parse_int__WEBPACK_IMPORTED_MODULE_34__ = __webpack_require__(15481);
+/* harmony import */ var _babel_runtime_corejs3_core_js_stable_parse_int__WEBPACK_IMPORTED_MODULE_34___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_corejs3_core_js_stable_parse_int__WEBPACK_IMPORTED_MODULE_34__);
+/* harmony import */ var _babel_runtime_corejs3_core_js_stable_object_keys__WEBPACK_IMPORTED_MODULE_35__ = __webpack_require__(64452);
+/* harmony import */ var _babel_runtime_corejs3_core_js_stable_object_keys__WEBPACK_IMPORTED_MODULE_35___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_corejs3_core_js_stable_object_keys__WEBPACK_IMPORTED_MODULE_35__);
+/* harmony import */ var _babel_runtime_corejs3_helpers_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_36__ = __webpack_require__(10443);
+/* harmony import */ var _babel_runtime_corejs3_helpers_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_36___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_corejs3_helpers_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_36__);
+/* harmony import */ var _babel_runtime_corejs3_helpers_wrapNativeSuper__WEBPACK_IMPORTED_MODULE_37__ = __webpack_require__(65105);
+/* harmony import */ var _babel_runtime_corejs3_helpers_wrapNativeSuper__WEBPACK_IMPORTED_MODULE_37___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_corejs3_helpers_wrapNativeSuper__WEBPACK_IMPORTED_MODULE_37__);
+/* harmony import */ var _babel_runtime_corejs3_core_js_stable_array_is_array__WEBPACK_IMPORTED_MODULE_38__ = __webpack_require__(81720);
+/* harmony import */ var _babel_runtime_corejs3_core_js_stable_array_is_array__WEBPACK_IMPORTED_MODULE_38___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_corejs3_core_js_stable_array_is_array__WEBPACK_IMPORTED_MODULE_38__);
+/* harmony import */ var _babel_runtime_corejs3_core_js_stable_promise__WEBPACK_IMPORTED_MODULE_39__ = __webpack_require__(80678);
+/* harmony import */ var _babel_runtime_corejs3_core_js_stable_promise__WEBPACK_IMPORTED_MODULE_39___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_corejs3_core_js_stable_promise__WEBPACK_IMPORTED_MODULE_39__);
+/* harmony import */ var _babel_runtime_corejs3_regenerator__WEBPACK_IMPORTED_MODULE_40__ = __webpack_require__(93501);
+/* harmony import */ var _babel_runtime_corejs3_regenerator__WEBPACK_IMPORTED_MODULE_40___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_corejs3_regenerator__WEBPACK_IMPORTED_MODULE_40__);
+/* harmony import */ var regenerator_runtime_runtime__WEBPACK_IMPORTED_MODULE_41__ = __webpack_require__(32390);
+/* harmony import */ var regenerator_runtime_runtime__WEBPACK_IMPORTED_MODULE_41___default = /*#__PURE__*/__webpack_require__.n(regenerator_runtime_runtime__WEBPACK_IMPORTED_MODULE_41__);
+/* harmony import */ var _babel_runtime_corejs3_helpers_asyncToGenerator__WEBPACK_IMPORTED_MODULE_42__ = __webpack_require__(3471);
+/* harmony import */ var _babel_runtime_corejs3_helpers_asyncToGenerator__WEBPACK_IMPORTED_MODULE_42___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_corejs3_helpers_asyncToGenerator__WEBPACK_IMPORTED_MODULE_42__);
+/* harmony import */ var _babel_runtime_corejs3_core_js_stable_instance_concat__WEBPACK_IMPORTED_MODULE_43__ = __webpack_require__(86922);
+/* harmony import */ var _babel_runtime_corejs3_core_js_stable_instance_concat__WEBPACK_IMPORTED_MODULE_43___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_corejs3_core_js_stable_instance_concat__WEBPACK_IMPORTED_MODULE_43__);
+/* harmony import */ var _babel_runtime_corejs3_core_js_stable_instance_trim__WEBPACK_IMPORTED_MODULE_44__ = __webpack_require__(75076);
+/* harmony import */ var _babel_runtime_corejs3_core_js_stable_instance_trim__WEBPACK_IMPORTED_MODULE_44___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_corejs3_core_js_stable_instance_trim__WEBPACK_IMPORTED_MODULE_44__);
+/* harmony import */ var _babel_runtime_corejs3_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_45__ = __webpack_require__(87884);
+/* harmony import */ var _babel_runtime_corejs3_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_45___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_corejs3_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_45__);
+/* harmony import */ var _babel_runtime_corejs3_helpers_createClass__WEBPACK_IMPORTED_MODULE_46__ = __webpack_require__(41173);
+/* harmony import */ var _babel_runtime_corejs3_helpers_createClass__WEBPACK_IMPORTED_MODULE_46___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_corejs3_helpers_createClass__WEBPACK_IMPORTED_MODULE_46__);
+/* harmony import */ var _babel_runtime_corejs3_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_47__ = __webpack_require__(10669);
+/* harmony import */ var _babel_runtime_corejs3_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_47___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_corejs3_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_47__);
+/* harmony import */ var _babel_runtime_corejs3_helpers_inherits__WEBPACK_IMPORTED_MODULE_48__ = __webpack_require__(60374);
+/* harmony import */ var _babel_runtime_corejs3_helpers_inherits__WEBPACK_IMPORTED_MODULE_48___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_corejs3_helpers_inherits__WEBPACK_IMPORTED_MODULE_48__);
+/* harmony import */ var _babel_runtime_corejs3_helpers_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_49__ = __webpack_require__(20997);
+/* harmony import */ var _babel_runtime_corejs3_helpers_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_49___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_corejs3_helpers_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_49__);
+/* harmony import */ var _babel_runtime_corejs3_helpers_getPrototypeOf__WEBPACK_IMPORTED_MODULE_50__ = __webpack_require__(39754);
+/* harmony import */ var _babel_runtime_corejs3_helpers_getPrototypeOf__WEBPACK_IMPORTED_MODULE_50___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_corejs3_helpers_getPrototypeOf__WEBPACK_IMPORTED_MODULE_50__);
+/* harmony import */ var _babel_runtime_corejs3_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_51__ = __webpack_require__(31655);
+/* harmony import */ var _babel_runtime_corejs3_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_51___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_corejs3_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_51__);
+/* harmony import */ var events__WEBPACK_IMPORTED_MODULE_52__ = __webpack_require__(5939);
+/* harmony import */ var events__WEBPACK_IMPORTED_MODULE_52___default = /*#__PURE__*/__webpack_require__.n(events__WEBPACK_IMPORTED_MODULE_52__);
+/* harmony import */ var stream__WEBPACK_IMPORTED_MODULE_53__ = __webpack_require__(20202);
+/* harmony import */ var stream__WEBPACK_IMPORTED_MODULE_53___default = /*#__PURE__*/__webpack_require__.n(stream__WEBPACK_IMPORTED_MODULE_53__);
+/* harmony import */ var multistream__WEBPACK_IMPORTED_MODULE_54__ = __webpack_require__(44125);
+/* harmony import */ var multistream__WEBPACK_IMPORTED_MODULE_54___default = /*#__PURE__*/__webpack_require__.n(multistream__WEBPACK_IMPORTED_MODULE_54__);
+/* harmony import */ var _record_stream__WEBPACK_IMPORTED_MODULE_55__ = __webpack_require__(74782);
+/* harmony import */ var _http_api__WEBPACK_IMPORTED_MODULE_56__ = __webpack_require__(1315);
+/* harmony import */ var _jsforce__WEBPACK_IMPORTED_MODULE_57__ = __webpack_require__(91439);
+/* harmony import */ var _util_stream__WEBPACK_IMPORTED_MODULE_58__ = __webpack_require__(23029);
+/* harmony import */ var _util_function__WEBPACK_IMPORTED_MODULE_59__ = __webpack_require__(27645);
 
 
 
@@ -725,12 +727,13 @@ var Apex = /*#__PURE__*/function () {
 
 
 
-function _createForOfIteratorHelper(o, allowArrayLike) { var it; if (typeof (_babel_runtime_corejs3_core_js_stable_symbol__WEBPACK_IMPORTED_MODULE_2___default()) === "undefined" || _babel_runtime_corejs3_core_js_get_iterator_method__WEBPACK_IMPORTED_MODULE_1___default()(o) == null) { if (_babel_runtime_corejs3_core_js_stable_array_is_array__WEBPACK_IMPORTED_MODULE_37___default()(o) || (it = _unsupportedIterableToArray(o)) || allowArrayLike && o && typeof o.length === "number") { if (it) o = it; var i = 0; var F = function F() {}; return { s: F, n: function n() { if (i >= o.length) return { done: true }; return { done: false, value: o[i++] }; }, e: function e(_e) { throw _e; }, f: F }; } throw new TypeError("Invalid attempt to iterate non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); } var normalCompletion = true, didErr = false, err; return { s: function s() { it = _babel_runtime_corejs3_core_js_get_iterator__WEBPACK_IMPORTED_MODULE_0___default()(o); }, n: function n() { var step = it.next(); normalCompletion = step.done; return step; }, e: function e(_e2) { didErr = true; err = _e2; }, f: function f() { try { if (!normalCompletion && it.return != null) it.return(); } finally { if (didErr) throw err; } } }; }
-function _unsupportedIterableToArray(o, minLen) { var _context47; if (!o) return; if (typeof o === "string") return _arrayLikeToArray(o, minLen); var n = _babel_runtime_corejs3_core_js_stable_instance_slice__WEBPACK_IMPORTED_MODULE_4___default()(_context47 = Object.prototype.toString.call(o)).call(_context47, 8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return _babel_runtime_corejs3_core_js_stable_array_from__WEBPACK_IMPORTED_MODULE_3___default()(o); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }
+
+function _createForOfIteratorHelper(o, allowArrayLike) { var it; if (typeof (_babel_runtime_corejs3_core_js_stable_symbol__WEBPACK_IMPORTED_MODULE_2___default()) === "undefined" || _babel_runtime_corejs3_core_js_get_iterator_method__WEBPACK_IMPORTED_MODULE_1___default()(o) == null) { if (_babel_runtime_corejs3_core_js_stable_array_is_array__WEBPACK_IMPORTED_MODULE_38___default()(o) || (it = _unsupportedIterableToArray(o)) || allowArrayLike && o && typeof o.length === "number") { if (it) o = it; var i = 0; var F = function F() {}; return { s: F, n: function n() { if (i >= o.length) return { done: true }; return { done: false, value: o[i++] }; }, e: function e(_e) { throw _e; }, f: F }; } throw new TypeError("Invalid attempt to iterate non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); } var normalCompletion = true, didErr = false, err; return { s: function s() { it = _babel_runtime_corejs3_core_js_get_iterator__WEBPACK_IMPORTED_MODULE_0___default()(o); }, n: function n() { var step = it.next(); normalCompletion = step.done; return step; }, e: function e(_e2) { didErr = true; err = _e2; }, f: function f() { try { if (!normalCompletion && it.return != null) it.return(); } finally { if (didErr) throw err; } } }; }
+function _unsupportedIterableToArray(o, minLen) { var _context51; if (!o) return; if (typeof o === "string") return _arrayLikeToArray(o, minLen); var n = _babel_runtime_corejs3_core_js_stable_instance_slice__WEBPACK_IMPORTED_MODULE_4___default()(_context51 = Object.prototype.toString.call(o)).call(_context51, 8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return _babel_runtime_corejs3_core_js_stable_array_from__WEBPACK_IMPORTED_MODULE_3___default()(o); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }
 function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) { arr2[i] = arr[i]; } return arr2; }
-function ownKeys(object, enumerableOnly) { var keys = _babel_runtime_corejs3_core_js_stable_object_keys__WEBPACK_IMPORTED_MODULE_34___default()(object); if ((_babel_runtime_corejs3_core_js_stable_object_get_own_property_symbols__WEBPACK_IMPORTED_MODULE_11___default())) { var symbols = _babel_runtime_corejs3_core_js_stable_object_get_own_property_symbols__WEBPACK_IMPORTED_MODULE_11___default()(object); if (enumerableOnly) symbols = _babel_runtime_corejs3_core_js_stable_instance_filter__WEBPACK_IMPORTED_MODULE_10___default()(symbols).call(symbols, function (sym) { return _babel_runtime_corejs3_core_js_stable_object_get_own_property_descriptor__WEBPACK_IMPORTED_MODULE_9___default()(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
-function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { var _context45; _babel_runtime_corejs3_core_js_stable_instance_for_each__WEBPACK_IMPORTED_MODULE_8___default()(_context45 = ownKeys(Object(source), true)).call(_context45, function (key) { _babel_runtime_corejs3_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_50___default()(target, key, source[key]); }); } else if ((_babel_runtime_corejs3_core_js_stable_object_get_own_property_descriptors__WEBPACK_IMPORTED_MODULE_7___default())) { _babel_runtime_corejs3_core_js_stable_object_define_properties__WEBPACK_IMPORTED_MODULE_6___default()(target, _babel_runtime_corejs3_core_js_stable_object_get_own_property_descriptors__WEBPACK_IMPORTED_MODULE_7___default()(source)); } else { var _context46; _babel_runtime_corejs3_core_js_stable_instance_for_each__WEBPACK_IMPORTED_MODULE_8___default()(_context46 = ownKeys(Object(source))).call(_context46, function (key) { _babel_runtime_corejs3_core_js_stable_object_define_property__WEBPACK_IMPORTED_MODULE_5___default()(target, key, _babel_runtime_corejs3_core_js_stable_object_get_own_property_descriptor__WEBPACK_IMPORTED_MODULE_9___default()(source, key)); }); } } return target; }
-function _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function _createSuperInternal() { var Super = _babel_runtime_corejs3_helpers_getPrototypeOf__WEBPACK_IMPORTED_MODULE_49___default()(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _babel_runtime_corejs3_helpers_getPrototypeOf__WEBPACK_IMPORTED_MODULE_49___default()(this).constructor; result = _babel_runtime_corejs3_core_js_stable_reflect_construct__WEBPACK_IMPORTED_MODULE_12___default()(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _babel_runtime_corejs3_helpers_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_48___default()(this, result); }; }
+function ownKeys(object, enumerableOnly) { var keys = _babel_runtime_corejs3_core_js_stable_object_keys__WEBPACK_IMPORTED_MODULE_35___default()(object); if ((_babel_runtime_corejs3_core_js_stable_object_get_own_property_symbols__WEBPACK_IMPORTED_MODULE_11___default())) { var symbols = _babel_runtime_corejs3_core_js_stable_object_get_own_property_symbols__WEBPACK_IMPORTED_MODULE_11___default()(object); if (enumerableOnly) symbols = _babel_runtime_corejs3_core_js_stable_instance_filter__WEBPACK_IMPORTED_MODULE_10___default()(symbols).call(symbols, function (sym) { return _babel_runtime_corejs3_core_js_stable_object_get_own_property_descriptor__WEBPACK_IMPORTED_MODULE_9___default()(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
+function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { var _context49; _babel_runtime_corejs3_core_js_stable_instance_for_each__WEBPACK_IMPORTED_MODULE_8___default()(_context49 = ownKeys(Object(source), true)).call(_context49, function (key) { _babel_runtime_corejs3_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_51___default()(target, key, source[key]); }); } else if ((_babel_runtime_corejs3_core_js_stable_object_get_own_property_descriptors__WEBPACK_IMPORTED_MODULE_7___default())) { _babel_runtime_corejs3_core_js_stable_object_define_properties__WEBPACK_IMPORTED_MODULE_6___default()(target, _babel_runtime_corejs3_core_js_stable_object_get_own_property_descriptors__WEBPACK_IMPORTED_MODULE_7___default()(source)); } else { var _context50; _babel_runtime_corejs3_core_js_stable_instance_for_each__WEBPACK_IMPORTED_MODULE_8___default()(_context50 = ownKeys(Object(source))).call(_context50, function (key) { _babel_runtime_corejs3_core_js_stable_object_define_property__WEBPACK_IMPORTED_MODULE_5___default()(target, key, _babel_runtime_corejs3_core_js_stable_object_get_own_property_descriptor__WEBPACK_IMPORTED_MODULE_9___default()(source, key)); }); } } return target; }
+function _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function _createSuperInternal() { var Super = _babel_runtime_corejs3_helpers_getPrototypeOf__WEBPACK_IMPORTED_MODULE_50___default()(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _babel_runtime_corejs3_helpers_getPrototypeOf__WEBPACK_IMPORTED_MODULE_50___default()(this).constructor; result = _babel_runtime_corejs3_core_js_stable_reflect_construct__WEBPACK_IMPORTED_MODULE_12___default()(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _babel_runtime_corejs3_helpers_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_49___default()(this, result); }; }
 function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !(_babel_runtime_corejs3_core_js_stable_reflect_construct__WEBPACK_IMPORTED_MODULE_12___default())) return false; if ((_babel_runtime_corejs3_core_js_stable_reflect_construct__WEBPACK_IMPORTED_MODULE_12___default().sham)) return false; if (typeof Proxy === "function") return true; try { Date.prototype.toString.call(_babel_runtime_corejs3_core_js_stable_reflect_construct__WEBPACK_IMPORTED_MODULE_12___default()(Date, [], function () {})); return true; } catch (e) { return false; } }
 /**
  * @file Manages Salesforce Bulk API related operations
@@ -751,24 +754,24 @@ function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !(_
  * Class for Bulk API Job
  */
 var Job = /*#__PURE__*/function (_EventEmitter) {
-  _babel_runtime_corejs3_helpers_inherits__WEBPACK_IMPORTED_MODULE_47___default()(Job, _EventEmitter);
+  _babel_runtime_corejs3_helpers_inherits__WEBPACK_IMPORTED_MODULE_48___default()(Job, _EventEmitter);
   var _super = _createSuper(Job);
   /**
    *
    */
   function Job(bulk, type, operation, options, jobId) {
     var _this;
-    _babel_runtime_corejs3_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_44___default()(this, Job);
+    _babel_runtime_corejs3_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_45___default()(this, Job);
     _this = _super.call(this);
-    _babel_runtime_corejs3_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_50___default()(_babel_runtime_corejs3_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_46___default()(_this), "type", void 0);
-    _babel_runtime_corejs3_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_50___default()(_babel_runtime_corejs3_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_46___default()(_this), "operation", void 0);
-    _babel_runtime_corejs3_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_50___default()(_babel_runtime_corejs3_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_46___default()(_this), "options", void 0);
-    _babel_runtime_corejs3_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_50___default()(_babel_runtime_corejs3_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_46___default()(_this), "id", void 0);
-    _babel_runtime_corejs3_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_50___default()(_babel_runtime_corejs3_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_46___default()(_this), "state", void 0);
-    _babel_runtime_corejs3_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_50___default()(_babel_runtime_corejs3_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_46___default()(_this), "_bulk", void 0);
-    _babel_runtime_corejs3_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_50___default()(_babel_runtime_corejs3_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_46___default()(_this), "_batches", void 0);
-    _babel_runtime_corejs3_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_50___default()(_babel_runtime_corejs3_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_46___default()(_this), "_jobInfo", void 0);
-    _babel_runtime_corejs3_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_50___default()(_babel_runtime_corejs3_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_46___default()(_this), "_error", void 0);
+    _babel_runtime_corejs3_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_51___default()(_babel_runtime_corejs3_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_47___default()(_this), "type", void 0);
+    _babel_runtime_corejs3_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_51___default()(_babel_runtime_corejs3_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_47___default()(_this), "operation", void 0);
+    _babel_runtime_corejs3_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_51___default()(_babel_runtime_corejs3_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_47___default()(_this), "options", void 0);
+    _babel_runtime_corejs3_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_51___default()(_babel_runtime_corejs3_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_47___default()(_this), "id", void 0);
+    _babel_runtime_corejs3_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_51___default()(_babel_runtime_corejs3_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_47___default()(_this), "state", void 0);
+    _babel_runtime_corejs3_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_51___default()(_babel_runtime_corejs3_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_47___default()(_this), "_bulk", void 0);
+    _babel_runtime_corejs3_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_51___default()(_babel_runtime_corejs3_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_47___default()(_this), "_batches", void 0);
+    _babel_runtime_corejs3_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_51___default()(_babel_runtime_corejs3_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_47___default()(_this), "_jobInfo", void 0);
+    _babel_runtime_corejs3_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_51___default()(_babel_runtime_corejs3_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_47___default()(_this), "_error", void 0);
     _this._bulk = bulk;
     _this.type = type;
     _this.operation = operation;
@@ -786,7 +789,7 @@ var Job = /*#__PURE__*/function (_EventEmitter) {
   /**
    * Return latest jobInfo from cache
    */
-  _babel_runtime_corejs3_helpers_createClass__WEBPACK_IMPORTED_MODULE_45___default()(Job, [{
+  _babel_runtime_corejs3_helpers_createClass__WEBPACK_IMPORTED_MODULE_46___default()(Job, [{
     key: "info",
     value: function info() {
       // if cache is not available, check the latest
@@ -820,10 +823,10 @@ var Job = /*#__PURE__*/function (_EventEmitter) {
         if (_operation === 'queryall') {
           _operation = 'queryAll';
         }
-        var body = _babel_runtime_corejs3_core_js_stable_instance_trim__WEBPACK_IMPORTED_MODULE_43___default()(_context = _babel_runtime_corejs3_core_js_stable_instance_concat__WEBPACK_IMPORTED_MODULE_42___default()(_context2 = _babel_runtime_corejs3_core_js_stable_instance_concat__WEBPACK_IMPORTED_MODULE_42___default()(_context3 = _babel_runtime_corejs3_core_js_stable_instance_concat__WEBPACK_IMPORTED_MODULE_42___default()(_context4 = _babel_runtime_corejs3_core_js_stable_instance_concat__WEBPACK_IMPORTED_MODULE_42___default()(_context5 = "\n<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<jobInfo  xmlns=\"http://www.force.com/2009/06/asyncapi/dataload\">\n  <operation>".concat(_operation, "</operation>\n  <object>")).call(_context5, this.type, "</object>\n  ")).call(_context4, options.extIdField ? "<externalIdFieldName>".concat(options.extIdField, "</externalIdFieldName>") : '', "\n  ")).call(_context3, options.concurrencyMode ? "<concurrencyMode>".concat(options.concurrencyMode, "</concurrencyMode>") : '', "\n  ")).call(_context2, options.assignmentRuleId ? "<assignmentRuleId>".concat(options.assignmentRuleId, "</assignmentRuleId>") : '', "\n  <contentType>CSV</contentType>\n</jobInfo>\n      ")).call(_context);
-        this._jobInfo = _babel_runtime_corejs3_helpers_asyncToGenerator__WEBPACK_IMPORTED_MODULE_41___default()( /*#__PURE__*/_babel_runtime_corejs3_regenerator__WEBPACK_IMPORTED_MODULE_39___default().mark(function _callee() {
+        var body = _babel_runtime_corejs3_core_js_stable_instance_trim__WEBPACK_IMPORTED_MODULE_44___default()(_context = _babel_runtime_corejs3_core_js_stable_instance_concat__WEBPACK_IMPORTED_MODULE_43___default()(_context2 = _babel_runtime_corejs3_core_js_stable_instance_concat__WEBPACK_IMPORTED_MODULE_43___default()(_context3 = _babel_runtime_corejs3_core_js_stable_instance_concat__WEBPACK_IMPORTED_MODULE_43___default()(_context4 = _babel_runtime_corejs3_core_js_stable_instance_concat__WEBPACK_IMPORTED_MODULE_43___default()(_context5 = "\n<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<jobInfo  xmlns=\"http://www.force.com/2009/06/asyncapi/dataload\">\n  <operation>".concat(_operation, "</operation>\n  <object>")).call(_context5, this.type, "</object>\n  ")).call(_context4, options.extIdField ? "<externalIdFieldName>".concat(options.extIdField, "</externalIdFieldName>") : '', "\n  ")).call(_context3, options.concurrencyMode ? "<concurrencyMode>".concat(options.concurrencyMode, "</concurrencyMode>") : '', "\n  ")).call(_context2, options.assignmentRuleId ? "<assignmentRuleId>".concat(options.assignmentRuleId, "</assignmentRuleId>") : '', "\n  <contentType>CSV</contentType>\n</jobInfo>\n      ")).call(_context);
+        this._jobInfo = _babel_runtime_corejs3_helpers_asyncToGenerator__WEBPACK_IMPORTED_MODULE_42___default()( /*#__PURE__*/_babel_runtime_corejs3_regenerator__WEBPACK_IMPORTED_MODULE_40___default().mark(function _callee() {
           var _res;
-          return _babel_runtime_corejs3_regenerator__WEBPACK_IMPORTED_MODULE_39___default().wrap(function _callee$(_context6) {
+          return _babel_runtime_corejs3_regenerator__WEBPACK_IMPORTED_MODULE_40___default().wrap(function _callee$(_context6) {
             while (1) {
               switch (_context6.prev = _context6.next) {
                 case 0:
@@ -894,9 +897,9 @@ var Job = /*#__PURE__*/function (_EventEmitter) {
       var _this4 = this;
       var bulk = this._bulk;
       var logger = bulk._logger;
-      this._jobInfo = _babel_runtime_corejs3_helpers_asyncToGenerator__WEBPACK_IMPORTED_MODULE_41___default()( /*#__PURE__*/_babel_runtime_corejs3_regenerator__WEBPACK_IMPORTED_MODULE_39___default().mark(function _callee2() {
+      this._jobInfo = _babel_runtime_corejs3_helpers_asyncToGenerator__WEBPACK_IMPORTED_MODULE_42___default()( /*#__PURE__*/_babel_runtime_corejs3_regenerator__WEBPACK_IMPORTED_MODULE_40___default().mark(function _callee2() {
         var jobId, res;
-        return _babel_runtime_corejs3_regenerator__WEBPACK_IMPORTED_MODULE_39___default().wrap(function _callee2$(_context7) {
+        return _babel_runtime_corejs3_regenerator__WEBPACK_IMPORTED_MODULE_40___default().wrap(function _callee2$(_context7) {
           while (1) {
             switch (_context7.prev = _context7.next) {
               case 0:
@@ -933,7 +936,7 @@ var Job = /*#__PURE__*/function (_EventEmitter) {
   }, {
     key: "ready",
     value: function ready() {
-      return this.id ? _babel_runtime_corejs3_core_js_stable_promise__WEBPACK_IMPORTED_MODULE_38___default().resolve(this.id) : this.open().then(function (_ref3) {
+      return this.id ? _babel_runtime_corejs3_core_js_stable_promise__WEBPACK_IMPORTED_MODULE_39___default().resolve(this.id) : this.open().then(function (_ref3) {
         var id = _ref3.id;
         return id;
       });
@@ -944,9 +947,9 @@ var Job = /*#__PURE__*/function (_EventEmitter) {
   }, {
     key: "list",
     value: function () {
-      var _list = _babel_runtime_corejs3_helpers_asyncToGenerator__WEBPACK_IMPORTED_MODULE_41___default()( /*#__PURE__*/_babel_runtime_corejs3_regenerator__WEBPACK_IMPORTED_MODULE_39___default().mark(function _callee3() {
+      var _list = _babel_runtime_corejs3_helpers_asyncToGenerator__WEBPACK_IMPORTED_MODULE_42___default()( /*#__PURE__*/_babel_runtime_corejs3_regenerator__WEBPACK_IMPORTED_MODULE_40___default().mark(function _callee3() {
         var bulk, logger, jobId, res, batchInfoList;
-        return _babel_runtime_corejs3_regenerator__WEBPACK_IMPORTED_MODULE_39___default().wrap(function _callee3$(_context8) {
+        return _babel_runtime_corejs3_regenerator__WEBPACK_IMPORTED_MODULE_40___default().wrap(function _callee3$(_context8) {
           while (1) {
             switch (_context8.prev = _context8.next) {
               case 0:
@@ -965,7 +968,7 @@ var Job = /*#__PURE__*/function (_EventEmitter) {
               case 7:
                 res = _context8.sent;
                 logger.debug(res.batchInfoList.batchInfo);
-                batchInfoList = _babel_runtime_corejs3_core_js_stable_array_is_array__WEBPACK_IMPORTED_MODULE_37___default()(res.batchInfoList.batchInfo) ? res.batchInfoList.batchInfo : [res.batchInfoList.batchInfo];
+                batchInfoList = _babel_runtime_corejs3_core_js_stable_array_is_array__WEBPACK_IMPORTED_MODULE_38___default()(res.batchInfoList.batchInfo) ? res.batchInfoList.batchInfo : [res.batchInfoList.batchInfo];
                 return _context8.abrupt("return", batchInfoList);
               case 11:
               case "end":
@@ -985,9 +988,9 @@ var Job = /*#__PURE__*/function (_EventEmitter) {
   }, {
     key: "close",
     value: function () {
-      var _close = _babel_runtime_corejs3_helpers_asyncToGenerator__WEBPACK_IMPORTED_MODULE_41___default()( /*#__PURE__*/_babel_runtime_corejs3_regenerator__WEBPACK_IMPORTED_MODULE_39___default().mark(function _callee4() {
+      var _close = _babel_runtime_corejs3_helpers_asyncToGenerator__WEBPACK_IMPORTED_MODULE_42___default()( /*#__PURE__*/_babel_runtime_corejs3_regenerator__WEBPACK_IMPORTED_MODULE_40___default().mark(function _callee4() {
         var jobInfo;
-        return _babel_runtime_corejs3_regenerator__WEBPACK_IMPORTED_MODULE_39___default().wrap(function _callee4$(_context9) {
+        return _babel_runtime_corejs3_regenerator__WEBPACK_IMPORTED_MODULE_40___default().wrap(function _callee4$(_context9) {
           while (1) {
             switch (_context9.prev = _context9.next) {
               case 0:
@@ -1028,9 +1031,9 @@ var Job = /*#__PURE__*/function (_EventEmitter) {
   }, {
     key: "abort",
     value: function () {
-      var _abort = _babel_runtime_corejs3_helpers_asyncToGenerator__WEBPACK_IMPORTED_MODULE_41___default()( /*#__PURE__*/_babel_runtime_corejs3_regenerator__WEBPACK_IMPORTED_MODULE_39___default().mark(function _callee5() {
+      var _abort = _babel_runtime_corejs3_helpers_asyncToGenerator__WEBPACK_IMPORTED_MODULE_42___default()( /*#__PURE__*/_babel_runtime_corejs3_regenerator__WEBPACK_IMPORTED_MODULE_40___default().mark(function _callee5() {
         var jobInfo;
-        return _babel_runtime_corejs3_regenerator__WEBPACK_IMPORTED_MODULE_39___default().wrap(function _callee5$(_context10) {
+        return _babel_runtime_corejs3_regenerator__WEBPACK_IMPORTED_MODULE_40___default().wrap(function _callee5$(_context10) {
           while (1) {
             switch (_context10.prev = _context10.next) {
               case 0:
@@ -1071,19 +1074,19 @@ var Job = /*#__PURE__*/function (_EventEmitter) {
   }, {
     key: "_changeState",
     value: function () {
-      var _changeState2 = _babel_runtime_corejs3_helpers_asyncToGenerator__WEBPACK_IMPORTED_MODULE_41___default()( /*#__PURE__*/_babel_runtime_corejs3_regenerator__WEBPACK_IMPORTED_MODULE_39___default().mark(function _callee7(state) {
+      var _changeState2 = _babel_runtime_corejs3_helpers_asyncToGenerator__WEBPACK_IMPORTED_MODULE_42___default()( /*#__PURE__*/_babel_runtime_corejs3_regenerator__WEBPACK_IMPORTED_MODULE_40___default().mark(function _callee7(state) {
         var _this5 = this;
         var bulk, logger;
-        return _babel_runtime_corejs3_regenerator__WEBPACK_IMPORTED_MODULE_39___default().wrap(function _callee7$(_context13) {
+        return _babel_runtime_corejs3_regenerator__WEBPACK_IMPORTED_MODULE_40___default().wrap(function _callee7$(_context13) {
           while (1) {
             switch (_context13.prev = _context13.next) {
               case 0:
                 bulk = this._bulk;
                 logger = bulk._logger;
-                this._jobInfo = _babel_runtime_corejs3_helpers_asyncToGenerator__WEBPACK_IMPORTED_MODULE_41___default()( /*#__PURE__*/_babel_runtime_corejs3_regenerator__WEBPACK_IMPORTED_MODULE_39___default().mark(function _callee6() {
+                this._jobInfo = _babel_runtime_corejs3_helpers_asyncToGenerator__WEBPACK_IMPORTED_MODULE_42___default()( /*#__PURE__*/_babel_runtime_corejs3_regenerator__WEBPACK_IMPORTED_MODULE_40___default().mark(function _callee6() {
                   var _context11;
                   var jobId, body, res;
-                  return _babel_runtime_corejs3_regenerator__WEBPACK_IMPORTED_MODULE_39___default().wrap(function _callee6$(_context12) {
+                  return _babel_runtime_corejs3_regenerator__WEBPACK_IMPORTED_MODULE_40___default().wrap(function _callee6$(_context12) {
                     while (1) {
                       switch (_context12.prev = _context12.next) {
                         case 0:
@@ -1091,7 +1094,7 @@ var Job = /*#__PURE__*/function (_EventEmitter) {
                           return _this5.ready();
                         case 2:
                           jobId = _context12.sent;
-                          body = _babel_runtime_corejs3_core_js_stable_instance_trim__WEBPACK_IMPORTED_MODULE_43___default()(_context11 = " \n<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n  <jobInfo xmlns=\"http://www.force.com/2009/06/asyncapi/dataload\">\n  <state>".concat(state, "</state>\n</jobInfo>\n      ")).call(_context11);
+                          body = _babel_runtime_corejs3_core_js_stable_instance_trim__WEBPACK_IMPORTED_MODULE_44___default()(_context11 = " \n<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n  <jobInfo xmlns=\"http://www.force.com/2009/06/asyncapi/dataload\">\n  <state>".concat(state, "</state>\n</jobInfo>\n      ")).call(_context11);
                           _context12.next = 6;
                           return bulk._request({
                             method: 'POST',
@@ -1129,71 +1132,71 @@ var Job = /*#__PURE__*/function (_EventEmitter) {
     }()
   }]);
   return Job;
-}(events__WEBPACK_IMPORTED_MODULE_51__.EventEmitter);
+}(events__WEBPACK_IMPORTED_MODULE_52__.EventEmitter);
 
 /*--------------------------------------------*/
 var PollingTimeoutError = /*#__PURE__*/function (_Error) {
-  _babel_runtime_corejs3_helpers_inherits__WEBPACK_IMPORTED_MODULE_47___default()(PollingTimeoutError, _Error);
+  _babel_runtime_corejs3_helpers_inherits__WEBPACK_IMPORTED_MODULE_48___default()(PollingTimeoutError, _Error);
   var _super2 = _createSuper(PollingTimeoutError);
   /**
    *
    */
   function PollingTimeoutError(message, jobId, batchId) {
     var _this6;
-    _babel_runtime_corejs3_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_44___default()(this, PollingTimeoutError);
+    _babel_runtime_corejs3_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_45___default()(this, PollingTimeoutError);
     _this6 = _super2.call(this, message);
-    _babel_runtime_corejs3_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_50___default()(_babel_runtime_corejs3_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_46___default()(_this6), "jobId", void 0);
-    _babel_runtime_corejs3_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_50___default()(_babel_runtime_corejs3_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_46___default()(_this6), "batchId", void 0);
+    _babel_runtime_corejs3_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_51___default()(_babel_runtime_corejs3_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_47___default()(_this6), "jobId", void 0);
+    _babel_runtime_corejs3_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_51___default()(_babel_runtime_corejs3_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_47___default()(_this6), "batchId", void 0);
     _this6.name = 'PollingTimeout';
     _this6.jobId = jobId;
     _this6.batchId = batchId;
     return _this6;
   }
   return PollingTimeoutError;
-}( /*#__PURE__*/_babel_runtime_corejs3_helpers_wrapNativeSuper__WEBPACK_IMPORTED_MODULE_36___default()(Error));
+}( /*#__PURE__*/_babel_runtime_corejs3_helpers_wrapNativeSuper__WEBPACK_IMPORTED_MODULE_37___default()(Error));
 var JobPollingTimeoutError = /*#__PURE__*/function (_Error2) {
-  _babel_runtime_corejs3_helpers_inherits__WEBPACK_IMPORTED_MODULE_47___default()(JobPollingTimeoutError, _Error2);
+  _babel_runtime_corejs3_helpers_inherits__WEBPACK_IMPORTED_MODULE_48___default()(JobPollingTimeoutError, _Error2);
   var _super3 = _createSuper(JobPollingTimeoutError);
   /**
    *
    */
   function JobPollingTimeoutError(message, jobId) {
     var _this7;
-    _babel_runtime_corejs3_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_44___default()(this, JobPollingTimeoutError);
+    _babel_runtime_corejs3_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_45___default()(this, JobPollingTimeoutError);
     _this7 = _super3.call(this, message);
-    _babel_runtime_corejs3_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_50___default()(_babel_runtime_corejs3_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_46___default()(_this7), "jobId", void 0);
+    _babel_runtime_corejs3_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_51___default()(_babel_runtime_corejs3_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_47___default()(_this7), "jobId", void 0);
     _this7.name = 'JobPollingTimeout';
     _this7.jobId = jobId;
     return _this7;
   }
   return JobPollingTimeoutError;
-}( /*#__PURE__*/_babel_runtime_corejs3_helpers_wrapNativeSuper__WEBPACK_IMPORTED_MODULE_36___default()(Error));
+}( /*#__PURE__*/_babel_runtime_corejs3_helpers_wrapNativeSuper__WEBPACK_IMPORTED_MODULE_37___default()(Error));
 /*--------------------------------------------*/
 /**
  * Batch (extends Writable)
  */
 var Batch = /*#__PURE__*/function (_Writable) {
-  _babel_runtime_corejs3_helpers_inherits__WEBPACK_IMPORTED_MODULE_47___default()(Batch, _Writable);
+  _babel_runtime_corejs3_helpers_inherits__WEBPACK_IMPORTED_MODULE_48___default()(Batch, _Writable);
   var _super4 = _createSuper(Batch);
   /**
    *
    */
   function Batch(job, id) {
     var _this8;
-    _babel_runtime_corejs3_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_44___default()(this, Batch);
+    _babel_runtime_corejs3_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_45___default()(this, Batch);
     _this8 = _super4.call(this, {
       objectMode: true
     });
-    _babel_runtime_corejs3_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_50___default()(_babel_runtime_corejs3_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_46___default()(_this8), "job", void 0);
-    _babel_runtime_corejs3_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_50___default()(_babel_runtime_corejs3_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_46___default()(_this8), "id", void 0);
-    _babel_runtime_corejs3_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_50___default()(_babel_runtime_corejs3_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_46___default()(_this8), "_bulk", void 0);
-    _babel_runtime_corejs3_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_50___default()(_babel_runtime_corejs3_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_46___default()(_this8), "_uploadStream", void 0);
-    _babel_runtime_corejs3_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_50___default()(_babel_runtime_corejs3_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_46___default()(_this8), "_downloadStream", void 0);
-    _babel_runtime_corejs3_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_50___default()(_babel_runtime_corejs3_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_46___default()(_this8), "_dataStream", void 0);
-    _babel_runtime_corejs3_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_50___default()(_babel_runtime_corejs3_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_46___default()(_this8), "_result", void 0);
-    _babel_runtime_corejs3_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_50___default()(_babel_runtime_corejs3_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_46___default()(_this8), "_error", void 0);
-    _babel_runtime_corejs3_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_50___default()(_babel_runtime_corejs3_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_46___default()(_this8), "run", _this8.execute);
-    _babel_runtime_corejs3_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_50___default()(_babel_runtime_corejs3_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_46___default()(_this8), "exec", _this8.execute);
+    _babel_runtime_corejs3_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_51___default()(_babel_runtime_corejs3_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_47___default()(_this8), "job", void 0);
+    _babel_runtime_corejs3_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_51___default()(_babel_runtime_corejs3_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_47___default()(_this8), "id", void 0);
+    _babel_runtime_corejs3_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_51___default()(_babel_runtime_corejs3_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_47___default()(_this8), "_bulk", void 0);
+    _babel_runtime_corejs3_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_51___default()(_babel_runtime_corejs3_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_47___default()(_this8), "_uploadStream", void 0);
+    _babel_runtime_corejs3_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_51___default()(_babel_runtime_corejs3_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_47___default()(_this8), "_downloadStream", void 0);
+    _babel_runtime_corejs3_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_51___default()(_babel_runtime_corejs3_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_47___default()(_this8), "_dataStream", void 0);
+    _babel_runtime_corejs3_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_51___default()(_babel_runtime_corejs3_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_47___default()(_this8), "_result", void 0);
+    _babel_runtime_corejs3_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_51___default()(_babel_runtime_corejs3_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_47___default()(_this8), "_error", void 0);
+    _babel_runtime_corejs3_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_51___default()(_babel_runtime_corejs3_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_47___default()(_this8), "run", _this8.execute);
+    _babel_runtime_corejs3_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_51___default()(_babel_runtime_corejs3_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_47___default()(_this8), "exec", _this8.execute);
     _this8.job = job;
     _this8.id = id;
     _this8._bulk = job._bulk;
@@ -1209,15 +1212,15 @@ var Batch = /*#__PURE__*/function (_Writable) {
     var converterOptions = {
       nullValue: '#N/A'
     };
-    var uploadStream = _this8._uploadStream = new _record_stream__WEBPACK_IMPORTED_MODULE_54__/* .Serializable */ .iV();
+    var uploadStream = _this8._uploadStream = new _record_stream__WEBPACK_IMPORTED_MODULE_55__/* .Serializable */ .iV();
     var uploadDataStream = uploadStream.stream('csv', converterOptions);
-    var downloadStream = _this8._downloadStream = new _record_stream__WEBPACK_IMPORTED_MODULE_54__/* .Parsable */ .bD();
+    var downloadStream = _this8._downloadStream = new _record_stream__WEBPACK_IMPORTED_MODULE_55__/* .Parsable */ .bD();
     var downloadDataStream = downloadStream.stream('csv', converterOptions);
     _this8.on('finish', function () {
       return uploadStream.end();
     });
-    uploadDataStream.once('readable', /*#__PURE__*/_babel_runtime_corejs3_helpers_asyncToGenerator__WEBPACK_IMPORTED_MODULE_41___default()( /*#__PURE__*/_babel_runtime_corejs3_regenerator__WEBPACK_IMPORTED_MODULE_39___default().mark(function _callee8() {
-      return _babel_runtime_corejs3_regenerator__WEBPACK_IMPORTED_MODULE_39___default().wrap(function _callee8$(_context14) {
+    uploadDataStream.once('readable', /*#__PURE__*/_babel_runtime_corejs3_helpers_asyncToGenerator__WEBPACK_IMPORTED_MODULE_42___default()( /*#__PURE__*/_babel_runtime_corejs3_regenerator__WEBPACK_IMPORTED_MODULE_40___default().mark(function _callee8() {
+      return _babel_runtime_corejs3_regenerator__WEBPACK_IMPORTED_MODULE_40___default().wrap(function _callee8$(_context14) {
         while (1) {
           switch (_context14.prev = _context14.next) {
             case 0:
@@ -1242,7 +1245,7 @@ var Batch = /*#__PURE__*/function (_Writable) {
     })));
 
     // duplex data stream, opened access to API programmers by Batch#stream()
-    _this8._dataStream = (0,_util_stream__WEBPACK_IMPORTED_MODULE_57__/* .concatStreamsAsDuplex */ .sD)(uploadDataStream, downloadDataStream);
+    _this8._dataStream = (0,_util_stream__WEBPACK_IMPORTED_MODULE_58__/* .concatStreamsAsDuplex */ .sD)(uploadDataStream, downloadDataStream);
     return _this8;
   }
 
@@ -1251,7 +1254,7 @@ var Batch = /*#__PURE__*/function (_Writable) {
    *
    * @private
    */
-  _babel_runtime_corejs3_helpers_createClass__WEBPACK_IMPORTED_MODULE_45___default()(Batch, [{
+  _babel_runtime_corejs3_helpers_createClass__WEBPACK_IMPORTED_MODULE_46___default()(Batch, [{
     key: "_createRequestStream",
     value: function _createRequestStream() {
       var _this9 = this;
@@ -1265,9 +1268,9 @@ var Batch = /*#__PURE__*/function (_Writable) {
         },
         responseType: 'application/xml'
       });
-      _babel_runtime_corejs3_helpers_asyncToGenerator__WEBPACK_IMPORTED_MODULE_41___default()( /*#__PURE__*/_babel_runtime_corejs3_regenerator__WEBPACK_IMPORTED_MODULE_39___default().mark(function _callee9() {
+      _babel_runtime_corejs3_helpers_asyncToGenerator__WEBPACK_IMPORTED_MODULE_42___default()( /*#__PURE__*/_babel_runtime_corejs3_regenerator__WEBPACK_IMPORTED_MODULE_40___default().mark(function _callee9() {
         var _res2;
-        return _babel_runtime_corejs3_regenerator__WEBPACK_IMPORTED_MODULE_39___default().wrap(function _callee9$(_context15) {
+        return _babel_runtime_corejs3_regenerator__WEBPACK_IMPORTED_MODULE_40___default().wrap(function _callee9$(_context15) {
           while (1) {
             switch (_context15.prev = _context15.next) {
               case 0:
@@ -1303,7 +1306,7 @@ var Batch = /*#__PURE__*/function (_Writable) {
       var Id = record_.Id,
         type = record_.type,
         attributes = record_.attributes,
-        rrec = _babel_runtime_corejs3_helpers_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_35___default()(record_, ["Id", "type", "attributes"]);
+        rrec = _babel_runtime_corejs3_helpers_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_36___default()(record_, ["Id", "type", "attributes"]);
       var record;
       switch (this.job.operation) {
         case 'insert':
@@ -1341,21 +1344,21 @@ var Batch = /*#__PURE__*/function (_Writable) {
       if (this._result) {
         throw new Error('Batch already executed.');
       }
-      this._result = new (_babel_runtime_corejs3_core_js_stable_promise__WEBPACK_IMPORTED_MODULE_38___default())(function (resolve, reject) {
+      this._result = new (_babel_runtime_corejs3_core_js_stable_promise__WEBPACK_IMPORTED_MODULE_39___default())(function (resolve, reject) {
         _this10.once('response', resolve);
         _this10.once('error', reject);
       });
-      if ((0,_util_function__WEBPACK_IMPORTED_MODULE_58__/* .isObject */ .Kn)(input) && 'pipe' in input && (0,_util_function__WEBPACK_IMPORTED_MODULE_58__/* .isFunction */ .mf)(input.pipe)) {
+      if ((0,_util_function__WEBPACK_IMPORTED_MODULE_59__/* .isObject */ .Kn)(input) && 'pipe' in input && (0,_util_function__WEBPACK_IMPORTED_MODULE_59__/* .isFunction */ .mf)(input.pipe)) {
         // if input has stream.Readable interface
         input.pipe(this._dataStream);
       } else {
-        if (_babel_runtime_corejs3_core_js_stable_array_is_array__WEBPACK_IMPORTED_MODULE_37___default()(input)) {
+        if (_babel_runtime_corejs3_core_js_stable_array_is_array__WEBPACK_IMPORTED_MODULE_38___default()(input)) {
           var _iterator = _createForOfIteratorHelper(input),
             _step;
           try {
             for (_iterator.s(); !(_step = _iterator.n()).done;) {
               var record = _step.value;
-              for (var _i = 0, _Object$keys = _babel_runtime_corejs3_core_js_stable_object_keys__WEBPACK_IMPORTED_MODULE_34___default()(record); _i < _Object$keys.length; _i++) {
+              for (var _i = 0, _Object$keys = _babel_runtime_corejs3_core_js_stable_object_keys__WEBPACK_IMPORTED_MODULE_35___default()(record); _i < _Object$keys.length; _i++) {
                 var key = _Object$keys[_i];
                 if (typeof record[key] === 'boolean') {
                   record[key] = String(record[key]);
@@ -1396,9 +1399,9 @@ var Batch = /*#__PURE__*/function (_Writable) {
   }, {
     key: "check",
     value: function () {
-      var _check = _babel_runtime_corejs3_helpers_asyncToGenerator__WEBPACK_IMPORTED_MODULE_41___default()( /*#__PURE__*/_babel_runtime_corejs3_regenerator__WEBPACK_IMPORTED_MODULE_39___default().mark(function _callee10() {
+      var _check = _babel_runtime_corejs3_helpers_asyncToGenerator__WEBPACK_IMPORTED_MODULE_42___default()( /*#__PURE__*/_babel_runtime_corejs3_regenerator__WEBPACK_IMPORTED_MODULE_40___default().mark(function _callee10() {
         var bulk, logger, jobId, batchId, res;
-        return _babel_runtime_corejs3_regenerator__WEBPACK_IMPORTED_MODULE_39___default().wrap(function _callee10$(_context16) {
+        return _babel_runtime_corejs3_regenerator__WEBPACK_IMPORTED_MODULE_40___default().wrap(function _callee10$(_context16) {
           while (1) {
             switch (_context16.prev = _context16.next) {
               case 0:
@@ -1448,9 +1451,9 @@ var Batch = /*#__PURE__*/function (_Writable) {
       }
       var startTime = new Date().getTime();
       var poll = /*#__PURE__*/function () {
-        var _ref7 = _babel_runtime_corejs3_helpers_asyncToGenerator__WEBPACK_IMPORTED_MODULE_41___default()( /*#__PURE__*/_babel_runtime_corejs3_regenerator__WEBPACK_IMPORTED_MODULE_39___default().mark(function _callee11() {
+        var _ref7 = _babel_runtime_corejs3_helpers_asyncToGenerator__WEBPACK_IMPORTED_MODULE_42___default()( /*#__PURE__*/_babel_runtime_corejs3_regenerator__WEBPACK_IMPORTED_MODULE_40___default().mark(function _callee11() {
           var now, _err, res;
-          return _babel_runtime_corejs3_regenerator__WEBPACK_IMPORTED_MODULE_39___default().wrap(function _callee11$(_context17) {
+          return _babel_runtime_corejs3_regenerator__WEBPACK_IMPORTED_MODULE_40___default().wrap(function _callee11$(_context17) {
             while (1) {
               switch (_context17.prev = _context17.next) {
                 case 0:
@@ -1477,7 +1480,7 @@ var Batch = /*#__PURE__*/function (_Writable) {
                   return _context17.abrupt("return");
                 case 15:
                   if (res.state === 'Failed') {
-                    if (_babel_runtime_corejs3_core_js_stable_parse_int__WEBPACK_IMPORTED_MODULE_33___default()(res.numberRecordsProcessed, 10) > 0) {
+                    if (_babel_runtime_corejs3_core_js_stable_parse_int__WEBPACK_IMPORTED_MODULE_34___default()(res.numberRecordsProcessed, 10) > 0) {
                       _this11.retrieve();
                     } else {
                       _this11.emit('error', new Error(res.stateMessage));
@@ -1486,7 +1489,7 @@ var Batch = /*#__PURE__*/function (_Writable) {
                     _this11.retrieve();
                   } else {
                     _this11.emit('progress', res);
-                    _babel_runtime_corejs3_core_js_stable_set_timeout__WEBPACK_IMPORTED_MODULE_32___default()(poll, interval);
+                    _babel_runtime_corejs3_core_js_stable_set_timeout__WEBPACK_IMPORTED_MODULE_33___default()(poll, interval);
                   }
                 case 16:
                 case "end":
@@ -1499,7 +1502,7 @@ var Batch = /*#__PURE__*/function (_Writable) {
           return _ref7.apply(this, arguments);
         };
       }();
-      _babel_runtime_corejs3_core_js_stable_set_timeout__WEBPACK_IMPORTED_MODULE_32___default()(poll, interval);
+      _babel_runtime_corejs3_core_js_stable_set_timeout__WEBPACK_IMPORTED_MODULE_33___default()(poll, interval);
     }
     /**
      * Retrieve batch result
@@ -1507,9 +1510,9 @@ var Batch = /*#__PURE__*/function (_Writable) {
   }, {
     key: "retrieve",
     value: function () {
-      var _retrieve = _babel_runtime_corejs3_helpers_asyncToGenerator__WEBPACK_IMPORTED_MODULE_41___default()( /*#__PURE__*/_babel_runtime_corejs3_regenerator__WEBPACK_IMPORTED_MODULE_39___default().mark(function _callee12() {
+      var _retrieve = _babel_runtime_corejs3_helpers_asyncToGenerator__WEBPACK_IMPORTED_MODULE_42___default()( /*#__PURE__*/_babel_runtime_corejs3_regenerator__WEBPACK_IMPORTED_MODULE_40___default().mark(function _callee12() {
         var bulk, jobId, job, batchId, resp, results, _context18, _res3, resultId, _res4;
-        return _babel_runtime_corejs3_regenerator__WEBPACK_IMPORTED_MODULE_39___default().wrap(function _callee12$(_context19) {
+        return _babel_runtime_corejs3_regenerator__WEBPACK_IMPORTED_MODULE_40___default().wrap(function _callee12$(_context19) {
           while (1) {
             switch (_context19.prev = _context19.next) {
               case 0:
@@ -1534,7 +1537,7 @@ var Batch = /*#__PURE__*/function (_Writable) {
                 if (job.operation === 'query' || job.operation === 'queryAll') {
                   _res3 = resp;
                   resultId = _res3['result-list'].result;
-                  results = _babel_runtime_corejs3_core_js_stable_instance_map__WEBPACK_IMPORTED_MODULE_31___default()(_context18 = _babel_runtime_corejs3_core_js_stable_array_is_array__WEBPACK_IMPORTED_MODULE_37___default()(resultId) ? resultId : [resultId]).call(_context18, function (id) {
+                  results = _babel_runtime_corejs3_core_js_stable_instance_map__WEBPACK_IMPORTED_MODULE_32___default()(_context18 = _babel_runtime_corejs3_core_js_stable_array_is_array__WEBPACK_IMPORTED_MODULE_38___default()(resultId) ? resultId : [resultId]).call(_context18, function (id) {
                     return {
                       id: id,
                       batchId: batchId,
@@ -1543,7 +1546,7 @@ var Batch = /*#__PURE__*/function (_Writable) {
                   });
                 } else {
                   _res4 = resp;
-                  results = _babel_runtime_corejs3_core_js_stable_instance_map__WEBPACK_IMPORTED_MODULE_31___default()(_res4).call(_res4, function (ret) {
+                  results = _babel_runtime_corejs3_core_js_stable_instance_map__WEBPACK_IMPORTED_MODULE_32___default()(_res4).call(_res4, function (ret) {
                     return {
                       id: ret.Id || null,
                       success: ret.Success === 'true',
@@ -1583,7 +1586,7 @@ var Batch = /*#__PURE__*/function (_Writable) {
       if (!jobId || !batchId) {
         throw new Error('Batch not started.');
       }
-      var resultStream = new _record_stream__WEBPACK_IMPORTED_MODULE_54__/* .Parsable */ .bD();
+      var resultStream = new _record_stream__WEBPACK_IMPORTED_MODULE_55__/* .Parsable */ .bD();
       var resultDataStream = resultStream.stream('csv');
       this._bulk._request({
         method: 'GET',
@@ -1594,20 +1597,20 @@ var Batch = /*#__PURE__*/function (_Writable) {
     }
   }]);
   return Batch;
-}(stream__WEBPACK_IMPORTED_MODULE_52__.Writable);
+}(stream__WEBPACK_IMPORTED_MODULE_53__.Writable);
 
 /*--------------------------------------------*/
 /**
  *
  */
 var BulkApi = /*#__PURE__*/function (_HttpApi) {
-  _babel_runtime_corejs3_helpers_inherits__WEBPACK_IMPORTED_MODULE_47___default()(BulkApi, _HttpApi);
+  _babel_runtime_corejs3_helpers_inherits__WEBPACK_IMPORTED_MODULE_48___default()(BulkApi, _HttpApi);
   var _super5 = _createSuper(BulkApi);
   function BulkApi() {
-    _babel_runtime_corejs3_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_44___default()(this, BulkApi);
+    _babel_runtime_corejs3_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_45___default()(this, BulkApi);
     return _super5.apply(this, arguments);
   }
-  _babel_runtime_corejs3_helpers_createClass__WEBPACK_IMPORTED_MODULE_45___default()(BulkApi, [{
+  _babel_runtime_corejs3_helpers_createClass__WEBPACK_IMPORTED_MODULE_46___default()(BulkApi, [{
     key: "beforeSend",
     value: function beforeSend(request) {
       var _this$_conn$accessTok;
@@ -1635,18 +1638,18 @@ var BulkApi = /*#__PURE__*/function (_HttpApi) {
     }
   }]);
   return BulkApi;
-}(_http_api__WEBPACK_IMPORTED_MODULE_55__/* ["default"] */ .Z);
+}(_http_api__WEBPACK_IMPORTED_MODULE_56__/* ["default"] */ .Z);
 var BulkApiV2 = /*#__PURE__*/function (_HttpApi2) {
-  _babel_runtime_corejs3_helpers_inherits__WEBPACK_IMPORTED_MODULE_47___default()(BulkApiV2, _HttpApi2);
+  _babel_runtime_corejs3_helpers_inherits__WEBPACK_IMPORTED_MODULE_48___default()(BulkApiV2, _HttpApi2);
   var _super6 = _createSuper(BulkApiV2);
   function BulkApiV2() {
-    _babel_runtime_corejs3_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_44___default()(this, BulkApiV2);
+    _babel_runtime_corejs3_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_45___default()(this, BulkApiV2);
     return _super6.apply(this, arguments);
   }
-  _babel_runtime_corejs3_helpers_createClass__WEBPACK_IMPORTED_MODULE_45___default()(BulkApiV2, [{
+  _babel_runtime_corejs3_helpers_createClass__WEBPACK_IMPORTED_MODULE_46___default()(BulkApiV2, [{
     key: "hasErrorInResponseBody",
     value: function hasErrorInResponseBody(body) {
-      return _babel_runtime_corejs3_core_js_stable_array_is_array__WEBPACK_IMPORTED_MODULE_37___default()(body) && _babel_runtime_corejs3_helpers_typeof__WEBPACK_IMPORTED_MODULE_30___default()(body[0]) === 'object' && 'errorCode' in body[0];
+      return _babel_runtime_corejs3_core_js_stable_array_is_array__WEBPACK_IMPORTED_MODULE_38___default()(body) && _babel_runtime_corejs3_helpers_typeof__WEBPACK_IMPORTED_MODULE_31___default()(body[0]) === 'object' && 'errorCode' in body[0];
     }
   }, {
     key: "isSessionExpired",
@@ -1663,7 +1666,7 @@ var BulkApiV2 = /*#__PURE__*/function (_HttpApi2) {
     }
   }]);
   return BulkApiV2;
-}(_http_api__WEBPACK_IMPORTED_MODULE_55__/* ["default"] */ .Z);
+}(_http_api__WEBPACK_IMPORTED_MODULE_56__/* ["default"] */ .Z);
 /*--------------------------------------------*/
 /**
  * Class for Bulk API
@@ -1684,11 +1687,11 @@ var Bulk = /*#__PURE__*/function () {
    *
    */
   function Bulk(conn) {
-    _babel_runtime_corejs3_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_44___default()(this, Bulk);
-    _babel_runtime_corejs3_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_50___default()(this, "_conn", void 0);
-    _babel_runtime_corejs3_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_50___default()(this, "_logger", void 0);
-    _babel_runtime_corejs3_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_50___default()(this, "pollInterval", 1000);
-    _babel_runtime_corejs3_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_50___default()(this, "pollTimeout", 10000);
+    _babel_runtime_corejs3_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_45___default()(this, Bulk);
+    _babel_runtime_corejs3_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_51___default()(this, "_conn", void 0);
+    _babel_runtime_corejs3_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_51___default()(this, "_logger", void 0);
+    _babel_runtime_corejs3_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_51___default()(this, "pollInterval", 1000);
+    _babel_runtime_corejs3_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_51___default()(this, "pollTimeout", 10000);
     this._conn = conn;
     this._logger = conn._logger;
   }
@@ -1696,13 +1699,13 @@ var Bulk = /*#__PURE__*/function () {
   /**
    *
    */
-  _babel_runtime_corejs3_helpers_createClass__WEBPACK_IMPORTED_MODULE_45___default()(Bulk, [{
+  _babel_runtime_corejs3_helpers_createClass__WEBPACK_IMPORTED_MODULE_46___default()(Bulk, [{
     key: "_request",
     value: function _request(request_) {
       var conn = this._conn;
       var path = request_.path,
         responseType = request_.responseType,
-        rreq = _babel_runtime_corejs3_helpers_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_35___default()(request_, ["path", "responseType"]);
+        rreq = _babel_runtime_corejs3_helpers_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_36___default()(request_, ["path", "responseType"]);
       var baseUrl = [conn.instanceUrl, 'services/async', conn.version].join('/');
       var request = _objectSpread(_objectSpread({}, rreq), {}, {
         url: baseUrl + path
@@ -1719,7 +1722,7 @@ var Bulk = /*#__PURE__*/function () {
     value: function load(type, operation, optionsOrInput, input) {
       var _this12 = this;
       var options = {};
-      if (typeof optionsOrInput === 'string' || _babel_runtime_corejs3_core_js_stable_array_is_array__WEBPACK_IMPORTED_MODULE_37___default()(optionsOrInput) || (0,_util_function__WEBPACK_IMPORTED_MODULE_58__/* .isObject */ .Kn)(optionsOrInput) && 'pipe' in optionsOrInput && typeof optionsOrInput.pipe === 'function') {
+      if (typeof optionsOrInput === 'string' || _babel_runtime_corejs3_core_js_stable_array_is_array__WEBPACK_IMPORTED_MODULE_38___default()(optionsOrInput) || (0,_util_function__WEBPACK_IMPORTED_MODULE_59__/* .isObject */ .Kn)(optionsOrInput) && 'pipe' in optionsOrInput && typeof optionsOrInput.pipe === 'function') {
         // when options is not plain hash object, it is omitted
         input = optionsOrInput;
       } else {
@@ -1754,11 +1757,11 @@ var Bulk = /*#__PURE__*/function () {
         throw new Error('No sobject type found in query, maybe caused by invalid SOQL.');
       }
       var type = m[1];
-      var recordStream = new _record_stream__WEBPACK_IMPORTED_MODULE_54__/* .Parsable */ .bD();
+      var recordStream = new _record_stream__WEBPACK_IMPORTED_MODULE_55__/* .Parsable */ .bD();
       var dataStream = recordStream.stream('csv');
-      _babel_runtime_corejs3_helpers_asyncToGenerator__WEBPACK_IMPORTED_MODULE_41___default()( /*#__PURE__*/_babel_runtime_corejs3_regenerator__WEBPACK_IMPORTED_MODULE_39___default().mark(function _callee13() {
+      _babel_runtime_corejs3_helpers_asyncToGenerator__WEBPACK_IMPORTED_MODULE_42___default()( /*#__PURE__*/_babel_runtime_corejs3_regenerator__WEBPACK_IMPORTED_MODULE_40___default().mark(function _callee13() {
         var results, streams;
-        return _babel_runtime_corejs3_regenerator__WEBPACK_IMPORTED_MODULE_39___default().wrap(function _callee13$(_context20) {
+        return _babel_runtime_corejs3_regenerator__WEBPACK_IMPORTED_MODULE_40___default().wrap(function _callee13$(_context20) {
           while (1) {
             switch (_context20.prev = _context20.next) {
               case 0:
@@ -1767,10 +1770,10 @@ var Bulk = /*#__PURE__*/function () {
                 return _this13.load(type, 'query', soql);
               case 3:
                 results = _context20.sent;
-                streams = _babel_runtime_corejs3_core_js_stable_instance_map__WEBPACK_IMPORTED_MODULE_31___default()(results).call(results, function (result) {
+                streams = _babel_runtime_corejs3_core_js_stable_instance_map__WEBPACK_IMPORTED_MODULE_32___default()(results).call(results, function (result) {
                   return _this13.job(result.jobId).batch(result.batchId).result(result.id).stream();
                 });
-                multistream__WEBPACK_IMPORTED_MODULE_53___default()(streams).pipe(dataStream);
+                multistream__WEBPACK_IMPORTED_MODULE_54___default()(streams).pipe(dataStream);
                 _context20.next = 11;
                 break;
               case 8:
@@ -1821,33 +1824,58 @@ var BulkV2 = /*#__PURE__*/function () {
    */
 
   function BulkV2(connection) {
-    _babel_runtime_corejs3_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_44___default()(this, BulkV2);
+    _babel_runtime_corejs3_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_45___default()(this, BulkV2);
     _connection.set(this, {
       writable: true,
       value: void 0
     });
-    _babel_runtime_corejs3_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_50___default()(this, "pollInterval", 1000);
-    _babel_runtime_corejs3_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_50___default()(this, "pollTimeout", 10000);
-    _babel_runtime_corejs3_helpers_classPrivateFieldSet__WEBPACK_IMPORTED_MODULE_29___default()(this, _connection, connection);
+    _babel_runtime_corejs3_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_51___default()(this, "pollInterval", 1000);
+    _babel_runtime_corejs3_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_51___default()(this, "pollTimeout", 10000);
+    _babel_runtime_corejs3_helpers_classPrivateFieldSet__WEBPACK_IMPORTED_MODULE_30___default()(this, _connection, connection);
   }
 
   /**
-   * Create a new job instance
+   * Create an instance of an ingest job object.
+   *
+   * @params {NewIngestJobOptions} options object
+   * @returns {IngestJobV2} An ingest job instance
+   * @example
+   * // Upsert records to the Account object.
+   *
+   * const job = connection.bulk2.createJob({
+   *   operation: 'insert'
+   *   object: 'Account',
+   * });
+   *
+   * // create the job in the org
+   * await job.open()
+   *
+   * // upload data
+   * await job.uploadData(csvFile)
+   *
+   * // finished uploading data, mark it as ready for processing
+   * await job.close()
    */
-  _babel_runtime_corejs3_helpers_createClass__WEBPACK_IMPORTED_MODULE_45___default()(BulkV2, [{
+  _babel_runtime_corejs3_helpers_createClass__WEBPACK_IMPORTED_MODULE_46___default()(BulkV2, [{
     key: "createJob",
     value: function createJob(options) {
       return new IngestJobV2({
-        connection: _babel_runtime_corejs3_helpers_classPrivateFieldGet__WEBPACK_IMPORTED_MODULE_28___default()(this, _connection),
+        connection: _babel_runtime_corejs3_helpers_classPrivateFieldGet__WEBPACK_IMPORTED_MODULE_29___default()(this, _connection),
         jobInfo: options,
         pollingOptions: this
       });
     }
+    /**
+     * Get a ingest job instance specified by a given job ID
+     *
+     * @param options Options object with a job ID
+     * @returns IngestJobV2 An ingest job
+     */
   }, {
     key: "job",
     value: function job(options) {
       return new IngestJobV2({
-        connection: _babel_runtime_corejs3_helpers_classPrivateFieldGet__WEBPACK_IMPORTED_MODULE_28___default()(this, _connection),
+        connection: _babel_runtime_corejs3_helpers_classPrivateFieldGet__WEBPACK_IMPORTED_MODULE_29___default()(this, _connection),
         jobInfo: options,
         pollingOptions: this
       });
@@ -1858,33 +1886,35 @@ var BulkV2 = /*#__PURE__*/function () {
   }, {
     key: "loadAndWaitForResults",
     value: function () {
-      var _loadAndWaitForResults = _babel_runtime_corejs3_helpers_asyncToGenerator__WEBPACK_IMPORTED_MODULE_41___default()( /*#__PURE__*/_babel_runtime_corejs3_regenerator__WEBPACK_IMPORTED_MODULE_39___default().mark(function _callee14(options) {
+      var _loadAndWaitForResults = _babel_runtime_corejs3_helpers_asyncToGenerator__WEBPACK_IMPORTED_MODULE_42___default()( /*#__PURE__*/_babel_runtime_corejs3_regenerator__WEBPACK_IMPORTED_MODULE_40___default().mark(function _callee14(options) {
         var job;
-        return _babel_runtime_corejs3_regenerator__WEBPACK_IMPORTED_MODULE_39___default().wrap(function _callee14$(_context21) {
+        return _babel_runtime_corejs3_regenerator__WEBPACK_IMPORTED_MODULE_40___default().wrap(function _callee14$(_context21) {
           while (1) {
             switch (_context21.prev = _context21.next) {
               case 0:
+                if (!options.pollTimeout) options.pollTimeout = this.pollTimeout;
+                if (!options.pollInterval) options.pollInterval = this.pollInterval;
                 job = this.createJob(options);
-                _context21.prev = 1;
-                _context21.next = 4;
-                return job.open();
-              case 4:
+                _context21.prev = 3;
                 _context21.next = 6;
-                return job.uploadData(options.input);
+                return job.open();
               case 6:
                 _context21.next = 8;
-                return job.close();
+                return job.uploadData(options.input);
               case 8:
                 _context21.next = 10;
-                return job.poll(options.pollInterval, options.pollTimeout);
+                return job.close();
               case 10:
                 _context21.next = 12;
-                return job.getAllResults();
+                return job.poll(options.pollInterval, options.pollTimeout);
               case 12:
+                _context21.next = 14;
+                return job.getAllResults();
+              case 14:
                 return _context21.abrupt("return", _context21.sent);
-              case 15:
-                _context21.prev = 15;
-                _context21.t0 = _context21["catch"](1);
+              case 17:
+                _context21.prev = 17;
+                _context21.t0 = _context21["catch"](3);
                 if (_context21.t0.name !== 'JobPollingTimeoutError') {
                   // fires off one last attempt to clean up and ignores the result | error
                   job.delete().catch(function (ignored) {
@@ -1892,12 +1922,12 @@ var BulkV2 = /*#__PURE__*/function () {
                   });
                 }
                 throw _context21.t0;
-              case 19:
+              case 21:
               case "end":
                 return _context21.stop();
             }
           }
-        }, _callee14, this, [[1, 15]]);
+        }, _callee14, this, [[3, 17]]);
       }));
       function loadAndWaitForResults(_x2) {
         return _loadAndWaitForResults.apply(this, arguments);
@@ -1905,22 +1935,30 @@ var BulkV2 = /*#__PURE__*/function () {
       return loadAndWaitForResults;
     }()
     /**
-     * Execute bulk query and get record stream
+     * Execute bulk query and get records
+     *
+     * Default timeout: 10000ms
+     *
+     * @param soql SOQL query
+     * @param BulkV2PollingOptions options object
+     *
+     * @returns Record[]
      */
   }, {
     key: "query",
     value: function () {
-      var _query = _babel_runtime_corejs3_helpers_asyncToGenerator__WEBPACK_IMPORTED_MODULE_41___default()( /*#__PURE__*/_babel_runtime_corejs3_regenerator__WEBPACK_IMPORTED_MODULE_39___default().mark(function _callee15(soql, options) {
+      var _query = _babel_runtime_corejs3_helpers_asyncToGenerator__WEBPACK_IMPORTED_MODULE_42___default()( /*#__PURE__*/_babel_runtime_corejs3_regenerator__WEBPACK_IMPORTED_MODULE_40___default().mark(function _callee15(soql, options) {
         var queryJob;
-        return _babel_runtime_corejs3_regenerator__WEBPACK_IMPORTED_MODULE_39___default().wrap(function _callee15$(_context22) {
+        return _babel_runtime_corejs3_regenerator__WEBPACK_IMPORTED_MODULE_40___default().wrap(function _callee15$(_context22) {
           while (1) {
             switch (_context22.prev = _context22.next) {
               case 0:
                 queryJob = new QueryJobV2({
-                  connection: _babel_runtime_corejs3_helpers_classPrivateFieldGet__WEBPACK_IMPORTED_MODULE_28___default()(this, _connection),
-                  operation: 'query',
+                  connection: _babel_runtime_corejs3_helpers_classPrivateFieldGet__WEBPACK_IMPORTED_MODULE_29___default()(this, _connection),
+                  operation: options !== null && options !== void 0 && options.scanAll ? 'queryAll' : 'query',
                   query: soql,
-                  pollingOptions: this
+                  pollingOptions: this,
+                  tooling: (options === null || options === void 0 ? void 0 : options.tooling) || false
                 });
                 _context22.prev = 1;
                 _context22.next = 4;
@@ -1962,57 +2000,67 @@ var _connection2 = new (_babel_runtime_corejs3_core_js_stable_weak_map__WEBPACK_
 var _operation2 = new (_babel_runtime_corejs3_core_js_stable_weak_map__WEBPACK_IMPORTED_MODULE_24___default())();
 var _query2 = new (_babel_runtime_corejs3_core_js_stable_weak_map__WEBPACK_IMPORTED_MODULE_24___default())();
 var _pollingOptions = new (_babel_runtime_corejs3_core_js_stable_weak_map__WEBPACK_IMPORTED_MODULE_24___default())();
+var _tooling = new (_babel_runtime_corejs3_core_js_stable_weak_map__WEBPACK_IMPORTED_MODULE_24___default())();
 var _queryResults = new (_babel_runtime_corejs3_core_js_stable_weak_map__WEBPACK_IMPORTED_MODULE_24___default())();
 var _error = new (_babel_runtime_corejs3_core_js_stable_weak_map__WEBPACK_IMPORTED_MODULE_24___default())();
 var QueryJobV2 = /*#__PURE__*/function (_EventEmitter2) {
-  _babel_runtime_corejs3_helpers_inherits__WEBPACK_IMPORTED_MODULE_47___default()(QueryJobV2, _EventEmitter2);
+  _babel_runtime_corejs3_helpers_inherits__WEBPACK_IMPORTED_MODULE_48___default()(QueryJobV2, _EventEmitter2);
   var _super7 = _createSuper(QueryJobV2);
   function QueryJobV2(options) {
     var _this14;
-    _babel_runtime_corejs3_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_44___default()(this, QueryJobV2);
+    _babel_runtime_corejs3_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_45___default()(this, QueryJobV2);
     _this14 = _super7.call(this);
-    _connection2.set(_babel_runtime_corejs3_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_46___default()(_this14), {
+    _connection2.set(_babel_runtime_corejs3_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_47___default()(_this14), {
       writable: true,
       value: void 0
     });
-    _operation2.set(_babel_runtime_corejs3_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_46___default()(_this14), {
+    _operation2.set(_babel_runtime_corejs3_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_47___default()(_this14), {
       writable: true,
       value: void 0
     });
-    _query2.set(_babel_runtime_corejs3_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_46___default()(_this14), {
+    _query2.set(_babel_runtime_corejs3_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_47___default()(_this14), {
       writable: true,
       value: void 0
     });
-    _pollingOptions.set(_babel_runtime_corejs3_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_46___default()(_this14), {
+    _pollingOptions.set(_babel_runtime_corejs3_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_47___default()(_this14), {
       writable: true,
       value: void 0
     });
-    _queryResults.set(_babel_runtime_corejs3_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_46___default()(_this14), {
+    _tooling.set(_babel_runtime_corejs3_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_47___default()(_this14), {
       writable: true,
       value: void 0
     });
-    _error.set(_babel_runtime_corejs3_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_46___default()(_this14), {
+    _queryResults.set(_babel_runtime_corejs3_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_47___default()(_this14), {
       writable: true,
       value: void 0
     });
-    _babel_runtime_corejs3_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_50___default()(_babel_runtime_corejs3_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_46___default()(_this14), "jobInfo", void 0);
-    _babel_runtime_corejs3_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_50___default()(_babel_runtime_corejs3_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_46___default()(_this14), "locator", void 0);
-    _babel_runtime_corejs3_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_50___default()(_babel_runtime_corejs3_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_46___default()(_this14), "finished", false);
-    _babel_runtime_corejs3_helpers_classPrivateFieldSet__WEBPACK_IMPORTED_MODULE_29___default()(_babel_runtime_corejs3_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_46___default()(_this14), _connection2, options.connection);
-    _babel_runtime_corejs3_helpers_classPrivateFieldSet__WEBPACK_IMPORTED_MODULE_29___default()(_babel_runtime_corejs3_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_46___default()(_this14), _operation2, options.operation);
-    _babel_runtime_corejs3_helpers_classPrivateFieldSet__WEBPACK_IMPORTED_MODULE_29___default()(_babel_runtime_corejs3_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_46___default()(_this14), _query2, options.query);
-    _babel_runtime_corejs3_helpers_classPrivateFieldSet__WEBPACK_IMPORTED_MODULE_29___default()(_babel_runtime_corejs3_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_46___default()(_this14), _pollingOptions, options.pollingOptions);
+    _error.set(_babel_runtime_corejs3_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_47___default()(_this14), {
+      writable: true,
+      value: void 0
+    });
+    _babel_runtime_corejs3_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_51___default()(_babel_runtime_corejs3_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_47___default()(_this14), "jobInfo", void 0);
+    _babel_runtime_corejs3_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_51___default()(_babel_runtime_corejs3_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_47___default()(_this14), "locator", void 0);
+    _babel_runtime_corejs3_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_51___default()(_babel_runtime_corejs3_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_47___default()(_this14), "finished", false);
+    _babel_runtime_corejs3_helpers_classPrivateFieldSet__WEBPACK_IMPORTED_MODULE_30___default()(_babel_runtime_corejs3_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_47___default()(_this14), _connection2, options.connection);
+    _babel_runtime_corejs3_helpers_classPrivateFieldSet__WEBPACK_IMPORTED_MODULE_30___default()(_babel_runtime_corejs3_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_47___default()(_this14), _operation2, options.operation);
+    _babel_runtime_corejs3_helpers_classPrivateFieldSet__WEBPACK_IMPORTED_MODULE_30___default()(_babel_runtime_corejs3_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_47___default()(_this14), _query2, options.query);
+    _babel_runtime_corejs3_helpers_classPrivateFieldSet__WEBPACK_IMPORTED_MODULE_30___default()(_babel_runtime_corejs3_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_47___default()(_this14), _pollingOptions, options.pollingOptions);
+    _babel_runtime_corejs3_helpers_classPrivateFieldSet__WEBPACK_IMPORTED_MODULE_30___default()(_babel_runtime_corejs3_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_47___default()(_this14), _tooling, options.tooling);
     // default error handler to keep the latest error
     _this14.on('error', function (error) {
-      return _babel_runtime_corejs3_helpers_classPrivateFieldSet__WEBPACK_IMPORTED_MODULE_29___default()(_babel_runtime_corejs3_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_46___default()(_this14), _error, error);
+      return _babel_runtime_corejs3_helpers_classPrivateFieldSet__WEBPACK_IMPORTED_MODULE_30___default()(_babel_runtime_corejs3_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_47___default()(_this14), _error, error);
     });
     return _this14;
   }
-  _babel_runtime_corejs3_helpers_createClass__WEBPACK_IMPORTED_MODULE_45___default()(QueryJobV2, [{
+
+  /**
+   * Creates a query job
+   */
+  _babel_runtime_corejs3_helpers_createClass__WEBPACK_IMPORTED_MODULE_46___default()(QueryJobV2, [{
     key: "open",
     value: function () {
-      var _open = _babel_runtime_corejs3_helpers_asyncToGenerator__WEBPACK_IMPORTED_MODULE_41___default()( /*#__PURE__*/_babel_runtime_corejs3_regenerator__WEBPACK_IMPORTED_MODULE_39___default().mark(function _callee16() {
-        return _babel_runtime_corejs3_regenerator__WEBPACK_IMPORTED_MODULE_39___default().wrap(function _callee16$(_context23) {
+      var _open = _babel_runtime_corejs3_helpers_asyncToGenerator__WEBPACK_IMPORTED_MODULE_42___default()( /*#__PURE__*/_babel_runtime_corejs3_regenerator__WEBPACK_IMPORTED_MODULE_40___default().mark(function _callee16() {
+        return _babel_runtime_corejs3_regenerator__WEBPACK_IMPORTED_MODULE_40___default().wrap(function _callee16$(_context23) {
           while (1) {
             switch (_context23.prev = _context23.next) {
               case 0:
@@ -2021,9 +2069,9 @@ var QueryJobV2 = /*#__PURE__*/function (_EventEmitter2) {
                 return this.createQueryRequest({
                   method: 'POST',
                   path: '',
-                  body: _babel_runtime_corejs3_core_js_stable_json_stringify__WEBPACK_IMPORTED_MODULE_27___default()({
-                    operation: _babel_runtime_corejs3_helpers_classPrivateFieldGet__WEBPACK_IMPORTED_MODULE_28___default()(this, _operation2),
-                    query: _babel_runtime_corejs3_helpers_classPrivateFieldGet__WEBPACK_IMPORTED_MODULE_28___default()(this, _query2)
+                  body: _babel_runtime_corejs3_core_js_stable_json_stringify__WEBPACK_IMPORTED_MODULE_28___default()({
+                    operation: _babel_runtime_corejs3_helpers_classPrivateFieldGet__WEBPACK_IMPORTED_MODULE_29___default()(this, _operation2),
+                    query: _babel_runtime_corejs3_helpers_classPrivateFieldGet__WEBPACK_IMPORTED_MODULE_29___default()(this, _query2)
                   }),
                   headers: {
                     'Content-Type': 'application/json; charset=utf-8'
@@ -2058,9 +2106,9 @@ var QueryJobV2 = /*#__PURE__*/function (_EventEmitter2) {
   }, {
     key: "abort",
     value: function () {
-      var _abort2 = _babel_runtime_corejs3_helpers_asyncToGenerator__WEBPACK_IMPORTED_MODULE_41___default()( /*#__PURE__*/_babel_runtime_corejs3_regenerator__WEBPACK_IMPORTED_MODULE_39___default().mark(function _callee17() {
+      var _abort2 = _babel_runtime_corejs3_helpers_asyncToGenerator__WEBPACK_IMPORTED_MODULE_42___default()( /*#__PURE__*/_babel_runtime_corejs3_regenerator__WEBPACK_IMPORTED_MODULE_40___default().mark(function _callee17() {
         var _this$jobInfo, state;
-        return _babel_runtime_corejs3_regenerator__WEBPACK_IMPORTED_MODULE_39___default().wrap(function _callee17$(_context24) {
+        return _babel_runtime_corejs3_regenerator__WEBPACK_IMPORTED_MODULE_40___default().wrap(function _callee17$(_context24) {
           while (1) {
             switch (_context24.prev = _context24.next) {
               case 0:
@@ -2070,7 +2118,7 @@ var QueryJobV2 = /*#__PURE__*/function (_EventEmitter2) {
                 return this.createQueryRequest({
                   method: 'PATCH',
                   path: "/".concat((_this$jobInfo = this.jobInfo) === null || _this$jobInfo === void 0 ? void 0 : _this$jobInfo.id),
-                  body: _babel_runtime_corejs3_core_js_stable_json_stringify__WEBPACK_IMPORTED_MODULE_27___default()({
+                  body: _babel_runtime_corejs3_core_js_stable_json_stringify__WEBPACK_IMPORTED_MODULE_28___default()({
                     state: state
                   }),
                   headers: {
@@ -2100,10 +2148,25 @@ var QueryJobV2 = /*#__PURE__*/function (_EventEmitter2) {
       }
       return abort;
     }()
+    /**
+     * Poll for the state of the processing for the job.
+     *
+     * This method will only throw after a timeout. To capture a
+     * job failure while polling you must set a listener for the
+     * `failed` event before calling it:
+     *
+     * job.on('failed', (err) => console.error(err))
+     * await job.poll()
+     *
+     * @param interval Polling interval in milliseconds
+     * @param timeout Polling timeout in milliseconds
+     * @returns {Promise<Record[]>} A promise that resolves to an array of records
+     */
   }, {
     key: "poll",
     value: function () {
-      var _poll = _babel_runtime_corejs3_helpers_asyncToGenerator__WEBPACK_IMPORTED_MODULE_41___default()( /*#__PURE__*/_babel_runtime_corejs3_regenerator__WEBPACK_IMPORTED_MODULE_39___default().mark(function _callee18() {
+      var _poll = _babel_runtime_corejs3_helpers_asyncToGenerator__WEBPACK_IMPORTED_MODULE_42___default()( /*#__PURE__*/_babel_runtime_corejs3_regenerator__WEBPACK_IMPORTED_MODULE_40___default().mark(function _callee18() {
+        var _context25;
         var interval,
           timeout,
           jobId,
@@ -2111,60 +2174,62 @@ var QueryJobV2 = /*#__PURE__*/function (_EventEmitter2) {
           _res5,
           timeoutError,
           _args18 = arguments;
-        return _babel_runtime_corejs3_regenerator__WEBPACK_IMPORTED_MODULE_39___default().wrap(function _callee18$(_context25) {
+        return _babel_runtime_corejs3_regenerator__WEBPACK_IMPORTED_MODULE_40___default().wrap(function _callee18$(_context26) {
           while (1) {
-            switch (_context25.prev = _context25.next) {
+            switch (_context26.prev = _context26.next) {
               case 0:
-                interval = _args18.length > 0 && _args18[0] !== undefined ? _args18[0] : _babel_runtime_corejs3_helpers_classPrivateFieldGet__WEBPACK_IMPORTED_MODULE_28___default()(this, _pollingOptions).pollInterval;
-                timeout = _args18.length > 1 && _args18[1] !== undefined ? _args18[1] : _babel_runtime_corejs3_helpers_classPrivateFieldGet__WEBPACK_IMPORTED_MODULE_28___default()(this, _pollingOptions).pollTimeout;
+                interval = _args18.length > 0 && _args18[0] !== undefined ? _args18[0] : _babel_runtime_corejs3_helpers_classPrivateFieldGet__WEBPACK_IMPORTED_MODULE_29___default()(this, _pollingOptions).pollInterval;
+                timeout = _args18.length > 1 && _args18[1] !== undefined ? _args18[1] : _babel_runtime_corejs3_helpers_classPrivateFieldGet__WEBPACK_IMPORTED_MODULE_29___default()(this, _pollingOptions).pollTimeout;
                 jobId = getJobIdOrError(this.jobInfo);
-                startTime = _babel_runtime_corejs3_core_js_stable_date_now__WEBPACK_IMPORTED_MODULE_26___default()();
+                startTime = _babel_runtime_corejs3_core_js_stable_date_now__WEBPACK_IMPORTED_MODULE_27___default()();
               case 4:
-                if (!(startTime + timeout > _babel_runtime_corejs3_core_js_stable_date_now__WEBPACK_IMPORTED_MODULE_26___default()())) {
-                  _context25.next = 29;
+                if (!(startTime + timeout > _babel_runtime_corejs3_core_js_stable_date_now__WEBPACK_IMPORTED_MODULE_27___default()())) {
+                  _context26.next = 29;
                   break;
                 }
-                _context25.prev = 5;
-                _context25.next = 8;
+                _context26.prev = 5;
+                _context26.next = 8;
                 return this.check();
               case 8:
-                _res5 = _context25.sent;
-                _context25.t0 = _res5.state;
-                _context25.next = _context25.t0 === 'Open' ? 12 : _context25.t0 === 'Aborted' ? 13 : _context25.t0 === 'UploadComplete' ? 14 : _context25.t0 === 'InProgress' ? 14 : _context25.t0 === 'Failed' ? 17 : _context25.t0 === 'JobComplete' ? 19 : 21;
+                _res5 = _context26.sent;
+                _context26.t0 = _res5.state;
+                _context26.next = _context26.t0 === 'Open' ? 12 : _context26.t0 === 'Aborted' ? 13 : _context26.t0 === 'UploadComplete' ? 14 : _context26.t0 === 'InProgress' ? 14 : _context26.t0 === 'Failed' ? 17 : _context26.t0 === 'JobComplete' ? 19 : 21;
                 break;
               case 12:
                 throw new Error('Job has not been started');
               case 13:
                 throw new Error('Job has been aborted');
               case 14:
-                _context25.next = 16;
+                _context26.next = 16;
                 return delay(interval);
               case 16:
-                return _context25.abrupt("break", 21);
+                return _context26.abrupt("break", 21);
               case 17:
-                this.emit('failed');
-                return _context25.abrupt("return");
+                // unlike ingest jobs, the API doesn't return an error msg:
+                // https://developer.salesforce.com/docs/atlas.en-us.api_asynch.meta/api_asynch/query_get_one_job.htm
+                this.emit('failed', new Error('Query job failed to complete.'));
+                return _context26.abrupt("return");
               case 19:
                 this.emit('jobcomplete');
-                return _context25.abrupt("return");
+                return _context26.abrupt("return");
               case 21:
-                _context25.next = 27;
+                _context26.next = 27;
                 break;
               case 23:
-                _context25.prev = 23;
-                _context25.t1 = _context25["catch"](5);
-                this.emit('error', _context25.t1);
-                throw _context25.t1;
+                _context26.prev = 23;
+                _context26.t1 = _context26["catch"](5);
+                this.emit('error', _context26.t1);
+                throw _context26.t1;
               case 27:
-                _context25.next = 4;
+                _context26.next = 4;
                 break;
               case 29:
-                timeoutError = new JobPollingTimeoutError("Polling time out. Job Id = ".concat(jobId), jobId);
+                timeoutError = new JobPollingTimeoutError(_babel_runtime_corejs3_core_js_stable_instance_concat__WEBPACK_IMPORTED_MODULE_43___default()(_context25 = "Polling timed out after ".concat(timeout, "ms. Job Id = ")).call(_context25, jobId), jobId);
                 this.emit('error', timeoutError);
                 throw timeoutError;
               case 32:
               case "end":
-                return _context25.stop();
+                return _context26.stop();
             }
           }
         }, _callee18, this, [[5, 23]]);
@@ -2180,31 +2245,31 @@ var QueryJobV2 = /*#__PURE__*/function (_EventEmitter2) {
   }, {
     key: "check",
     value: function () {
-      var _check2 = _babel_runtime_corejs3_helpers_asyncToGenerator__WEBPACK_IMPORTED_MODULE_41___default()( /*#__PURE__*/_babel_runtime_corejs3_regenerator__WEBPACK_IMPORTED_MODULE_39___default().mark(function _callee19() {
+      var _check2 = _babel_runtime_corejs3_helpers_asyncToGenerator__WEBPACK_IMPORTED_MODULE_42___default()( /*#__PURE__*/_babel_runtime_corejs3_regenerator__WEBPACK_IMPORTED_MODULE_40___default().mark(function _callee19() {
         var jobInfo;
-        return _babel_runtime_corejs3_regenerator__WEBPACK_IMPORTED_MODULE_39___default().wrap(function _callee19$(_context26) {
+        return _babel_runtime_corejs3_regenerator__WEBPACK_IMPORTED_MODULE_40___default().wrap(function _callee19$(_context27) {
           while (1) {
-            switch (_context26.prev = _context26.next) {
+            switch (_context27.prev = _context27.next) {
               case 0:
-                _context26.prev = 0;
-                _context26.next = 3;
+                _context27.prev = 0;
+                _context27.next = 3;
                 return this.createQueryRequest({
                   method: 'GET',
                   path: "/".concat(getJobIdOrError(this.jobInfo)),
                   responseType: 'application/json'
                 });
               case 3:
-                jobInfo = _context26.sent;
+                jobInfo = _context27.sent;
                 this.jobInfo = jobInfo;
-                return _context26.abrupt("return", jobInfo);
+                return _context27.abrupt("return", jobInfo);
               case 8:
-                _context26.prev = 8;
-                _context26.t0 = _context26["catch"](0);
-                this.emit('error', _context26.t0);
-                throw _context26.t0;
+                _context27.prev = 8;
+                _context27.t0 = _context27["catch"](0);
+                this.emit('error', _context27.t0);
+                throw _context27.t0;
               case 12:
               case "end":
-                return _context26.stop();
+                return _context27.stop();
             }
           }
         }, _callee19, this, [[0, 8]]);
@@ -2232,7 +2297,7 @@ var QueryJobV2 = /*#__PURE__*/function (_EventEmitter2) {
         method: 'GET',
         url: request
       } : request;
-      var httpApi = new _http_api__WEBPACK_IMPORTED_MODULE_55__/* ["default"] */ .Z(_babel_runtime_corejs3_helpers_classPrivateFieldGet__WEBPACK_IMPORTED_MODULE_28___default()(this, _connection2), options);
+      var httpApi = new _http_api__WEBPACK_IMPORTED_MODULE_56__/* ["default"] */ .Z(_babel_runtime_corejs3_helpers_classPrivateFieldGet__WEBPACK_IMPORTED_MODULE_29___default()(this, _connection2), options);
       httpApi.on('response', function (response) {
         _this15.locator = response.headers['sforce-locator'];
       });
@@ -2241,32 +2306,37 @@ var QueryJobV2 = /*#__PURE__*/function (_EventEmitter2) {
   }, {
     key: "getResultsUrl",
     value: function getResultsUrl() {
-      var _context27, _context28, _context29;
-      var url = _babel_runtime_corejs3_core_js_stable_instance_concat__WEBPACK_IMPORTED_MODULE_42___default()(_context27 = _babel_runtime_corejs3_core_js_stable_instance_concat__WEBPACK_IMPORTED_MODULE_42___default()(_context28 = "".concat(_babel_runtime_corejs3_helpers_classPrivateFieldGet__WEBPACK_IMPORTED_MODULE_28___default()(this, _connection2).instanceUrl, "/services/data/v")).call(_context28, _babel_runtime_corejs3_helpers_classPrivateFieldGet__WEBPACK_IMPORTED_MODULE_28___default()(this, _connection2).version, "/jobs/query/")).call(_context27, getJobIdOrError(this.jobInfo), "/results");
-      return this.locator ? _babel_runtime_corejs3_core_js_stable_instance_concat__WEBPACK_IMPORTED_MODULE_42___default()(_context29 = "".concat(url, "?locator=")).call(_context29, this.locator) : url;
+      var _context28, _context29, _context30, _context31;
+      var url = _babel_runtime_corejs3_core_js_stable_instance_concat__WEBPACK_IMPORTED_MODULE_43___default()(_context28 = _babel_runtime_corejs3_core_js_stable_instance_concat__WEBPACK_IMPORTED_MODULE_43___default()(_context29 = _babel_runtime_corejs3_core_js_stable_instance_concat__WEBPACK_IMPORTED_MODULE_43___default()(_context30 = "".concat(_babel_runtime_corejs3_helpers_classPrivateFieldGet__WEBPACK_IMPORTED_MODULE_29___default()(this, _connection2).instanceUrl, "/services/data/v")).call(_context30, _babel_runtime_corejs3_helpers_classPrivateFieldGet__WEBPACK_IMPORTED_MODULE_29___default()(this, _connection2).version)).call(_context29, _babel_runtime_corejs3_helpers_classPrivateFieldGet__WEBPACK_IMPORTED_MODULE_29___default()(this, _tooling) ? '/tooling' : '', "/jobs/query/")).call(_context28, getJobIdOrError(this.jobInfo), "/results");
+      return this.locator ? _babel_runtime_corejs3_core_js_stable_instance_concat__WEBPACK_IMPORTED_MODULE_43___default()(_context31 = "".concat(url, "?locator=")).call(_context31, this.locator) : url;
     }
+    /**
+     * Get the results for a query job.
+     *
+     * @returns {Promise<Record[]>} A promise that resolves to an array of records
+     */
   }, {
     key: "getResults",
     value: function () {
-      var _getResults = _babel_runtime_corejs3_helpers_asyncToGenerator__WEBPACK_IMPORTED_MODULE_41___default()( /*#__PURE__*/_babel_runtime_corejs3_regenerator__WEBPACK_IMPORTED_MODULE_39___default().mark(function _callee20() {
-        var _context30, nextResults;
-        return _babel_runtime_corejs3_regenerator__WEBPACK_IMPORTED_MODULE_39___default().wrap(function _callee20$(_context31) {
+      var _getResults = _babel_runtime_corejs3_helpers_asyncToGenerator__WEBPACK_IMPORTED_MODULE_42___default()( /*#__PURE__*/_babel_runtime_corejs3_regenerator__WEBPACK_IMPORTED_MODULE_40___default().mark(function _callee20() {
+        var _context32, nextResults;
+        return _babel_runtime_corejs3_regenerator__WEBPACK_IMPORTED_MODULE_40___default().wrap(function _callee20$(_context33) {
           while (1) {
-            switch (_context31.prev = _context31.next) {
+            switch (_context33.prev = _context33.next) {
               case 0:
-                if (!(this.finished && _babel_runtime_corejs3_helpers_classPrivateFieldGet__WEBPACK_IMPORTED_MODULE_28___default()(this, _queryResults))) {
-                  _context31.next = 2;
+                if (!(this.finished && _babel_runtime_corejs3_helpers_classPrivateFieldGet__WEBPACK_IMPORTED_MODULE_29___default()(this, _queryResults))) {
+                  _context33.next = 2;
                   break;
                 }
-                return _context31.abrupt("return", _babel_runtime_corejs3_helpers_classPrivateFieldGet__WEBPACK_IMPORTED_MODULE_28___default()(this, _queryResults));
+                return _context33.abrupt("return", _babel_runtime_corejs3_helpers_classPrivateFieldGet__WEBPACK_IMPORTED_MODULE_29___default()(this, _queryResults));
               case 2:
-                _babel_runtime_corejs3_helpers_classPrivateFieldSet__WEBPACK_IMPORTED_MODULE_29___default()(this, _queryResults, []);
+                _babel_runtime_corejs3_helpers_classPrivateFieldSet__WEBPACK_IMPORTED_MODULE_30___default()(this, _queryResults, []);
               case 3:
                 if (!(this.locator !== 'null')) {
-                  _context31.next = 10;
+                  _context33.next = 10;
                   break;
                 }
-                _context31.next = 6;
+                _context33.next = 6;
                 return this.request({
                   method: 'GET',
                   url: this.getResultsUrl(),
@@ -2275,16 +2345,16 @@ var QueryJobV2 = /*#__PURE__*/function (_EventEmitter2) {
                   }
                 });
               case 6:
-                nextResults = _context31.sent;
-                _babel_runtime_corejs3_helpers_classPrivateFieldSet__WEBPACK_IMPORTED_MODULE_29___default()(this, _queryResults, _babel_runtime_corejs3_core_js_stable_instance_concat__WEBPACK_IMPORTED_MODULE_42___default()(_context30 = _babel_runtime_corejs3_helpers_classPrivateFieldGet__WEBPACK_IMPORTED_MODULE_28___default()(this, _queryResults)).call(_context30, nextResults));
-                _context31.next = 3;
+                nextResults = _context33.sent;
+                _babel_runtime_corejs3_helpers_classPrivateFieldSet__WEBPACK_IMPORTED_MODULE_30___default()(this, _queryResults, _babel_runtime_corejs3_core_js_stable_instance_concat__WEBPACK_IMPORTED_MODULE_43___default()(_context32 = _babel_runtime_corejs3_helpers_classPrivateFieldGet__WEBPACK_IMPORTED_MODULE_29___default()(this, _queryResults)).call(_context32, nextResults));
+                _context33.next = 3;
                 break;
               case 10:
                 this.finished = true;
-                return _context31.abrupt("return", _babel_runtime_corejs3_helpers_classPrivateFieldGet__WEBPACK_IMPORTED_MODULE_28___default()(this, _queryResults));
+                return _context33.abrupt("return", _babel_runtime_corejs3_helpers_classPrivateFieldGet__WEBPACK_IMPORTED_MODULE_29___default()(this, _queryResults));
               case 12:
               case "end":
-                return _context31.stop();
+                return _context33.stop();
             }
           }
         }, _callee20, this);
@@ -2294,21 +2364,24 @@ var QueryJobV2 = /*#__PURE__*/function (_EventEmitter2) {
       }
       return getResults;
     }()
+    /**
+     * Deletes a query job.
+     */
   }, {
     key: "delete",
     value: function () {
-      var _delete2 = _babel_runtime_corejs3_helpers_asyncToGenerator__WEBPACK_IMPORTED_MODULE_41___default()( /*#__PURE__*/_babel_runtime_corejs3_regenerator__WEBPACK_IMPORTED_MODULE_39___default().mark(function _callee21() {
-        return _babel_runtime_corejs3_regenerator__WEBPACK_IMPORTED_MODULE_39___default().wrap(function _callee21$(_context32) {
+      var _delete2 = _babel_runtime_corejs3_helpers_asyncToGenerator__WEBPACK_IMPORTED_MODULE_42___default()( /*#__PURE__*/_babel_runtime_corejs3_regenerator__WEBPACK_IMPORTED_MODULE_40___default().mark(function _callee21() {
+        return _babel_runtime_corejs3_regenerator__WEBPACK_IMPORTED_MODULE_40___default().wrap(function _callee21$(_context34) {
           while (1) {
-            switch (_context32.prev = _context32.next) {
+            switch (_context34.prev = _context34.next) {
               case 0:
-                return _context32.abrupt("return", this.createQueryRequest({
+                return _context34.abrupt("return", this.createQueryRequest({
                   method: 'DELETE',
                   path: "/".concat(getJobIdOrError(this.jobInfo))
                 }));
               case 1:
               case "end":
-                return _context32.stop();
+                return _context34.stop();
             }
           }
         }, _callee21, this);
@@ -2321,10 +2394,11 @@ var QueryJobV2 = /*#__PURE__*/function (_EventEmitter2) {
   }, {
     key: "createQueryRequest",
     value: function createQueryRequest(request) {
+      var _context35;
       var path = request.path,
         responseType = request.responseType;
-      var baseUrl = [_babel_runtime_corejs3_helpers_classPrivateFieldGet__WEBPACK_IMPORTED_MODULE_28___default()(this, _connection2).instanceUrl, 'services/data', "v".concat(_babel_runtime_corejs3_helpers_classPrivateFieldGet__WEBPACK_IMPORTED_MODULE_28___default()(this, _connection2).version), 'jobs/query'].join('/');
-      return new BulkApiV2(_babel_runtime_corejs3_helpers_classPrivateFieldGet__WEBPACK_IMPORTED_MODULE_28___default()(this, _connection2), {
+      var baseUrl = _babel_runtime_corejs3_core_js_stable_instance_concat__WEBPACK_IMPORTED_MODULE_43___default()(_context35 = [_babel_runtime_corejs3_helpers_classPrivateFieldGet__WEBPACK_IMPORTED_MODULE_29___default()(this, _connection2).instanceUrl, 'services/data', "v".concat(_babel_runtime_corejs3_helpers_classPrivateFieldGet__WEBPACK_IMPORTED_MODULE_29___default()(this, _connection2).version)]).call(_context35, _babel_runtime_corejs3_helpers_toConsumableArray__WEBPACK_IMPORTED_MODULE_26___default()(_babel_runtime_corejs3_helpers_classPrivateFieldGet__WEBPACK_IMPORTED_MODULE_29___default()(this, _tooling) ? ['tooling'] : []), ['jobs/query']).join('/');
+      return new BulkApiV2(_babel_runtime_corejs3_helpers_classPrivateFieldGet__WEBPACK_IMPORTED_MODULE_29___default()(this, _connection2), {
         responseType: responseType
       }).request(_objectSpread(_objectSpread({}, request), {}, {
         url: baseUrl + path
@@ -2332,7 +2406,7 @@ var QueryJobV2 = /*#__PURE__*/function (_EventEmitter2) {
     }
   }]);
   return QueryJobV2;
-}(events__WEBPACK_IMPORTED_MODULE_51__.EventEmitter);
+}(events__WEBPACK_IMPORTED_MODULE_52__.EventEmitter);
 
 /**
  * Class for Bulk API V2 Ingest Job
@@ -2345,74 +2419,77 @@ var _bulkJobFailedResults = new (_babel_runtime_corejs3_core_js_stable_weak_map_
 var _bulkJobUnprocessedRecords = new (_babel_runtime_corejs3_core_js_stable_weak_map__WEBPACK_IMPORTED_MODULE_24___default())();
 var _error2 = new (_babel_runtime_corejs3_core_js_stable_weak_map__WEBPACK_IMPORTED_MODULE_24___default())();
 var IngestJobV2 = /*#__PURE__*/function (_EventEmitter3) {
-  _babel_runtime_corejs3_helpers_inherits__WEBPACK_IMPORTED_MODULE_47___default()(IngestJobV2, _EventEmitter3);
+  _babel_runtime_corejs3_helpers_inherits__WEBPACK_IMPORTED_MODULE_48___default()(IngestJobV2, _EventEmitter3);
   var _super8 = _createSuper(IngestJobV2);
   /**
    *
    */
   function IngestJobV2(options) {
     var _this16;
-    _babel_runtime_corejs3_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_44___default()(this, IngestJobV2);
+    _babel_runtime_corejs3_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_45___default()(this, IngestJobV2);
     _this16 = _super8.call(this);
-    _connection3.set(_babel_runtime_corejs3_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_46___default()(_this16), {
+    _connection3.set(_babel_runtime_corejs3_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_47___default()(_this16), {
       writable: true,
       value: void 0
     });
-    _pollingOptions2.set(_babel_runtime_corejs3_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_46___default()(_this16), {
+    _pollingOptions2.set(_babel_runtime_corejs3_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_47___default()(_this16), {
       writable: true,
       value: void 0
     });
-    _jobData.set(_babel_runtime_corejs3_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_46___default()(_this16), {
+    _jobData.set(_babel_runtime_corejs3_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_47___default()(_this16), {
       writable: true,
       value: void 0
     });
-    _bulkJobSuccessfulResults.set(_babel_runtime_corejs3_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_46___default()(_this16), {
+    _bulkJobSuccessfulResults.set(_babel_runtime_corejs3_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_47___default()(_this16), {
       writable: true,
       value: void 0
     });
-    _bulkJobFailedResults.set(_babel_runtime_corejs3_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_46___default()(_this16), {
+    _bulkJobFailedResults.set(_babel_runtime_corejs3_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_47___default()(_this16), {
       writable: true,
       value: void 0
     });
-    _bulkJobUnprocessedRecords.set(_babel_runtime_corejs3_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_46___default()(_this16), {
+    _bulkJobUnprocessedRecords.set(_babel_runtime_corejs3_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_47___default()(_this16), {
       writable: true,
       value: void 0
     });
-    _error2.set(_babel_runtime_corejs3_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_46___default()(_this16), {
+    _error2.set(_babel_runtime_corejs3_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_47___default()(_this16), {
       writable: true,
       value: void 0
     });
-    _babel_runtime_corejs3_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_50___default()(_babel_runtime_corejs3_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_46___default()(_this16), "jobInfo", void 0);
-    _babel_runtime_corejs3_helpers_classPrivateFieldSet__WEBPACK_IMPORTED_MODULE_29___default()(_babel_runtime_corejs3_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_46___default()(_this16), _connection3, options.connection);
-    _babel_runtime_corejs3_helpers_classPrivateFieldSet__WEBPACK_IMPORTED_MODULE_29___default()(_babel_runtime_corejs3_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_46___default()(_this16), _pollingOptions2, options.pollingOptions);
+    _babel_runtime_corejs3_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_51___default()(_babel_runtime_corejs3_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_47___default()(_this16), "jobInfo", void 0);
+    _babel_runtime_corejs3_helpers_classPrivateFieldSet__WEBPACK_IMPORTED_MODULE_30___default()(_babel_runtime_corejs3_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_47___default()(_this16), _connection3, options.connection);
+    _babel_runtime_corejs3_helpers_classPrivateFieldSet__WEBPACK_IMPORTED_MODULE_30___default()(_babel_runtime_corejs3_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_47___default()(_this16), _pollingOptions2, options.pollingOptions);
     _this16.jobInfo = options.jobInfo;
-    _babel_runtime_corejs3_helpers_classPrivateFieldSet__WEBPACK_IMPORTED_MODULE_29___default()(_babel_runtime_corejs3_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_46___default()(_this16), _jobData, new JobDataV2({
+    _babel_runtime_corejs3_helpers_classPrivateFieldSet__WEBPACK_IMPORTED_MODULE_30___default()(_babel_runtime_corejs3_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_47___default()(_this16), _jobData, new JobDataV2({
       createRequest: function createRequest(request) {
         return _this16.createIngestRequest(request);
       },
-      job: _babel_runtime_corejs3_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_46___default()(_this16)
+      job: _babel_runtime_corejs3_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_47___default()(_this16)
     }));
     // default error handler to keep the latest error
     _this16.on('error', function (error) {
-      return _babel_runtime_corejs3_helpers_classPrivateFieldSet__WEBPACK_IMPORTED_MODULE_29___default()(_babel_runtime_corejs3_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_46___default()(_this16), _error2, error);
+      return _babel_runtime_corejs3_helpers_classPrivateFieldSet__WEBPACK_IMPORTED_MODULE_30___default()(_babel_runtime_corejs3_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_47___default()(_this16), _error2, error);
     });
     return _this16;
   }
-  _babel_runtime_corejs3_helpers_createClass__WEBPACK_IMPORTED_MODULE_45___default()(IngestJobV2, [{
+  _babel_runtime_corejs3_helpers_createClass__WEBPACK_IMPORTED_MODULE_46___default()(IngestJobV2, [{
     key: "open",
+    /**
+     * Create a job representing a bulk operation in the org
+     */
     value: function () {
-      var _open2 = _babel_runtime_corejs3_helpers_asyncToGenerator__WEBPACK_IMPORTED_MODULE_41___default()( /*#__PURE__*/_babel_runtime_corejs3_regenerator__WEBPACK_IMPORTED_MODULE_39___default().mark(function _callee22() {
+      var _open2 = _babel_runtime_corejs3_helpers_asyncToGenerator__WEBPACK_IMPORTED_MODULE_42___default()( /*#__PURE__*/_babel_runtime_corejs3_regenerator__WEBPACK_IMPORTED_MODULE_40___default().mark(function _callee22() {
         var _this$jobInfo2, _this$jobInfo3, _this$jobInfo4, _this$jobInfo5, _this$jobInfo6;
-        return _babel_runtime_corejs3_regenerator__WEBPACK_IMPORTED_MODULE_39___default().wrap(function _callee22$(_context33) {
+        return _babel_runtime_corejs3_regenerator__WEBPACK_IMPORTED_MODULE_40___default().wrap(function _callee22$(_context36) {
           while (1) {
-            switch (_context33.prev = _context33.next) {
+            switch (_context36.prev = _context36.next) {
               case 0:
-                _context33.prev = 0;
-                _context33.next = 3;
+                _context36.prev = 0;
+                _context36.next = 3;
                 return this.createIngestRequest({
                   method: 'POST',
                   path: '',
-                  body: _babel_runtime_corejs3_core_js_stable_json_stringify__WEBPACK_IMPORTED_MODULE_27___default()({
+                  body: _babel_runtime_corejs3_core_js_stable_json_stringify__WEBPACK_IMPORTED_MODULE_28___default()({
                     assignmentRuleId: (_this$jobInfo2 = this.jobInfo) === null || _this$jobInfo2 === void 0 ? void 0 : _this$jobInfo2.assignmentRuleId,
                     externalIdFieldName: (_this$jobInfo3 = this.jobInfo) === null || _this$jobInfo3 === void 0 ? void 0 : _this$jobInfo3.externalIdFieldName,
                     object: (_this$jobInfo4 = this.jobInfo) === null || _this$jobInfo4 === void 0 ? void 0 : _this$jobInfo4.object,
@@ -2425,18 +2502,18 @@ var IngestJobV2 = /*#__PURE__*/function (_EventEmitter3) {
                   responseType: 'application/json'
                 });
               case 3:
-                this.jobInfo = _context33.sent;
+                this.jobInfo = _context36.sent;
                 this.emit('open');
-                _context33.next = 11;
+                _context36.next = 11;
                 break;
               case 7:
-                _context33.prev = 7;
-                _context33.t0 = _context33["catch"](0);
-                this.emit('error', _context33.t0);
-                throw _context33.t0;
+                _context36.prev = 7;
+                _context36.t0 = _context36["catch"](0);
+                this.emit('error', _context36.t0);
+                throw _context36.t0;
               case 11:
               case "end":
-                return _context33.stop();
+                return _context36.stop();
             }
           }
         }, _callee22, this, [[0, 7]]);
@@ -2446,19 +2523,23 @@ var IngestJobV2 = /*#__PURE__*/function (_EventEmitter3) {
       }
       return open;
     }()
+    /** Upload data for a job in CSV format
+     *
+     *  @param input CSV as a string, or array of records or readable stream
+     */
   }, {
     key: "uploadData",
     value: function () {
-      var _uploadData = _babel_runtime_corejs3_helpers_asyncToGenerator__WEBPACK_IMPORTED_MODULE_41___default()( /*#__PURE__*/_babel_runtime_corejs3_regenerator__WEBPACK_IMPORTED_MODULE_39___default().mark(function _callee23(input) {
-        return _babel_runtime_corejs3_regenerator__WEBPACK_IMPORTED_MODULE_39___default().wrap(function _callee23$(_context34) {
+      var _uploadData = _babel_runtime_corejs3_helpers_asyncToGenerator__WEBPACK_IMPORTED_MODULE_42___default()( /*#__PURE__*/_babel_runtime_corejs3_regenerator__WEBPACK_IMPORTED_MODULE_40___default().mark(function _callee23(input) {
+        return _babel_runtime_corejs3_regenerator__WEBPACK_IMPORTED_MODULE_40___default().wrap(function _callee23$(_context37) {
           while (1) {
-            switch (_context34.prev = _context34.next) {
+            switch (_context37.prev = _context37.next) {
               case 0:
-                _context34.next = 2;
-                return _babel_runtime_corejs3_helpers_classPrivateFieldGet__WEBPACK_IMPORTED_MODULE_28___default()(this, _jobData).execute(input);
+                _context37.next = 2;
+                return _babel_runtime_corejs3_helpers_classPrivateFieldGet__WEBPACK_IMPORTED_MODULE_29___default()(this, _jobData).execute(input);
               case 2:
               case "end":
-                return _context34.stop();
+                return _context37.stop();
             }
           }
         }, _callee23, this);
@@ -2471,28 +2552,28 @@ var IngestJobV2 = /*#__PURE__*/function (_EventEmitter3) {
   }, {
     key: "getAllResults",
     value: function () {
-      var _getAllResults = _babel_runtime_corejs3_helpers_asyncToGenerator__WEBPACK_IMPORTED_MODULE_41___default()( /*#__PURE__*/_babel_runtime_corejs3_regenerator__WEBPACK_IMPORTED_MODULE_39___default().mark(function _callee24() {
+      var _getAllResults = _babel_runtime_corejs3_helpers_asyncToGenerator__WEBPACK_IMPORTED_MODULE_42___default()( /*#__PURE__*/_babel_runtime_corejs3_regenerator__WEBPACK_IMPORTED_MODULE_40___default().mark(function _callee24() {
         var _yield$Promise$all, _yield$Promise$all2, successfulResults, failedResults, unprocessedRecords;
-        return _babel_runtime_corejs3_regenerator__WEBPACK_IMPORTED_MODULE_39___default().wrap(function _callee24$(_context35) {
+        return _babel_runtime_corejs3_regenerator__WEBPACK_IMPORTED_MODULE_40___default().wrap(function _callee24$(_context38) {
           while (1) {
-            switch (_context35.prev = _context35.next) {
+            switch (_context38.prev = _context38.next) {
               case 0:
-                _context35.next = 2;
-                return _babel_runtime_corejs3_core_js_stable_promise__WEBPACK_IMPORTED_MODULE_38___default().all([this.getSuccessfulResults(), this.getFailedResults(), this.getUnprocessedRecords()]);
+                _context38.next = 2;
+                return _babel_runtime_corejs3_core_js_stable_promise__WEBPACK_IMPORTED_MODULE_39___default().all([this.getSuccessfulResults(), this.getFailedResults(), this.getUnprocessedRecords()]);
               case 2:
-                _yield$Promise$all = _context35.sent;
+                _yield$Promise$all = _context38.sent;
                 _yield$Promise$all2 = _babel_runtime_corejs3_helpers_slicedToArray__WEBPACK_IMPORTED_MODULE_25___default()(_yield$Promise$all, 3);
                 successfulResults = _yield$Promise$all2[0];
                 failedResults = _yield$Promise$all2[1];
                 unprocessedRecords = _yield$Promise$all2[2];
-                return _context35.abrupt("return", {
+                return _context38.abrupt("return", {
                   successfulResults: successfulResults,
                   failedResults: failedResults,
                   unprocessedRecords: unprocessedRecords
                 });
               case 8:
               case "end":
-                return _context35.stop();
+                return _context38.stop();
             }
           }
         }, _callee24, this);
@@ -2508,19 +2589,19 @@ var IngestJobV2 = /*#__PURE__*/function (_EventEmitter3) {
   }, {
     key: "close",
     value: function () {
-      var _close2 = _babel_runtime_corejs3_helpers_asyncToGenerator__WEBPACK_IMPORTED_MODULE_41___default()( /*#__PURE__*/_babel_runtime_corejs3_regenerator__WEBPACK_IMPORTED_MODULE_39___default().mark(function _callee25() {
+      var _close2 = _babel_runtime_corejs3_helpers_asyncToGenerator__WEBPACK_IMPORTED_MODULE_42___default()( /*#__PURE__*/_babel_runtime_corejs3_regenerator__WEBPACK_IMPORTED_MODULE_40___default().mark(function _callee25() {
         var state;
-        return _babel_runtime_corejs3_regenerator__WEBPACK_IMPORTED_MODULE_39___default().wrap(function _callee25$(_context36) {
+        return _babel_runtime_corejs3_regenerator__WEBPACK_IMPORTED_MODULE_40___default().wrap(function _callee25$(_context39) {
           while (1) {
-            switch (_context36.prev = _context36.next) {
+            switch (_context39.prev = _context39.next) {
               case 0:
-                _context36.prev = 0;
+                _context39.prev = 0;
                 state = 'UploadComplete';
-                _context36.next = 4;
+                _context39.next = 4;
                 return this.createIngestRequest({
                   method: 'PATCH',
                   path: "/".concat(this.jobInfo.id),
-                  body: _babel_runtime_corejs3_core_js_stable_json_stringify__WEBPACK_IMPORTED_MODULE_27___default()({
+                  body: _babel_runtime_corejs3_core_js_stable_json_stringify__WEBPACK_IMPORTED_MODULE_28___default()({
                     state: state
                   }),
                   headers: {
@@ -2529,18 +2610,18 @@ var IngestJobV2 = /*#__PURE__*/function (_EventEmitter3) {
                   responseType: 'application/json'
                 });
               case 4:
-                this.jobInfo = _context36.sent;
+                this.jobInfo = _context39.sent;
                 this.emit('uploadcomplete');
-                _context36.next = 12;
+                _context39.next = 12;
                 break;
               case 8:
-                _context36.prev = 8;
-                _context36.t0 = _context36["catch"](0);
-                this.emit('error', _context36.t0);
-                throw _context36.t0;
+                _context39.prev = 8;
+                _context39.t0 = _context39["catch"](0);
+                this.emit('error', _context39.t0);
+                throw _context39.t0;
               case 12:
               case "end":
-                return _context36.stop();
+                return _context39.stop();
             }
           }
         }, _callee25, this, [[0, 8]]);
@@ -2556,19 +2637,19 @@ var IngestJobV2 = /*#__PURE__*/function (_EventEmitter3) {
   }, {
     key: "abort",
     value: function () {
-      var _abort3 = _babel_runtime_corejs3_helpers_asyncToGenerator__WEBPACK_IMPORTED_MODULE_41___default()( /*#__PURE__*/_babel_runtime_corejs3_regenerator__WEBPACK_IMPORTED_MODULE_39___default().mark(function _callee26() {
+      var _abort3 = _babel_runtime_corejs3_helpers_asyncToGenerator__WEBPACK_IMPORTED_MODULE_42___default()( /*#__PURE__*/_babel_runtime_corejs3_regenerator__WEBPACK_IMPORTED_MODULE_40___default().mark(function _callee26() {
         var state;
-        return _babel_runtime_corejs3_regenerator__WEBPACK_IMPORTED_MODULE_39___default().wrap(function _callee26$(_context37) {
+        return _babel_runtime_corejs3_regenerator__WEBPACK_IMPORTED_MODULE_40___default().wrap(function _callee26$(_context40) {
           while (1) {
-            switch (_context37.prev = _context37.next) {
+            switch (_context40.prev = _context40.next) {
               case 0:
-                _context37.prev = 0;
+                _context40.prev = 0;
                 state = 'Aborted';
-                _context37.next = 4;
+                _context40.next = 4;
                 return this.createIngestRequest({
                   method: 'PATCH',
                   path: "/".concat(this.jobInfo.id),
-                  body: _babel_runtime_corejs3_core_js_stable_json_stringify__WEBPACK_IMPORTED_MODULE_27___default()({
+                  body: _babel_runtime_corejs3_core_js_stable_json_stringify__WEBPACK_IMPORTED_MODULE_28___default()({
                     state: state
                   }),
                   headers: {
@@ -2577,18 +2658,18 @@ var IngestJobV2 = /*#__PURE__*/function (_EventEmitter3) {
                   responseType: 'application/json'
                 });
               case 4:
-                this.jobInfo = _context37.sent;
+                this.jobInfo = _context40.sent;
                 this.emit('aborted');
-                _context37.next = 12;
+                _context40.next = 12;
                 break;
               case 8:
-                _context37.prev = 8;
-                _context37.t0 = _context37["catch"](0);
-                this.emit('error', _context37.t0);
-                throw _context37.t0;
+                _context40.prev = 8;
+                _context40.t0 = _context40["catch"](0);
+                this.emit('error', _context40.t0);
+                throw _context40.t0;
               case 12:
               case "end":
-                return _context37.stop();
+                return _context40.stop();
             }
           }
         }, _callee26, this, [[0, 8]]);
@@ -2598,10 +2679,25 @@ var IngestJobV2 = /*#__PURE__*/function (_EventEmitter3) {
       }
       return abort;
     }()
+    /**
+     * Poll for the state of the processing for the job.
+     *
+     * This method will only throw after a timeout. To capture a
+     * job failure while polling you must set a listener for the
+     * `failed` event before calling it:
+     *
+     * job.on('failed', (err) => console.error(err))
+     * await job.poll()
+     *
+     * @param interval Polling interval in milliseconds
+     * @param timeout Polling timeout in milliseconds
+     * @returns {Promise<void>} A promise that resolves when the job finishes successfully
+     */
   }, {
     key: "poll",
     value: function () {
-      var _poll2 = _babel_runtime_corejs3_helpers_asyncToGenerator__WEBPACK_IMPORTED_MODULE_41___default()( /*#__PURE__*/_babel_runtime_corejs3_regenerator__WEBPACK_IMPORTED_MODULE_39___default().mark(function _callee27() {
+      var _poll2 = _babel_runtime_corejs3_helpers_asyncToGenerator__WEBPACK_IMPORTED_MODULE_42___default()( /*#__PURE__*/_babel_runtime_corejs3_regenerator__WEBPACK_IMPORTED_MODULE_40___default().mark(function _callee27() {
+        var _context41;
         var interval,
           timeout,
           jobId,
@@ -2609,60 +2705,60 @@ var IngestJobV2 = /*#__PURE__*/function (_EventEmitter3) {
           _res6,
           timeoutError,
           _args27 = arguments;
-        return _babel_runtime_corejs3_regenerator__WEBPACK_IMPORTED_MODULE_39___default().wrap(function _callee27$(_context38) {
+        return _babel_runtime_corejs3_regenerator__WEBPACK_IMPORTED_MODULE_40___default().wrap(function _callee27$(_context42) {
           while (1) {
-            switch (_context38.prev = _context38.next) {
+            switch (_context42.prev = _context42.next) {
               case 0:
-                interval = _args27.length > 0 && _args27[0] !== undefined ? _args27[0] : _babel_runtime_corejs3_helpers_classPrivateFieldGet__WEBPACK_IMPORTED_MODULE_28___default()(this, _pollingOptions2).pollInterval;
-                timeout = _args27.length > 1 && _args27[1] !== undefined ? _args27[1] : _babel_runtime_corejs3_helpers_classPrivateFieldGet__WEBPACK_IMPORTED_MODULE_28___default()(this, _pollingOptions2).pollTimeout;
+                interval = _args27.length > 0 && _args27[0] !== undefined ? _args27[0] : _babel_runtime_corejs3_helpers_classPrivateFieldGet__WEBPACK_IMPORTED_MODULE_29___default()(this, _pollingOptions2).pollInterval;
+                timeout = _args27.length > 1 && _args27[1] !== undefined ? _args27[1] : _babel_runtime_corejs3_helpers_classPrivateFieldGet__WEBPACK_IMPORTED_MODULE_29___default()(this, _pollingOptions2).pollTimeout;
                 jobId = getJobIdOrError(this.jobInfo);
-                startTime = _babel_runtime_corejs3_core_js_stable_date_now__WEBPACK_IMPORTED_MODULE_26___default()();
+                startTime = _babel_runtime_corejs3_core_js_stable_date_now__WEBPACK_IMPORTED_MODULE_27___default()();
               case 4:
-                if (!(startTime + timeout > _babel_runtime_corejs3_core_js_stable_date_now__WEBPACK_IMPORTED_MODULE_26___default()())) {
-                  _context38.next = 29;
+                if (!(startTime + timeout > _babel_runtime_corejs3_core_js_stable_date_now__WEBPACK_IMPORTED_MODULE_27___default()())) {
+                  _context42.next = 29;
                   break;
                 }
-                _context38.prev = 5;
-                _context38.next = 8;
+                _context42.prev = 5;
+                _context42.next = 8;
                 return this.check();
               case 8:
-                _res6 = _context38.sent;
-                _context38.t0 = _res6.state;
-                _context38.next = _context38.t0 === 'Open' ? 12 : _context38.t0 === 'Aborted' ? 13 : _context38.t0 === 'UploadComplete' ? 14 : _context38.t0 === 'InProgress' ? 14 : _context38.t0 === 'Failed' ? 17 : _context38.t0 === 'JobComplete' ? 19 : 21;
+                _res6 = _context42.sent;
+                _context42.t0 = _res6.state;
+                _context42.next = _context42.t0 === 'Open' ? 12 : _context42.t0 === 'Aborted' ? 13 : _context42.t0 === 'UploadComplete' ? 14 : _context42.t0 === 'InProgress' ? 14 : _context42.t0 === 'Failed' ? 17 : _context42.t0 === 'JobComplete' ? 19 : 21;
                 break;
               case 12:
                 throw new Error('Job has not been started');
               case 13:
                 throw new Error('Job has been aborted');
               case 14:
-                _context38.next = 16;
+                _context42.next = 16;
                 return delay(interval);
               case 16:
-                return _context38.abrupt("break", 21);
+                return _context42.abrupt("break", 21);
               case 17:
-                this.emit('failed');
-                return _context38.abrupt("return");
+                this.emit('failed', new Error('Ingest job failed to complete.'));
+                return _context42.abrupt("return");
               case 19:
                 this.emit('jobcomplete');
-                return _context38.abrupt("return");
+                return _context42.abrupt("return");
               case 21:
-                _context38.next = 27;
+                _context42.next = 27;
                 break;
               case 23:
-                _context38.prev = 23;
-                _context38.t1 = _context38["catch"](5);
-                this.emit('error', _context38.t1);
-                throw _context38.t1;
+                _context42.prev = 23;
+                _context42.t1 = _context42["catch"](5);
+                this.emit('error', _context42.t1);
+                throw _context42.t1;
               case 27:
-                _context38.next = 4;
+                _context42.next = 4;
                 break;
               case 29:
-                timeoutError = new JobPollingTimeoutError("Polling time out. Job Id = ".concat(jobId), jobId);
+                timeoutError = new JobPollingTimeoutError(_babel_runtime_corejs3_core_js_stable_instance_concat__WEBPACK_IMPORTED_MODULE_43___default()(_context41 = "Polling timed out after ".concat(timeout, "ms. Job Id = ")).call(_context41, jobId), jobId);
                 this.emit('error', timeoutError);
                 throw timeoutError;
               case 32:
               case "end":
-                return _context38.stop();
+                return _context42.stop();
             }
           }
         }, _callee27, this, [[5, 23]]);
@@ -2678,31 +2774,31 @@ var IngestJobV2 = /*#__PURE__*/function (_EventEmitter3) {
   }, {
     key: "check",
     value: function () {
-      var _check3 = _babel_runtime_corejs3_helpers_asyncToGenerator__WEBPACK_IMPORTED_MODULE_41___default()( /*#__PURE__*/_babel_runtime_corejs3_regenerator__WEBPACK_IMPORTED_MODULE_39___default().mark(function _callee28() {
+      var _check3 = _babel_runtime_corejs3_helpers_asyncToGenerator__WEBPACK_IMPORTED_MODULE_42___default()( /*#__PURE__*/_babel_runtime_corejs3_regenerator__WEBPACK_IMPORTED_MODULE_40___default().mark(function _callee28() {
         var jobInfo;
-        return _babel_runtime_corejs3_regenerator__WEBPACK_IMPORTED_MODULE_39___default().wrap(function _callee28$(_context39) {
+        return _babel_runtime_corejs3_regenerator__WEBPACK_IMPORTED_MODULE_40___default().wrap(function _callee28$(_context43) {
           while (1) {
-            switch (_context39.prev = _context39.next) {
+            switch (_context43.prev = _context43.next) {
               case 0:
-                _context39.prev = 0;
-                _context39.next = 3;
+                _context43.prev = 0;
+                _context43.next = 3;
                 return this.createIngestRequest({
                   method: 'GET',
                   path: "/".concat(getJobIdOrError(this.jobInfo)),
                   responseType: 'application/json'
                 });
               case 3:
-                jobInfo = _context39.sent;
+                jobInfo = _context43.sent;
                 this.jobInfo = jobInfo;
-                return _context39.abrupt("return", jobInfo);
+                return _context43.abrupt("return", jobInfo);
               case 8:
-                _context39.prev = 8;
-                _context39.t0 = _context39["catch"](0);
-                this.emit('error', _context39.t0);
-                throw _context39.t0;
+                _context43.prev = 8;
+                _context43.t0 = _context43["catch"](0);
+                this.emit('error', _context43.t0);
+                throw _context43.t0;
               case 12:
               case "end":
-                return _context39.stop();
+                return _context43.stop();
             }
           }
         }, _callee28, this, [[0, 8]]);
@@ -2715,31 +2811,31 @@ var IngestJobV2 = /*#__PURE__*/function (_EventEmitter3) {
   }, {
     key: "getSuccessfulResults",
     value: function () {
-      var _getSuccessfulResults = _babel_runtime_corejs3_helpers_asyncToGenerator__WEBPACK_IMPORTED_MODULE_41___default()( /*#__PURE__*/_babel_runtime_corejs3_regenerator__WEBPACK_IMPORTED_MODULE_39___default().mark(function _callee29() {
+      var _getSuccessfulResults = _babel_runtime_corejs3_helpers_asyncToGenerator__WEBPACK_IMPORTED_MODULE_42___default()( /*#__PURE__*/_babel_runtime_corejs3_regenerator__WEBPACK_IMPORTED_MODULE_40___default().mark(function _callee29() {
         var results;
-        return _babel_runtime_corejs3_regenerator__WEBPACK_IMPORTED_MODULE_39___default().wrap(function _callee29$(_context40) {
+        return _babel_runtime_corejs3_regenerator__WEBPACK_IMPORTED_MODULE_40___default().wrap(function _callee29$(_context44) {
           while (1) {
-            switch (_context40.prev = _context40.next) {
+            switch (_context44.prev = _context44.next) {
               case 0:
-                if (!_babel_runtime_corejs3_helpers_classPrivateFieldGet__WEBPACK_IMPORTED_MODULE_28___default()(this, _bulkJobSuccessfulResults)) {
-                  _context40.next = 2;
+                if (!_babel_runtime_corejs3_helpers_classPrivateFieldGet__WEBPACK_IMPORTED_MODULE_29___default()(this, _bulkJobSuccessfulResults)) {
+                  _context44.next = 2;
                   break;
                 }
-                return _context40.abrupt("return", _babel_runtime_corejs3_helpers_classPrivateFieldGet__WEBPACK_IMPORTED_MODULE_28___default()(this, _bulkJobSuccessfulResults));
+                return _context44.abrupt("return", _babel_runtime_corejs3_helpers_classPrivateFieldGet__WEBPACK_IMPORTED_MODULE_29___default()(this, _bulkJobSuccessfulResults));
               case 2:
-                _context40.next = 4;
+                _context44.next = 4;
                 return this.createIngestRequest({
                   method: 'GET',
                   path: "/".concat(getJobIdOrError(this.jobInfo), "/successfulResults"),
                   responseType: 'text/csv'
                 });
               case 4:
-                results = _context40.sent;
-                _babel_runtime_corejs3_helpers_classPrivateFieldSet__WEBPACK_IMPORTED_MODULE_29___default()(this, _bulkJobSuccessfulResults, results !== null && results !== void 0 ? results : []);
-                return _context40.abrupt("return", _babel_runtime_corejs3_helpers_classPrivateFieldGet__WEBPACK_IMPORTED_MODULE_28___default()(this, _bulkJobSuccessfulResults));
+                results = _context44.sent;
+                _babel_runtime_corejs3_helpers_classPrivateFieldSet__WEBPACK_IMPORTED_MODULE_30___default()(this, _bulkJobSuccessfulResults, results !== null && results !== void 0 ? results : []);
+                return _context44.abrupt("return", _babel_runtime_corejs3_helpers_classPrivateFieldGet__WEBPACK_IMPORTED_MODULE_29___default()(this, _bulkJobSuccessfulResults));
               case 7:
               case "end":
-                return _context40.stop();
+                return _context44.stop();
             }
           }
         }, _callee29, this);
@@ -2752,31 +2848,31 @@ var IngestJobV2 = /*#__PURE__*/function (_EventEmitter3) {
   }, {
     key: "getFailedResults",
     value: function () {
-      var _getFailedResults = _babel_runtime_corejs3_helpers_asyncToGenerator__WEBPACK_IMPORTED_MODULE_41___default()( /*#__PURE__*/_babel_runtime_corejs3_regenerator__WEBPACK_IMPORTED_MODULE_39___default().mark(function _callee30() {
+      var _getFailedResults = _babel_runtime_corejs3_helpers_asyncToGenerator__WEBPACK_IMPORTED_MODULE_42___default()( /*#__PURE__*/_babel_runtime_corejs3_regenerator__WEBPACK_IMPORTED_MODULE_40___default().mark(function _callee30() {
         var results;
-        return _babel_runtime_corejs3_regenerator__WEBPACK_IMPORTED_MODULE_39___default().wrap(function _callee30$(_context41) {
+        return _babel_runtime_corejs3_regenerator__WEBPACK_IMPORTED_MODULE_40___default().wrap(function _callee30$(_context45) {
           while (1) {
-            switch (_context41.prev = _context41.next) {
+            switch (_context45.prev = _context45.next) {
               case 0:
-                if (!_babel_runtime_corejs3_helpers_classPrivateFieldGet__WEBPACK_IMPORTED_MODULE_28___default()(this, _bulkJobFailedResults)) {
-                  _context41.next = 2;
+                if (!_babel_runtime_corejs3_helpers_classPrivateFieldGet__WEBPACK_IMPORTED_MODULE_29___default()(this, _bulkJobFailedResults)) {
+                  _context45.next = 2;
                   break;
                 }
-                return _context41.abrupt("return", _babel_runtime_corejs3_helpers_classPrivateFieldGet__WEBPACK_IMPORTED_MODULE_28___default()(this, _bulkJobFailedResults));
+                return _context45.abrupt("return", _babel_runtime_corejs3_helpers_classPrivateFieldGet__WEBPACK_IMPORTED_MODULE_29___default()(this, _bulkJobFailedResults));
               case 2:
-                _context41.next = 4;
+                _context45.next = 4;
                 return this.createIngestRequest({
                   method: 'GET',
                   path: "/".concat(getJobIdOrError(this.jobInfo), "/failedResults"),
                   responseType: 'text/csv'
                 });
               case 4:
-                results = _context41.sent;
-                _babel_runtime_corejs3_helpers_classPrivateFieldSet__WEBPACK_IMPORTED_MODULE_29___default()(this, _bulkJobFailedResults, results !== null && results !== void 0 ? results : []);
-                return _context41.abrupt("return", _babel_runtime_corejs3_helpers_classPrivateFieldGet__WEBPACK_IMPORTED_MODULE_28___default()(this, _bulkJobFailedResults));
+                results = _context45.sent;
+                _babel_runtime_corejs3_helpers_classPrivateFieldSet__WEBPACK_IMPORTED_MODULE_30___default()(this, _bulkJobFailedResults, results !== null && results !== void 0 ? results : []);
+                return _context45.abrupt("return", _babel_runtime_corejs3_helpers_classPrivateFieldGet__WEBPACK_IMPORTED_MODULE_29___default()(this, _bulkJobFailedResults));
               case 7:
               case "end":
-                return _context41.stop();
+                return _context45.stop();
             }
           }
         }, _callee30, this);
@@ -2789,31 +2885,31 @@ var IngestJobV2 = /*#__PURE__*/function (_EventEmitter3) {
   }, {
     key: "getUnprocessedRecords",
     value: function () {
-      var _getUnprocessedRecords = _babel_runtime_corejs3_helpers_asyncToGenerator__WEBPACK_IMPORTED_MODULE_41___default()( /*#__PURE__*/_babel_runtime_corejs3_regenerator__WEBPACK_IMPORTED_MODULE_39___default().mark(function _callee31() {
+      var _getUnprocessedRecords = _babel_runtime_corejs3_helpers_asyncToGenerator__WEBPACK_IMPORTED_MODULE_42___default()( /*#__PURE__*/_babel_runtime_corejs3_regenerator__WEBPACK_IMPORTED_MODULE_40___default().mark(function _callee31() {
         var results;
-        return _babel_runtime_corejs3_regenerator__WEBPACK_IMPORTED_MODULE_39___default().wrap(function _callee31$(_context42) {
+        return _babel_runtime_corejs3_regenerator__WEBPACK_IMPORTED_MODULE_40___default().wrap(function _callee31$(_context46) {
           while (1) {
-            switch (_context42.prev = _context42.next) {
+            switch (_context46.prev = _context46.next) {
               case 0:
-                if (!_babel_runtime_corejs3_helpers_classPrivateFieldGet__WEBPACK_IMPORTED_MODULE_28___default()(this, _bulkJobUnprocessedRecords)) {
-                  _context42.next = 2;
+                if (!_babel_runtime_corejs3_helpers_classPrivateFieldGet__WEBPACK_IMPORTED_MODULE_29___default()(this, _bulkJobUnprocessedRecords)) {
+                  _context46.next = 2;
                   break;
                 }
-                return _context42.abrupt("return", _babel_runtime_corejs3_helpers_classPrivateFieldGet__WEBPACK_IMPORTED_MODULE_28___default()(this, _bulkJobUnprocessedRecords));
+                return _context46.abrupt("return", _babel_runtime_corejs3_helpers_classPrivateFieldGet__WEBPACK_IMPORTED_MODULE_29___default()(this, _bulkJobUnprocessedRecords));
               case 2:
-                _context42.next = 4;
+                _context46.next = 4;
                 return this.createIngestRequest({
                   method: 'GET',
                   path: "/".concat(getJobIdOrError(this.jobInfo), "/unprocessedrecords"),
                   responseType: 'text/csv'
                 });
               case 4:
-                results = _context42.sent;
-                _babel_runtime_corejs3_helpers_classPrivateFieldSet__WEBPACK_IMPORTED_MODULE_29___default()(this, _bulkJobUnprocessedRecords, results !== null && results !== void 0 ? results : []);
-                return _context42.abrupt("return", _babel_runtime_corejs3_helpers_classPrivateFieldGet__WEBPACK_IMPORTED_MODULE_28___default()(this, _bulkJobUnprocessedRecords));
+                results = _context46.sent;
+                _babel_runtime_corejs3_helpers_classPrivateFieldSet__WEBPACK_IMPORTED_MODULE_30___default()(this, _bulkJobUnprocessedRecords, results !== null && results !== void 0 ? results : []);
+                return _context46.abrupt("return", _babel_runtime_corejs3_helpers_classPrivateFieldGet__WEBPACK_IMPORTED_MODULE_29___default()(this, _bulkJobUnprocessedRecords));
               case 7:
               case "end":
-                return _context42.stop();
+                return _context46.stop();
             }
           }
         }, _callee31, this);
@@ -2823,21 +2919,24 @@ var IngestJobV2 = /*#__PURE__*/function (_EventEmitter3) {
       }
       return getUnprocessedRecords;
     }()
+    /**
+     * Deletes an ingest job.
+     */
   }, {
     key: "delete",
     value: function () {
-      var _delete3 = _babel_runtime_corejs3_helpers_asyncToGenerator__WEBPACK_IMPORTED_MODULE_41___default()( /*#__PURE__*/_babel_runtime_corejs3_regenerator__WEBPACK_IMPORTED_MODULE_39___default().mark(function _callee32() {
-        return _babel_runtime_corejs3_regenerator__WEBPACK_IMPORTED_MODULE_39___default().wrap(function _callee32$(_context43) {
+      var _delete3 = _babel_runtime_corejs3_helpers_asyncToGenerator__WEBPACK_IMPORTED_MODULE_42___default()( /*#__PURE__*/_babel_runtime_corejs3_regenerator__WEBPACK_IMPORTED_MODULE_40___default().mark(function _callee32() {
+        return _babel_runtime_corejs3_regenerator__WEBPACK_IMPORTED_MODULE_40___default().wrap(function _callee32$(_context47) {
           while (1) {
-            switch (_context43.prev = _context43.next) {
+            switch (_context47.prev = _context47.next) {
               case 0:
-                return _context43.abrupt("return", this.createIngestRequest({
+                return _context47.abrupt("return", this.createIngestRequest({
                   method: 'DELETE',
                   path: "/".concat(getJobIdOrError(this.jobInfo))
                 }));
               case 1:
               case "end":
-                return _context43.stop();
+                return _context47.stop();
             }
           }
         }, _callee32, this);
@@ -2852,8 +2951,8 @@ var IngestJobV2 = /*#__PURE__*/function (_EventEmitter3) {
     value: function createIngestRequest(request) {
       var path = request.path,
         responseType = request.responseType;
-      var baseUrl = [_babel_runtime_corejs3_helpers_classPrivateFieldGet__WEBPACK_IMPORTED_MODULE_28___default()(this, _connection3).instanceUrl, 'services/data', "v".concat(_babel_runtime_corejs3_helpers_classPrivateFieldGet__WEBPACK_IMPORTED_MODULE_28___default()(this, _connection3).version), 'jobs/ingest'].join('/');
-      return new BulkApiV2(_babel_runtime_corejs3_helpers_classPrivateFieldGet__WEBPACK_IMPORTED_MODULE_28___default()(this, _connection3), {
+      var baseUrl = [_babel_runtime_corejs3_helpers_classPrivateFieldGet__WEBPACK_IMPORTED_MODULE_29___default()(this, _connection3).instanceUrl, 'services/data', "v".concat(_babel_runtime_corejs3_helpers_classPrivateFieldGet__WEBPACK_IMPORTED_MODULE_29___default()(this, _connection3).version), 'jobs/ingest'].join('/');
+      return new BulkApiV2(_babel_runtime_corejs3_helpers_classPrivateFieldGet__WEBPACK_IMPORTED_MODULE_29___default()(this, _connection3), {
         responseType: responseType
       }).request(_objectSpread(_objectSpread({}, request), {}, {
         url: baseUrl + path
@@ -2866,56 +2965,56 @@ var IngestJobV2 = /*#__PURE__*/function (_EventEmitter3) {
     }
   }]);
   return IngestJobV2;
-}(events__WEBPACK_IMPORTED_MODULE_51__.EventEmitter);
+}(events__WEBPACK_IMPORTED_MODULE_52__.EventEmitter);
 var _job = new (_babel_runtime_corejs3_core_js_stable_weak_map__WEBPACK_IMPORTED_MODULE_24___default())();
 var _uploadStream = new (_babel_runtime_corejs3_core_js_stable_weak_map__WEBPACK_IMPORTED_MODULE_24___default())();
 var _downloadStream = new (_babel_runtime_corejs3_core_js_stable_weak_map__WEBPACK_IMPORTED_MODULE_24___default())();
 var _dataStream = new (_babel_runtime_corejs3_core_js_stable_weak_map__WEBPACK_IMPORTED_MODULE_24___default())();
 var _result = new (_babel_runtime_corejs3_core_js_stable_weak_map__WEBPACK_IMPORTED_MODULE_24___default())();
 var JobDataV2 = /*#__PURE__*/function (_Writable2) {
-  _babel_runtime_corejs3_helpers_inherits__WEBPACK_IMPORTED_MODULE_47___default()(JobDataV2, _Writable2);
+  _babel_runtime_corejs3_helpers_inherits__WEBPACK_IMPORTED_MODULE_48___default()(JobDataV2, _Writable2);
   var _super9 = _createSuper(JobDataV2);
   /**
    *
    */
   function JobDataV2(options) {
     var _this17;
-    _babel_runtime_corejs3_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_44___default()(this, JobDataV2);
+    _babel_runtime_corejs3_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_45___default()(this, JobDataV2);
     _this17 = _super9.call(this, {
       objectMode: true
     });
-    _job.set(_babel_runtime_corejs3_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_46___default()(_this17), {
+    _job.set(_babel_runtime_corejs3_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_47___default()(_this17), {
       writable: true,
       value: void 0
     });
-    _uploadStream.set(_babel_runtime_corejs3_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_46___default()(_this17), {
+    _uploadStream.set(_babel_runtime_corejs3_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_47___default()(_this17), {
       writable: true,
       value: void 0
     });
-    _downloadStream.set(_babel_runtime_corejs3_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_46___default()(_this17), {
+    _downloadStream.set(_babel_runtime_corejs3_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_47___default()(_this17), {
       writable: true,
       value: void 0
     });
-    _dataStream.set(_babel_runtime_corejs3_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_46___default()(_this17), {
+    _dataStream.set(_babel_runtime_corejs3_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_47___default()(_this17), {
       writable: true,
       value: void 0
     });
-    _result.set(_babel_runtime_corejs3_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_46___default()(_this17), {
+    _result.set(_babel_runtime_corejs3_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_47___default()(_this17), {
       writable: true,
       value: void 0
     });
     var createRequest = options.createRequest;
-    _babel_runtime_corejs3_helpers_classPrivateFieldSet__WEBPACK_IMPORTED_MODULE_29___default()(_babel_runtime_corejs3_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_46___default()(_this17), _job, options.job);
-    _babel_runtime_corejs3_helpers_classPrivateFieldSet__WEBPACK_IMPORTED_MODULE_29___default()(_babel_runtime_corejs3_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_46___default()(_this17), _uploadStream, new _record_stream__WEBPACK_IMPORTED_MODULE_54__/* .Serializable */ .iV());
-    _babel_runtime_corejs3_helpers_classPrivateFieldSet__WEBPACK_IMPORTED_MODULE_29___default()(_babel_runtime_corejs3_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_46___default()(_this17), _downloadStream, new _record_stream__WEBPACK_IMPORTED_MODULE_54__/* .Parsable */ .bD());
+    _babel_runtime_corejs3_helpers_classPrivateFieldSet__WEBPACK_IMPORTED_MODULE_30___default()(_babel_runtime_corejs3_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_47___default()(_this17), _job, options.job);
+    _babel_runtime_corejs3_helpers_classPrivateFieldSet__WEBPACK_IMPORTED_MODULE_30___default()(_babel_runtime_corejs3_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_47___default()(_this17), _uploadStream, new _record_stream__WEBPACK_IMPORTED_MODULE_55__/* .Serializable */ .iV());
+    _babel_runtime_corejs3_helpers_classPrivateFieldSet__WEBPACK_IMPORTED_MODULE_30___default()(_babel_runtime_corejs3_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_47___default()(_this17), _downloadStream, new _record_stream__WEBPACK_IMPORTED_MODULE_55__/* .Parsable */ .bD());
     var converterOptions = {
       nullValue: '#N/A'
     };
-    var uploadDataStream = _babel_runtime_corejs3_helpers_classPrivateFieldGet__WEBPACK_IMPORTED_MODULE_28___default()(_babel_runtime_corejs3_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_46___default()(_this17), _uploadStream).stream('csv', converterOptions);
-    var downloadDataStream = _babel_runtime_corejs3_helpers_classPrivateFieldGet__WEBPACK_IMPORTED_MODULE_28___default()(_babel_runtime_corejs3_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_46___default()(_this17), _downloadStream).stream('csv', converterOptions);
-    _babel_runtime_corejs3_helpers_classPrivateFieldSet__WEBPACK_IMPORTED_MODULE_29___default()(_babel_runtime_corejs3_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_46___default()(_this17), _dataStream, (0,_util_stream__WEBPACK_IMPORTED_MODULE_57__/* .concatStreamsAsDuplex */ .sD)(uploadDataStream, downloadDataStream));
+    var uploadDataStream = _babel_runtime_corejs3_helpers_classPrivateFieldGet__WEBPACK_IMPORTED_MODULE_29___default()(_babel_runtime_corejs3_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_47___default()(_this17), _uploadStream).stream('csv', converterOptions);
+    var downloadDataStream = _babel_runtime_corejs3_helpers_classPrivateFieldGet__WEBPACK_IMPORTED_MODULE_29___default()(_babel_runtime_corejs3_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_47___default()(_this17), _downloadStream).stream('csv', converterOptions);
+    _babel_runtime_corejs3_helpers_classPrivateFieldSet__WEBPACK_IMPORTED_MODULE_30___default()(_babel_runtime_corejs3_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_47___default()(_this17), _dataStream, (0,_util_stream__WEBPACK_IMPORTED_MODULE_58__/* .concatStreamsAsDuplex */ .sD)(uploadDataStream, downloadDataStream));
     _this17.on('finish', function () {
-      return _babel_runtime_corejs3_helpers_classPrivateFieldGet__WEBPACK_IMPORTED_MODULE_28___default()(_babel_runtime_corejs3_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_46___default()(_this17), _uploadStream).end();
+      return _babel_runtime_corejs3_helpers_classPrivateFieldGet__WEBPACK_IMPORTED_MODULE_29___default()(_babel_runtime_corejs3_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_47___default()(_this17), _uploadStream).end();
     });
     uploadDataStream.once('readable', function () {
       try {
@@ -2923,33 +3022,33 @@ var JobDataV2 = /*#__PURE__*/function (_Writable2) {
         // pipe upload data to batch API request stream
         var req = createRequest({
           method: 'PUT',
-          path: "/".concat((_classPrivateFieldGet2 = _babel_runtime_corejs3_helpers_classPrivateFieldGet__WEBPACK_IMPORTED_MODULE_28___default()(_babel_runtime_corejs3_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_46___default()(_this17), _job).jobInfo) === null || _classPrivateFieldGet2 === void 0 ? void 0 : _classPrivateFieldGet2.id, "/batches"),
+          path: "/".concat((_classPrivateFieldGet2 = _babel_runtime_corejs3_helpers_classPrivateFieldGet__WEBPACK_IMPORTED_MODULE_29___default()(_babel_runtime_corejs3_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_47___default()(_this17), _job).jobInfo) === null || _classPrivateFieldGet2 === void 0 ? void 0 : _classPrivateFieldGet2.id, "/batches"),
           headers: {
             'Content-Type': 'text/csv'
           },
           responseType: 'application/json'
         });
-        _babel_runtime_corejs3_helpers_asyncToGenerator__WEBPACK_IMPORTED_MODULE_41___default()( /*#__PURE__*/_babel_runtime_corejs3_regenerator__WEBPACK_IMPORTED_MODULE_39___default().mark(function _callee33() {
+        _babel_runtime_corejs3_helpers_asyncToGenerator__WEBPACK_IMPORTED_MODULE_42___default()( /*#__PURE__*/_babel_runtime_corejs3_regenerator__WEBPACK_IMPORTED_MODULE_40___default().mark(function _callee33() {
           var _res7;
-          return _babel_runtime_corejs3_regenerator__WEBPACK_IMPORTED_MODULE_39___default().wrap(function _callee33$(_context44) {
+          return _babel_runtime_corejs3_regenerator__WEBPACK_IMPORTED_MODULE_40___default().wrap(function _callee33$(_context48) {
             while (1) {
-              switch (_context44.prev = _context44.next) {
+              switch (_context48.prev = _context48.next) {
                 case 0:
-                  _context44.prev = 0;
-                  _context44.next = 3;
+                  _context48.prev = 0;
+                  _context48.next = 3;
                   return req;
                 case 3:
-                  _res7 = _context44.sent;
+                  _res7 = _context48.sent;
                   _this17.emit('response', _res7);
-                  _context44.next = 10;
+                  _context48.next = 10;
                   break;
                 case 7:
-                  _context44.prev = 7;
-                  _context44.t0 = _context44["catch"](0);
-                  _this17.emit('error', _context44.t0);
+                  _context48.prev = 7;
+                  _context48.t0 = _context48["catch"](0);
+                  _this17.emit('error', _context48.t0);
                 case 10:
                 case "end":
-                  return _context44.stop();
+                  return _context48.stop();
               }
             }
           }, _callee33, null, [[0, 7]]);
@@ -2961,15 +3060,15 @@ var JobDataV2 = /*#__PURE__*/function (_Writable2) {
     });
     return _this17;
   }
-  _babel_runtime_corejs3_helpers_createClass__WEBPACK_IMPORTED_MODULE_45___default()(JobDataV2, [{
+  _babel_runtime_corejs3_helpers_createClass__WEBPACK_IMPORTED_MODULE_46___default()(JobDataV2, [{
     key: "_write",
     value: function _write(record_, enc, cb) {
       var Id = record_.Id,
         type = record_.type,
         attributes = record_.attributes,
-        rrec = _babel_runtime_corejs3_helpers_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_35___default()(record_, ["Id", "type", "attributes"]);
+        rrec = _babel_runtime_corejs3_helpers_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_36___default()(record_, ["Id", "type", "attributes"]);
       var record;
-      switch (_babel_runtime_corejs3_helpers_classPrivateFieldGet__WEBPACK_IMPORTED_MODULE_28___default()(this, _job).jobInfo.operation) {
+      switch (_babel_runtime_corejs3_helpers_classPrivateFieldGet__WEBPACK_IMPORTED_MODULE_29___default()(this, _job).jobInfo.operation) {
         case 'insert':
           record = rrec;
           break;
@@ -2984,7 +3083,7 @@ var JobDataV2 = /*#__PURE__*/function (_Writable2) {
             Id: Id
           }, rrec);
       }
-      _babel_runtime_corejs3_helpers_classPrivateFieldGet__WEBPACK_IMPORTED_MODULE_28___default()(this, _uploadStream).write(record, enc, cb);
+      _babel_runtime_corejs3_helpers_classPrivateFieldGet__WEBPACK_IMPORTED_MODULE_29___default()(this, _uploadStream).write(record, enc, cb);
     }
     /**
      * Returns duplex stream which accepts CSV data input and batch result output
@@ -2992,7 +3091,7 @@ var JobDataV2 = /*#__PURE__*/function (_Writable2) {
   }, {
     key: "stream",
     value: function stream() {
-      return _babel_runtime_corejs3_helpers_classPrivateFieldGet__WEBPACK_IMPORTED_MODULE_28___default()(this, _dataStream);
+      return _babel_runtime_corejs3_helpers_classPrivateFieldGet__WEBPACK_IMPORTED_MODULE_29___default()(this, _dataStream);
     }
     /**
      * Execute batch operation
@@ -3001,26 +3100,26 @@ var JobDataV2 = /*#__PURE__*/function (_Writable2) {
     key: "execute",
     value: function execute(input) {
       var _this18 = this;
-      if (_babel_runtime_corejs3_helpers_classPrivateFieldGet__WEBPACK_IMPORTED_MODULE_28___default()(this, _result)) {
+      if (_babel_runtime_corejs3_helpers_classPrivateFieldGet__WEBPACK_IMPORTED_MODULE_29___default()(this, _result)) {
         throw new Error('Data can only be uploaded to a job once.');
       }
-      _babel_runtime_corejs3_helpers_classPrivateFieldSet__WEBPACK_IMPORTED_MODULE_29___default()(this, _result, new (_babel_runtime_corejs3_core_js_stable_promise__WEBPACK_IMPORTED_MODULE_38___default())(function (resolve, reject) {
+      _babel_runtime_corejs3_helpers_classPrivateFieldSet__WEBPACK_IMPORTED_MODULE_30___default()(this, _result, new (_babel_runtime_corejs3_core_js_stable_promise__WEBPACK_IMPORTED_MODULE_39___default())(function (resolve, reject) {
         _this18.once('response', function () {
           return resolve();
         });
         _this18.once('error', reject);
       }));
-      if ((0,_util_function__WEBPACK_IMPORTED_MODULE_58__/* .isObject */ .Kn)(input) && 'pipe' in input && (0,_util_function__WEBPACK_IMPORTED_MODULE_58__/* .isFunction */ .mf)(input.pipe)) {
+      if ((0,_util_function__WEBPACK_IMPORTED_MODULE_59__/* .isObject */ .Kn)(input) && 'pipe' in input && (0,_util_function__WEBPACK_IMPORTED_MODULE_59__/* .isFunction */ .mf)(input.pipe)) {
         // if input has stream.Readable interface
-        input.pipe(_babel_runtime_corejs3_helpers_classPrivateFieldGet__WEBPACK_IMPORTED_MODULE_28___default()(this, _dataStream));
+        input.pipe(_babel_runtime_corejs3_helpers_classPrivateFieldGet__WEBPACK_IMPORTED_MODULE_29___default()(this, _dataStream));
       } else {
-        if (_babel_runtime_corejs3_core_js_stable_array_is_array__WEBPACK_IMPORTED_MODULE_37___default()(input)) {
+        if (_babel_runtime_corejs3_core_js_stable_array_is_array__WEBPACK_IMPORTED_MODULE_38___default()(input)) {
           var _iterator2 = _createForOfIteratorHelper(input),
             _step2;
           try {
             for (_iterator2.s(); !(_step2 = _iterator2.n()).done;) {
               var record = _step2.value;
-              for (var _i2 = 0, _Object$keys3 = _babel_runtime_corejs3_core_js_stable_object_keys__WEBPACK_IMPORTED_MODULE_34___default()(record); _i2 < _Object$keys3.length; _i2++) {
+              for (var _i2 = 0, _Object$keys3 = _babel_runtime_corejs3_core_js_stable_object_keys__WEBPACK_IMPORTED_MODULE_35___default()(record); _i2 < _Object$keys3.length; _i2++) {
                 var key = _Object$keys3[_i2];
                 if (typeof record[key] === 'boolean') {
                   record[key] = String(record[key]);
@@ -3035,8 +3134,8 @@ var JobDataV2 = /*#__PURE__*/function (_Writable2) {
           }
           this.end();
         } else if (typeof input === 'string') {
-          _babel_runtime_corejs3_helpers_classPrivateFieldGet__WEBPACK_IMPORTED_MODULE_28___default()(this, _dataStream).write(input, 'utf8');
-          _babel_runtime_corejs3_helpers_classPrivateFieldGet__WEBPACK_IMPORTED_MODULE_28___default()(this, _dataStream).end();
+          _babel_runtime_corejs3_helpers_classPrivateFieldGet__WEBPACK_IMPORTED_MODULE_29___default()(this, _dataStream).write(input, 'utf8');
+          _babel_runtime_corejs3_helpers_classPrivateFieldGet__WEBPACK_IMPORTED_MODULE_29___default()(this, _dataStream).end();
         }
       }
       return this;
@@ -3048,14 +3147,14 @@ var JobDataV2 = /*#__PURE__*/function (_Writable2) {
   }, {
     key: "then",
     value: function then(onResolved, onReject) {
-      if (_babel_runtime_corejs3_helpers_classPrivateFieldGet__WEBPACK_IMPORTED_MODULE_28___default()(this, _result) === undefined) {
+      if (_babel_runtime_corejs3_helpers_classPrivateFieldGet__WEBPACK_IMPORTED_MODULE_29___default()(this, _result) === undefined) {
         this.execute();
       }
-      return _babel_runtime_corejs3_helpers_classPrivateFieldGet__WEBPACK_IMPORTED_MODULE_28___default()(this, _result).then(onResolved, onReject);
+      return _babel_runtime_corejs3_helpers_classPrivateFieldGet__WEBPACK_IMPORTED_MODULE_29___default()(this, _result).then(onResolved, onReject);
     }
   }]);
   return JobDataV2;
-}(stream__WEBPACK_IMPORTED_MODULE_52__.Writable);
+}(stream__WEBPACK_IMPORTED_MODULE_53__.Writable);
 function getJobIdOrError(jobInfo) {
   var jobId = jobInfo === null || jobInfo === void 0 ? void 0 : jobInfo.id;
   if (jobId === undefined) {
@@ -3064,8 +3163,8 @@ function getJobIdOrError(jobInfo) {
   return jobId;
 }
 function delay(ms) {
-  return new (_babel_runtime_corejs3_core_js_stable_promise__WEBPACK_IMPORTED_MODULE_38___default())(function (resolve) {
-    return _babel_runtime_corejs3_core_js_stable_set_timeout__WEBPACK_IMPORTED_MODULE_32___default()(resolve, ms);
+  return new (_babel_runtime_corejs3_core_js_stable_promise__WEBPACK_IMPORTED_MODULE_39___default())(function (resolve) {
+    return _babel_runtime_corejs3_core_js_stable_set_timeout__WEBPACK_IMPORTED_MODULE_33___default()(resolve, ms);
   });
 }
 
@@ -3073,10 +3172,10 @@ function delay(ms) {
 /*
  * Register hook in connection instantiation for dynamically adding this API module features
  */
-(0,_jsforce__WEBPACK_IMPORTED_MODULE_56__/* .registerModule */ .z)('bulk', function (conn) {
+(0,_jsforce__WEBPACK_IMPORTED_MODULE_57__/* .registerModule */ .z)('bulk', function (conn) {
   return new Bulk(conn);
 });
-(0,_jsforce__WEBPACK_IMPORTED_MODULE_56__/* .registerModule */ .z)('bulk2', function (conn) {
+(0,_jsforce__WEBPACK_IMPORTED_MODULE_57__/* .registerModule */ .z)('bulk2', function (conn) {
   return new BulkV2(conn);
 });
 /* unused harmony default export */ var __WEBPACK_DEFAULT_EXPORT__ = ((/* unused pure expression or super */ null && (Bulk)));
@@ -16294,6 +16393,7 @@ function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len 
 var _Connection$prototype = _connection__WEBPACK_IMPORTED_MODULE_11__/* ["default"].prototype */ .Z.prototype,
   query = _Connection$prototype.query,
   queryMore = _Connection$prototype.queryMore,
+  _ensureVersion = _Connection$prototype._ensureVersion,
   create = _Connection$prototype.create,
   _createSingle = _Connection$prototype._createSingle,
   _createMany = _Connection$prototype._createMany,
@@ -16322,62 +16422,54 @@ var describeCacheKey = function describeCacheKey(type) {
  * API class for Tooling API call
  */
 var Tooling = /*#__PURE__*/function () {
-  /**
-   * Execute query by using SOQL
-   */
-
-  /**
-   * Query next record set by using query locator
-   */
-
-  /**
-   * Create records
-   */
-
-  /**
-   * Synonym of Tooling#create()
-   */
-
-  /**
-   * Retrieve specified records
-   */
-
-  /**
-   * Update records
-   */
-
-  /**
-   * Upsert records
-   */
-
-  /**
-   * Delete records
-   */
-
-  /**
-   * Synonym of Tooling#destroy()
-   */
-
-  /**
-   * Synonym of Tooling#destroy()
-   */
-
-  /**
-   * Describe SObject metadata
-   */
-
-  /**
-   * Synonym of Tooling#describe()
-   */
-
-  /**
-   * Describe global SObjects
-   */
-
-  /**
-   * Get SObject instance
-   */
-
+  _babel_runtime_corejs3_helpers_createClass__WEBPACK_IMPORTED_MODULE_8___default()(Tooling, [{
+    key: "version",
+    get: function get() {
+      return this._conn.version;
+    }
+    /**
+     * Execute query by using SOQL
+     */
+    /**
+     * Query next record set by using query locator
+     */
+    /**
+     * Create records
+     */
+    /**
+     * Synonym of Tooling#create()
+     */
+    /**
+     * Retrieve specified records
+     */
+    /**
+     * Update records
+     */
+    /**
+     * Upsert records
+     */
+    /**
+     * Delete records
+     */
+    /**
+     * Synonym of Tooling#destroy()
+     */
+    /**
+     * Synonym of Tooling#destroy()
+     */
+    /**
+     * Describe SObject metadata
+     */
+    /**
+     * Synonym of Tooling#describe()
+     */
+    /**
+     * Describe global SObjects
+     */
+    /**
+     * Get SObject instance
+     */
+  }]);
   /**
    *
    */
@@ -16386,6 +16478,7 @@ var Tooling = /*#__PURE__*/function () {
     _babel_runtime_corejs3_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_9___default()(this, "_conn", void 0);
     _babel_runtime_corejs3_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_9___default()(this, "query", query);
     _babel_runtime_corejs3_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_9___default()(this, "queryMore", queryMore);
+    _babel_runtime_corejs3_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_9___default()(this, "_ensureVersion", _ensureVersion);
     _babel_runtime_corejs3_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_9___default()(this, "create", create);
     _babel_runtime_corejs3_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_9___default()(this, "_createSingle", _createSingle);
     _babel_runtime_corejs3_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_9___default()(this, "_createParallel", _createParallel);
@@ -18768,12 +18861,17 @@ var Connection = /*#__PURE__*/function (_EventEmitter) {
       */
     }
     /**
-     * Authorize (using oauth2 web server flow)
+     * Authorize the connection using OAuth2 flow.
+     * Typically, just pass the code returned from authorization server in the first argument to complete authorization.
+     * If you want to authorize with grant types other than `authorization_code`, you can also pass params object with the grant type.
+     *
+     * @returns {Promise<UserInfo>} An object that contains the user ID, org ID and identity URL.
+     *
      */
   }, {
     key: "authorize",
     value: function () {
-      var _authorize = asyncToGenerator_default()( /*#__PURE__*/regenerator_default().mark(function _callee2(code) {
+      var _authorize = asyncToGenerator_default()( /*#__PURE__*/regenerator_default().mark(function _callee2(codeOrParams) {
         var _context5;
         var params,
           res,
@@ -18785,7 +18883,7 @@ var Connection = /*#__PURE__*/function (_EventEmitter) {
               case 0:
                 params = _args2.length > 1 && _args2[1] !== undefined ? _args2[1] : {};
                 _context6.next = 3;
-                return this.oauth2.requestToken(code, params);
+                return this.oauth2.requestToken(codeOrParams, params);
               case 3:
                 res = _context6.sent;
                 userInfo = parseIdUrl(res.id);
@@ -20503,7 +20601,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "QuickAction": () => (/* reexport safe */ _quick_action__WEBPACK_IMPORTED_MODULE_10__.e),
 /* harmony export */   "RecordReference": () => (/* reexport safe */ _record_reference__WEBPACK_IMPORTED_MODULE_4__.Z),
 /* harmony export */   "RecordStream": () => (/* reexport safe */ _record_stream__WEBPACK_IMPORTED_MODULE_5__.ZP),
-/* harmony export */   "Registry": () => (/* reexport safe */ _registry__WEBPACK_IMPORTED_MODULE_2__.Registry),
 /* harmony export */   "ResponseTargets": () => (/* reexport safe */ _query__WEBPACK_IMPORTED_MODULE_9__.ac),
 /* harmony export */   "SObject": () => (/* reexport safe */ _sobject__WEBPACK_IMPORTED_MODULE_11__.l),
 /* harmony export */   "SfDate": () => (/* reexport safe */ _date__WEBPACK_IMPORTED_MODULE_1__.Z),
@@ -20528,7 +20625,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _sobject__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(86031);
 /* harmony import */ var _types__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(63310);
 /* harmony reexport (unknown) */ var __WEBPACK_REEXPORT_OBJECT__ = {};
-/* harmony reexport (unknown) */ for(const __WEBPACK_IMPORT_KEY__ in _types__WEBPACK_IMPORTED_MODULE_12__) if(["default","VERSION","Date","SfDate","Registry","BrowserClient","RecordReference","RecordStream","registry","browser","OAuth2","JwtOAuth2","Connection","Query","ResponseTargets","SubQuery","QuickAction","SObject"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) __WEBPACK_REEXPORT_OBJECT__[__WEBPACK_IMPORT_KEY__] = () => _types__WEBPACK_IMPORTED_MODULE_12__[__WEBPACK_IMPORT_KEY__]
+/* harmony reexport (unknown) */ for(const __WEBPACK_IMPORT_KEY__ in _types__WEBPACK_IMPORTED_MODULE_12__) if(["default","VERSION","Date","SfDate","BrowserClient","RecordReference","RecordStream","registry","browser","OAuth2","JwtOAuth2","Connection","Query","ResponseTargets","SubQuery","QuickAction","SObject"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) __WEBPACK_REEXPORT_OBJECT__[__WEBPACK_IMPORT_KEY__] = () => _types__WEBPACK_IMPORTED_MODULE_12__[__WEBPACK_IMPORT_KEY__]
 /* harmony reexport (unknown) */ __webpack_require__.d(__webpack_exports__, __WEBPACK_REEXPORT_OBJECT__);
 
 
@@ -21351,8 +21448,15 @@ var HttpApi = /*#__PURE__*/function (_EventEmitter) {
                   errorCode: "ERROR_HTTP_".concat(response.statusCode),
                   message: response.body
                 };
+                if (!(response.headers['content-type'] === 'text/html')) {
+                  _context7.next = 17;
+                  break;
+                }
+                this._logger.debug("html response.body: ".concat(response.body));
+                return _context7.abrupt("return", new HttpApiError("HTTP response contains html content.\nCheck that the org exists and can be reached.\nSee error.content for the full html response.", error.errorCode, error.message));
+              case 17:
                 return _context7.abrupt("return", new HttpApiError(error.message, error.errorCode));
-              case 15:
+              case 18:
               case "end":
                 return _context7.stop();
             }
@@ -21527,11 +21631,16 @@ var jsforce = new JSforce();
 function _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function _createSuperInternal() { var Super = _babel_runtime_corejs3_helpers_getPrototypeOf__WEBPACK_IMPORTED_MODULE_6___default()(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _babel_runtime_corejs3_helpers_getPrototypeOf__WEBPACK_IMPORTED_MODULE_6___default()(this).constructor; result = _babel_runtime_corejs3_core_js_stable_reflect_construct__WEBPACK_IMPORTED_MODULE_0___default()(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _babel_runtime_corejs3_helpers_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_5___default()(this, result); }; }
 function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !(_babel_runtime_corejs3_core_js_stable_reflect_construct__WEBPACK_IMPORTED_MODULE_0___default())) return false; if ((_babel_runtime_corejs3_core_js_stable_reflect_construct__WEBPACK_IMPORTED_MODULE_0___default().sham)) return false; if (typeof Proxy === "function") return true; try { Date.prototype.toString.call(_babel_runtime_corejs3_core_js_stable_reflect_construct__WEBPACK_IMPORTED_MODULE_0___default()(Date, [], function () {})); return true; } catch (e) { return false; } }
 
+
+/**
+ * @deprecated
+ */
 var JwtOAuth2 = /*#__PURE__*/function (_OAuth) {
   _babel_runtime_corejs3_helpers_inherits__WEBPACK_IMPORTED_MODULE_4___default()(JwtOAuth2, _OAuth);
   var _super = _createSuper(JwtOAuth2);
   function JwtOAuth2(config) {
     _babel_runtime_corejs3_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_1___default()(this, JwtOAuth2);
+    console.warn('JwtOAuth2 is deprecated and will be removed in next stable release, please use OAuth2 instead.');
     return _super.call(this, config);
   }
   _babel_runtime_corejs3_helpers_createClass__WEBPACK_IMPORTED_MODULE_2___default()(JwtOAuth2, [{
@@ -21791,13 +21900,14 @@ var OAuth2 = /*#__PURE__*/function () {
       return refreshToken;
     }()
     /**
-     * OAuth2 Web Server Authentication Flow (Authorization Code)
-     * Access Token Request
+     * Send access token request to the token endpoint.
+     * When a code (string) is passed in first argument, it will use Web Server Authentication Flow (Authorization Code Grant).
+     * Otherwise, it will use the specified `grant_type` and pass parameters to the endpoint.
      */
   }, {
     key: "requestToken",
     value: function () {
-      var _requestToken = _babel_runtime_corejs3_helpers_asyncToGenerator__WEBPACK_IMPORTED_MODULE_22___default()( /*#__PURE__*/_babel_runtime_corejs3_regenerator__WEBPACK_IMPORTED_MODULE_20___default().mark(function _callee2(code) {
+      var _requestToken = _babel_runtime_corejs3_helpers_asyncToGenerator__WEBPACK_IMPORTED_MODULE_22___default()( /*#__PURE__*/_babel_runtime_corejs3_regenerator__WEBPACK_IMPORTED_MODULE_20___default().mark(function _callee2(codeOrParams) {
         var params,
           _params,
           ret,
@@ -21807,27 +21917,31 @@ var OAuth2 = /*#__PURE__*/function () {
             switch (_context4.prev = _context4.next) {
               case 0:
                 params = _args2.length > 1 && _args2[1] !== undefined ? _args2[1] : {};
-                if (!(!this.clientId || !this.redirectUri)) {
+                if (!(typeof codeOrParams === 'string' && (!this.clientId || !this.redirectUri))) {
                   _context4.next = 3;
                   break;
                 }
                 throw new Error('No OAuth2 client id or redirect uri configuration is specified');
               case 3:
-                _params = _objectSpread(_objectSpread({}, params), {}, {
+                _params = _objectSpread(_objectSpread({}, params), typeof codeOrParams === 'string' ? {
                   grant_type: 'authorization_code',
-                  code: code,
-                  client_id: this.clientId,
-                  redirect_uri: this.redirectUri
-                });
+                  code: codeOrParams
+                } : codeOrParams);
+                if (this.clientId) {
+                  _params.client_id = this.clientId;
+                }
                 if (this.clientSecret) {
                   _params.client_secret = this.clientSecret;
                 }
-                _context4.next = 7;
+                if (this.redirectUri) {
+                  _params.redirect_uri = this.redirectUri;
+                }
+                _context4.next = 9;
                 return this._postParams(_params);
-              case 7:
+              case 9:
                 ret = _context4.sent;
                 return _context4.abrupt("return", ret);
-              case 9:
+              case 11:
               case "end":
                 return _context4.stop();
             }
@@ -28450,765 +28564,10 @@ module.exports = _wrapNativeSuper;
 
 /***/ }),
 
-/***/ 29830:
-/***/ ((module) => {
-
-/**
- * Copyright (c) 2014-present, Facebook, Inc.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- */
-
-var runtime = (function (exports) {
-  "use strict";
-
-  var Op = Object.prototype;
-  var hasOwn = Op.hasOwnProperty;
-  var undefined; // More compressible than void 0.
-  var $Symbol = typeof Symbol === "function" ? Symbol : {};
-  var iteratorSymbol = $Symbol.iterator || "@@iterator";
-  var asyncIteratorSymbol = $Symbol.asyncIterator || "@@asyncIterator";
-  var toStringTagSymbol = $Symbol.toStringTag || "@@toStringTag";
-
-  function define(obj, key, value) {
-    Object.defineProperty(obj, key, {
-      value: value,
-      enumerable: true,
-      configurable: true,
-      writable: true
-    });
-    return obj[key];
-  }
-  try {
-    // IE 8 has a broken Object.defineProperty that only works on DOM objects.
-    define({}, "");
-  } catch (err) {
-    define = function(obj, key, value) {
-      return obj[key] = value;
-    };
-  }
-
-  function wrap(innerFn, outerFn, self, tryLocsList) {
-    // If outerFn provided and outerFn.prototype is a Generator, then outerFn.prototype instanceof Generator.
-    var protoGenerator = outerFn && outerFn.prototype instanceof Generator ? outerFn : Generator;
-    var generator = Object.create(protoGenerator.prototype);
-    var context = new Context(tryLocsList || []);
-
-    // The ._invoke method unifies the implementations of the .next,
-    // .throw, and .return methods.
-    generator._invoke = makeInvokeMethod(innerFn, self, context);
-
-    return generator;
-  }
-  exports.wrap = wrap;
-
-  // Try/catch helper to minimize deoptimizations. Returns a completion
-  // record like context.tryEntries[i].completion. This interface could
-  // have been (and was previously) designed to take a closure to be
-  // invoked without arguments, but in all the cases we care about we
-  // already have an existing method we want to call, so there's no need
-  // to create a new function object. We can even get away with assuming
-  // the method takes exactly one argument, since that happens to be true
-  // in every case, so we don't have to touch the arguments object. The
-  // only additional allocation required is the completion record, which
-  // has a stable shape and so hopefully should be cheap to allocate.
-  function tryCatch(fn, obj, arg) {
-    try {
-      return { type: "normal", arg: fn.call(obj, arg) };
-    } catch (err) {
-      return { type: "throw", arg: err };
-    }
-  }
-
-  var GenStateSuspendedStart = "suspendedStart";
-  var GenStateSuspendedYield = "suspendedYield";
-  var GenStateExecuting = "executing";
-  var GenStateCompleted = "completed";
-
-  // Returning this object from the innerFn has the same effect as
-  // breaking out of the dispatch switch statement.
-  var ContinueSentinel = {};
-
-  // Dummy constructor functions that we use as the .constructor and
-  // .constructor.prototype properties for functions that return Generator
-  // objects. For full spec compliance, you may wish to configure your
-  // minifier not to mangle the names of these two functions.
-  function Generator() {}
-  function GeneratorFunction() {}
-  function GeneratorFunctionPrototype() {}
-
-  // This is a polyfill for %IteratorPrototype% for environments that
-  // don't natively support it.
-  var IteratorPrototype = {};
-  IteratorPrototype[iteratorSymbol] = function () {
-    return this;
-  };
-
-  var getProto = Object.getPrototypeOf;
-  var NativeIteratorPrototype = getProto && getProto(getProto(values([])));
-  if (NativeIteratorPrototype &&
-      NativeIteratorPrototype !== Op &&
-      hasOwn.call(NativeIteratorPrototype, iteratorSymbol)) {
-    // This environment has a native %IteratorPrototype%; use it instead
-    // of the polyfill.
-    IteratorPrototype = NativeIteratorPrototype;
-  }
-
-  var Gp = GeneratorFunctionPrototype.prototype =
-    Generator.prototype = Object.create(IteratorPrototype);
-  GeneratorFunction.prototype = Gp.constructor = GeneratorFunctionPrototype;
-  GeneratorFunctionPrototype.constructor = GeneratorFunction;
-  GeneratorFunction.displayName = define(
-    GeneratorFunctionPrototype,
-    toStringTagSymbol,
-    "GeneratorFunction"
-  );
-
-  // Helper for defining the .next, .throw, and .return methods of the
-  // Iterator interface in terms of a single ._invoke method.
-  function defineIteratorMethods(prototype) {
-    ["next", "throw", "return"].forEach(function(method) {
-      define(prototype, method, function(arg) {
-        return this._invoke(method, arg);
-      });
-    });
-  }
-
-  exports.isGeneratorFunction = function(genFun) {
-    var ctor = typeof genFun === "function" && genFun.constructor;
-    return ctor
-      ? ctor === GeneratorFunction ||
-        // For the native GeneratorFunction constructor, the best we can
-        // do is to check its .name property.
-        (ctor.displayName || ctor.name) === "GeneratorFunction"
-      : false;
-  };
-
-  exports.mark = function(genFun) {
-    if (Object.setPrototypeOf) {
-      Object.setPrototypeOf(genFun, GeneratorFunctionPrototype);
-    } else {
-      genFun.__proto__ = GeneratorFunctionPrototype;
-      define(genFun, toStringTagSymbol, "GeneratorFunction");
-    }
-    genFun.prototype = Object.create(Gp);
-    return genFun;
-  };
-
-  // Within the body of any async function, `await x` is transformed to
-  // `yield regeneratorRuntime.awrap(x)`, so that the runtime can test
-  // `hasOwn.call(value, "__await")` to determine if the yielded value is
-  // meant to be awaited.
-  exports.awrap = function(arg) {
-    return { __await: arg };
-  };
-
-  function AsyncIterator(generator, PromiseImpl) {
-    function invoke(method, arg, resolve, reject) {
-      var record = tryCatch(generator[method], generator, arg);
-      if (record.type === "throw") {
-        reject(record.arg);
-      } else {
-        var result = record.arg;
-        var value = result.value;
-        if (value &&
-            typeof value === "object" &&
-            hasOwn.call(value, "__await")) {
-          return PromiseImpl.resolve(value.__await).then(function(value) {
-            invoke("next", value, resolve, reject);
-          }, function(err) {
-            invoke("throw", err, resolve, reject);
-          });
-        }
-
-        return PromiseImpl.resolve(value).then(function(unwrapped) {
-          // When a yielded Promise is resolved, its final value becomes
-          // the .value of the Promise<{value,done}> result for the
-          // current iteration.
-          result.value = unwrapped;
-          resolve(result);
-        }, function(error) {
-          // If a rejected Promise was yielded, throw the rejection back
-          // into the async generator function so it can be handled there.
-          return invoke("throw", error, resolve, reject);
-        });
-      }
-    }
-
-    var previousPromise;
-
-    function enqueue(method, arg) {
-      function callInvokeWithMethodAndArg() {
-        return new PromiseImpl(function(resolve, reject) {
-          invoke(method, arg, resolve, reject);
-        });
-      }
-
-      return previousPromise =
-        // If enqueue has been called before, then we want to wait until
-        // all previous Promises have been resolved before calling invoke,
-        // so that results are always delivered in the correct order. If
-        // enqueue has not been called before, then it is important to
-        // call invoke immediately, without waiting on a callback to fire,
-        // so that the async generator function has the opportunity to do
-        // any necessary setup in a predictable way. This predictability
-        // is why the Promise constructor synchronously invokes its
-        // executor callback, and why async functions synchronously
-        // execute code before the first await. Since we implement simple
-        // async functions in terms of async generators, it is especially
-        // important to get this right, even though it requires care.
-        previousPromise ? previousPromise.then(
-          callInvokeWithMethodAndArg,
-          // Avoid propagating failures to Promises returned by later
-          // invocations of the iterator.
-          callInvokeWithMethodAndArg
-        ) : callInvokeWithMethodAndArg();
-    }
-
-    // Define the unified helper method that is used to implement .next,
-    // .throw, and .return (see defineIteratorMethods).
-    this._invoke = enqueue;
-  }
-
-  defineIteratorMethods(AsyncIterator.prototype);
-  AsyncIterator.prototype[asyncIteratorSymbol] = function () {
-    return this;
-  };
-  exports.AsyncIterator = AsyncIterator;
-
-  // Note that simple async functions are implemented on top of
-  // AsyncIterator objects; they just return a Promise for the value of
-  // the final result produced by the iterator.
-  exports.async = function(innerFn, outerFn, self, tryLocsList, PromiseImpl) {
-    if (PromiseImpl === void 0) PromiseImpl = Promise;
-
-    var iter = new AsyncIterator(
-      wrap(innerFn, outerFn, self, tryLocsList),
-      PromiseImpl
-    );
-
-    return exports.isGeneratorFunction(outerFn)
-      ? iter // If outerFn is a generator, return the full iterator.
-      : iter.next().then(function(result) {
-          return result.done ? result.value : iter.next();
-        });
-  };
-
-  function makeInvokeMethod(innerFn, self, context) {
-    var state = GenStateSuspendedStart;
-
-    return function invoke(method, arg) {
-      if (state === GenStateExecuting) {
-        throw new Error("Generator is already running");
-      }
-
-      if (state === GenStateCompleted) {
-        if (method === "throw") {
-          throw arg;
-        }
-
-        // Be forgiving, per 25.3.3.3.3 of the spec:
-        // https://people.mozilla.org/~jorendorff/es6-draft.html#sec-generatorresume
-        return doneResult();
-      }
-
-      context.method = method;
-      context.arg = arg;
-
-      while (true) {
-        var delegate = context.delegate;
-        if (delegate) {
-          var delegateResult = maybeInvokeDelegate(delegate, context);
-          if (delegateResult) {
-            if (delegateResult === ContinueSentinel) continue;
-            return delegateResult;
-          }
-        }
-
-        if (context.method === "next") {
-          // Setting context._sent for legacy support of Babel's
-          // function.sent implementation.
-          context.sent = context._sent = context.arg;
-
-        } else if (context.method === "throw") {
-          if (state === GenStateSuspendedStart) {
-            state = GenStateCompleted;
-            throw context.arg;
-          }
-
-          context.dispatchException(context.arg);
-
-        } else if (context.method === "return") {
-          context.abrupt("return", context.arg);
-        }
-
-        state = GenStateExecuting;
-
-        var record = tryCatch(innerFn, self, context);
-        if (record.type === "normal") {
-          // If an exception is thrown from innerFn, we leave state ===
-          // GenStateExecuting and loop back for another invocation.
-          state = context.done
-            ? GenStateCompleted
-            : GenStateSuspendedYield;
-
-          if (record.arg === ContinueSentinel) {
-            continue;
-          }
-
-          return {
-            value: record.arg,
-            done: context.done
-          };
-
-        } else if (record.type === "throw") {
-          state = GenStateCompleted;
-          // Dispatch the exception by looping back around to the
-          // context.dispatchException(context.arg) call above.
-          context.method = "throw";
-          context.arg = record.arg;
-        }
-      }
-    };
-  }
-
-  // Call delegate.iterator[context.method](context.arg) and handle the
-  // result, either by returning a { value, done } result from the
-  // delegate iterator, or by modifying context.method and context.arg,
-  // setting context.delegate to null, and returning the ContinueSentinel.
-  function maybeInvokeDelegate(delegate, context) {
-    var method = delegate.iterator[context.method];
-    if (method === undefined) {
-      // A .throw or .return when the delegate iterator has no .throw
-      // method always terminates the yield* loop.
-      context.delegate = null;
-
-      if (context.method === "throw") {
-        // Note: ["return"] must be used for ES3 parsing compatibility.
-        if (delegate.iterator["return"]) {
-          // If the delegate iterator has a return method, give it a
-          // chance to clean up.
-          context.method = "return";
-          context.arg = undefined;
-          maybeInvokeDelegate(delegate, context);
-
-          if (context.method === "throw") {
-            // If maybeInvokeDelegate(context) changed context.method from
-            // "return" to "throw", let that override the TypeError below.
-            return ContinueSentinel;
-          }
-        }
-
-        context.method = "throw";
-        context.arg = new TypeError(
-          "The iterator does not provide a 'throw' method");
-      }
-
-      return ContinueSentinel;
-    }
-
-    var record = tryCatch(method, delegate.iterator, context.arg);
-
-    if (record.type === "throw") {
-      context.method = "throw";
-      context.arg = record.arg;
-      context.delegate = null;
-      return ContinueSentinel;
-    }
-
-    var info = record.arg;
-
-    if (! info) {
-      context.method = "throw";
-      context.arg = new TypeError("iterator result is not an object");
-      context.delegate = null;
-      return ContinueSentinel;
-    }
-
-    if (info.done) {
-      // Assign the result of the finished delegate to the temporary
-      // variable specified by delegate.resultName (see delegateYield).
-      context[delegate.resultName] = info.value;
-
-      // Resume execution at the desired location (see delegateYield).
-      context.next = delegate.nextLoc;
-
-      // If context.method was "throw" but the delegate handled the
-      // exception, let the outer generator proceed normally. If
-      // context.method was "next", forget context.arg since it has been
-      // "consumed" by the delegate iterator. If context.method was
-      // "return", allow the original .return call to continue in the
-      // outer generator.
-      if (context.method !== "return") {
-        context.method = "next";
-        context.arg = undefined;
-      }
-
-    } else {
-      // Re-yield the result returned by the delegate method.
-      return info;
-    }
-
-    // The delegate iterator is finished, so forget it and continue with
-    // the outer generator.
-    context.delegate = null;
-    return ContinueSentinel;
-  }
-
-  // Define Generator.prototype.{next,throw,return} in terms of the
-  // unified ._invoke helper method.
-  defineIteratorMethods(Gp);
-
-  define(Gp, toStringTagSymbol, "Generator");
-
-  // A Generator should always return itself as the iterator object when the
-  // @@iterator function is called on it. Some browsers' implementations of the
-  // iterator prototype chain incorrectly implement this, causing the Generator
-  // object to not be returned from this call. This ensures that doesn't happen.
-  // See https://github.com/facebook/regenerator/issues/274 for more details.
-  Gp[iteratorSymbol] = function() {
-    return this;
-  };
-
-  Gp.toString = function() {
-    return "[object Generator]";
-  };
-
-  function pushTryEntry(locs) {
-    var entry = { tryLoc: locs[0] };
-
-    if (1 in locs) {
-      entry.catchLoc = locs[1];
-    }
-
-    if (2 in locs) {
-      entry.finallyLoc = locs[2];
-      entry.afterLoc = locs[3];
-    }
-
-    this.tryEntries.push(entry);
-  }
-
-  function resetTryEntry(entry) {
-    var record = entry.completion || {};
-    record.type = "normal";
-    delete record.arg;
-    entry.completion = record;
-  }
-
-  function Context(tryLocsList) {
-    // The root entry object (effectively a try statement without a catch
-    // or a finally block) gives us a place to store values thrown from
-    // locations where there is no enclosing try statement.
-    this.tryEntries = [{ tryLoc: "root" }];
-    tryLocsList.forEach(pushTryEntry, this);
-    this.reset(true);
-  }
-
-  exports.keys = function(object) {
-    var keys = [];
-    for (var key in object) {
-      keys.push(key);
-    }
-    keys.reverse();
-
-    // Rather than returning an object with a next method, we keep
-    // things simple and return the next function itself.
-    return function next() {
-      while (keys.length) {
-        var key = keys.pop();
-        if (key in object) {
-          next.value = key;
-          next.done = false;
-          return next;
-        }
-      }
-
-      // To avoid creating an additional object, we just hang the .value
-      // and .done properties off the next function object itself. This
-      // also ensures that the minifier will not anonymize the function.
-      next.done = true;
-      return next;
-    };
-  };
-
-  function values(iterable) {
-    if (iterable) {
-      var iteratorMethod = iterable[iteratorSymbol];
-      if (iteratorMethod) {
-        return iteratorMethod.call(iterable);
-      }
-
-      if (typeof iterable.next === "function") {
-        return iterable;
-      }
-
-      if (!isNaN(iterable.length)) {
-        var i = -1, next = function next() {
-          while (++i < iterable.length) {
-            if (hasOwn.call(iterable, i)) {
-              next.value = iterable[i];
-              next.done = false;
-              return next;
-            }
-          }
-
-          next.value = undefined;
-          next.done = true;
-
-          return next;
-        };
-
-        return next.next = next;
-      }
-    }
-
-    // Return an iterator with no values.
-    return { next: doneResult };
-  }
-  exports.values = values;
-
-  function doneResult() {
-    return { value: undefined, done: true };
-  }
-
-  Context.prototype = {
-    constructor: Context,
-
-    reset: function(skipTempReset) {
-      this.prev = 0;
-      this.next = 0;
-      // Resetting context._sent for legacy support of Babel's
-      // function.sent implementation.
-      this.sent = this._sent = undefined;
-      this.done = false;
-      this.delegate = null;
-
-      this.method = "next";
-      this.arg = undefined;
-
-      this.tryEntries.forEach(resetTryEntry);
-
-      if (!skipTempReset) {
-        for (var name in this) {
-          // Not sure about the optimal order of these conditions:
-          if (name.charAt(0) === "t" &&
-              hasOwn.call(this, name) &&
-              !isNaN(+name.slice(1))) {
-            this[name] = undefined;
-          }
-        }
-      }
-    },
-
-    stop: function() {
-      this.done = true;
-
-      var rootEntry = this.tryEntries[0];
-      var rootRecord = rootEntry.completion;
-      if (rootRecord.type === "throw") {
-        throw rootRecord.arg;
-      }
-
-      return this.rval;
-    },
-
-    dispatchException: function(exception) {
-      if (this.done) {
-        throw exception;
-      }
-
-      var context = this;
-      function handle(loc, caught) {
-        record.type = "throw";
-        record.arg = exception;
-        context.next = loc;
-
-        if (caught) {
-          // If the dispatched exception was caught by a catch block,
-          // then let that catch block handle the exception normally.
-          context.method = "next";
-          context.arg = undefined;
-        }
-
-        return !! caught;
-      }
-
-      for (var i = this.tryEntries.length - 1; i >= 0; --i) {
-        var entry = this.tryEntries[i];
-        var record = entry.completion;
-
-        if (entry.tryLoc === "root") {
-          // Exception thrown outside of any try block that could handle
-          // it, so set the completion value of the entire function to
-          // throw the exception.
-          return handle("end");
-        }
-
-        if (entry.tryLoc <= this.prev) {
-          var hasCatch = hasOwn.call(entry, "catchLoc");
-          var hasFinally = hasOwn.call(entry, "finallyLoc");
-
-          if (hasCatch && hasFinally) {
-            if (this.prev < entry.catchLoc) {
-              return handle(entry.catchLoc, true);
-            } else if (this.prev < entry.finallyLoc) {
-              return handle(entry.finallyLoc);
-            }
-
-          } else if (hasCatch) {
-            if (this.prev < entry.catchLoc) {
-              return handle(entry.catchLoc, true);
-            }
-
-          } else if (hasFinally) {
-            if (this.prev < entry.finallyLoc) {
-              return handle(entry.finallyLoc);
-            }
-
-          } else {
-            throw new Error("try statement without catch or finally");
-          }
-        }
-      }
-    },
-
-    abrupt: function(type, arg) {
-      for (var i = this.tryEntries.length - 1; i >= 0; --i) {
-        var entry = this.tryEntries[i];
-        if (entry.tryLoc <= this.prev &&
-            hasOwn.call(entry, "finallyLoc") &&
-            this.prev < entry.finallyLoc) {
-          var finallyEntry = entry;
-          break;
-        }
-      }
-
-      if (finallyEntry &&
-          (type === "break" ||
-           type === "continue") &&
-          finallyEntry.tryLoc <= arg &&
-          arg <= finallyEntry.finallyLoc) {
-        // Ignore the finally entry if control is not jumping to a
-        // location outside the try/catch block.
-        finallyEntry = null;
-      }
-
-      var record = finallyEntry ? finallyEntry.completion : {};
-      record.type = type;
-      record.arg = arg;
-
-      if (finallyEntry) {
-        this.method = "next";
-        this.next = finallyEntry.finallyLoc;
-        return ContinueSentinel;
-      }
-
-      return this.complete(record);
-    },
-
-    complete: function(record, afterLoc) {
-      if (record.type === "throw") {
-        throw record.arg;
-      }
-
-      if (record.type === "break" ||
-          record.type === "continue") {
-        this.next = record.arg;
-      } else if (record.type === "return") {
-        this.rval = this.arg = record.arg;
-        this.method = "return";
-        this.next = "end";
-      } else if (record.type === "normal" && afterLoc) {
-        this.next = afterLoc;
-      }
-
-      return ContinueSentinel;
-    },
-
-    finish: function(finallyLoc) {
-      for (var i = this.tryEntries.length - 1; i >= 0; --i) {
-        var entry = this.tryEntries[i];
-        if (entry.finallyLoc === finallyLoc) {
-          this.complete(entry.completion, entry.afterLoc);
-          resetTryEntry(entry);
-          return ContinueSentinel;
-        }
-      }
-    },
-
-    "catch": function(tryLoc) {
-      for (var i = this.tryEntries.length - 1; i >= 0; --i) {
-        var entry = this.tryEntries[i];
-        if (entry.tryLoc === tryLoc) {
-          var record = entry.completion;
-          if (record.type === "throw") {
-            var thrown = record.arg;
-            resetTryEntry(entry);
-          }
-          return thrown;
-        }
-      }
-
-      // The context.catch method must only be called with a location
-      // argument that corresponds to a known catch block.
-      throw new Error("illegal catch attempt");
-    },
-
-    delegateYield: function(iterable, resultName, nextLoc) {
-      this.delegate = {
-        iterator: values(iterable),
-        resultName: resultName,
-        nextLoc: nextLoc
-      };
-
-      if (this.method === "next") {
-        // Deliberately forget the last sent value so that we don't
-        // accidentally pass it on to the delegate.
-        this.arg = undefined;
-      }
-
-      return ContinueSentinel;
-    }
-  };
-
-  // Regardless of whether this script is executing as a CommonJS module
-  // or not, return the runtime object so that we can declare the variable
-  // regeneratorRuntime in the outer scope, which allows this module to be
-  // injected easily by `bin/regenerator --include-runtime script.js`.
-  return exports;
-
-}(
-  // If this script is executing as a CommonJS module, use module.exports
-  // as the regeneratorRuntime namespace. Otherwise create a new empty
-  // object. Either way, the resulting object will be used to initialize
-  // the regeneratorRuntime variable at the top of this file.
-   true ? module.exports : 0
-));
-
-try {
-  regeneratorRuntime = runtime;
-} catch (accidentalStrictMode) {
-  // This module should not be running in strict mode, so the above
-  // assignment should always work unless something is misconfigured. Just
-  // in case runtime.js accidentally runs in strict mode, we can escape
-  // strict mode using a global Function call. This could conceivably fail
-  // if a Content Security Policy forbids using Function, but in that case
-  // the proper solution is to fix the accidental strict mode problem. If
-  // you've misconfigured your bundler to force strict mode and applied a
-  // CSP to forbid Function, and you're not willing to fix either of those
-  // problems, please detail your unique predicament in a GitHub issue.
-  Function("r", "regeneratorRuntime = r")(runtime);
-}
-
-
-/***/ }),
-
 /***/ 93501:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__(29830);
+module.exports = __webpack_require__(32390);
 
 
 /***/ }),
@@ -90000,11 +89359,30 @@ var runtime = (function (exports) {
 
   var Op = Object.prototype;
   var hasOwn = Op.hasOwnProperty;
+  var defineProperty = Object.defineProperty || function (obj, key, desc) { obj[key] = desc.value; };
   var undefined; // More compressible than void 0.
   var $Symbol = typeof Symbol === "function" ? Symbol : {};
   var iteratorSymbol = $Symbol.iterator || "@@iterator";
   var asyncIteratorSymbol = $Symbol.asyncIterator || "@@asyncIterator";
   var toStringTagSymbol = $Symbol.toStringTag || "@@toStringTag";
+
+  function define(obj, key, value) {
+    Object.defineProperty(obj, key, {
+      value: value,
+      enumerable: true,
+      configurable: true,
+      writable: true
+    });
+    return obj[key];
+  }
+  try {
+    // IE 8 has a broken Object.defineProperty that only works on DOM objects.
+    define({}, "");
+  } catch (err) {
+    define = function(obj, key, value) {
+      return obj[key] = value;
+    };
+  }
 
   function wrap(innerFn, outerFn, self, tryLocsList) {
     // If outerFn provided and outerFn.prototype is a Generator, then outerFn.prototype instanceof Generator.
@@ -90014,7 +89392,7 @@ var runtime = (function (exports) {
 
     // The ._invoke method unifies the implementations of the .next,
     // .throw, and .return methods.
-    generator._invoke = makeInvokeMethod(innerFn, self, context);
+    defineProperty(generator, "_invoke", { value: makeInvokeMethod(innerFn, self, context) });
 
     return generator;
   }
@@ -90058,9 +89436,9 @@ var runtime = (function (exports) {
   // This is a polyfill for %IteratorPrototype% for environments that
   // don't natively support it.
   var IteratorPrototype = {};
-  IteratorPrototype[iteratorSymbol] = function () {
+  define(IteratorPrototype, iteratorSymbol, function () {
     return this;
-  };
+  });
 
   var getProto = Object.getPrototypeOf;
   var NativeIteratorPrototype = getProto && getProto(getProto(values([])));
@@ -90074,18 +89452,26 @@ var runtime = (function (exports) {
 
   var Gp = GeneratorFunctionPrototype.prototype =
     Generator.prototype = Object.create(IteratorPrototype);
-  GeneratorFunction.prototype = Gp.constructor = GeneratorFunctionPrototype;
-  GeneratorFunctionPrototype.constructor = GeneratorFunction;
-  GeneratorFunctionPrototype[toStringTagSymbol] =
-    GeneratorFunction.displayName = "GeneratorFunction";
+  GeneratorFunction.prototype = GeneratorFunctionPrototype;
+  defineProperty(Gp, "constructor", { value: GeneratorFunctionPrototype, configurable: true });
+  defineProperty(
+    GeneratorFunctionPrototype,
+    "constructor",
+    { value: GeneratorFunction, configurable: true }
+  );
+  GeneratorFunction.displayName = define(
+    GeneratorFunctionPrototype,
+    toStringTagSymbol,
+    "GeneratorFunction"
+  );
 
   // Helper for defining the .next, .throw, and .return methods of the
   // Iterator interface in terms of a single ._invoke method.
   function defineIteratorMethods(prototype) {
     ["next", "throw", "return"].forEach(function(method) {
-      prototype[method] = function(arg) {
+      define(prototype, method, function(arg) {
         return this._invoke(method, arg);
-      };
+      });
     });
   }
 
@@ -90104,9 +89490,7 @@ var runtime = (function (exports) {
       Object.setPrototypeOf(genFun, GeneratorFunctionPrototype);
     } else {
       genFun.__proto__ = GeneratorFunctionPrototype;
-      if (!(toStringTagSymbol in genFun)) {
-        genFun[toStringTagSymbol] = "GeneratorFunction";
-      }
+      define(genFun, toStringTagSymbol, "GeneratorFunction");
     }
     genFun.prototype = Object.create(Gp);
     return genFun;
@@ -90120,7 +89504,7 @@ var runtime = (function (exports) {
     return { __await: arg };
   };
 
-  function AsyncIterator(generator) {
+  function AsyncIterator(generator, PromiseImpl) {
     function invoke(method, arg, resolve, reject) {
       var record = tryCatch(generator[method], generator, arg);
       if (record.type === "throw") {
@@ -90131,14 +89515,14 @@ var runtime = (function (exports) {
         if (value &&
             typeof value === "object" &&
             hasOwn.call(value, "__await")) {
-          return Promise.resolve(value.__await).then(function(value) {
+          return PromiseImpl.resolve(value.__await).then(function(value) {
             invoke("next", value, resolve, reject);
           }, function(err) {
             invoke("throw", err, resolve, reject);
           });
         }
 
-        return Promise.resolve(value).then(function(unwrapped) {
+        return PromiseImpl.resolve(value).then(function(unwrapped) {
           // When a yielded Promise is resolved, its final value becomes
           // the .value of the Promise<{value,done}> result for the
           // current iteration.
@@ -90156,7 +89540,7 @@ var runtime = (function (exports) {
 
     function enqueue(method, arg) {
       function callInvokeWithMethodAndArg() {
-        return new Promise(function(resolve, reject) {
+        return new PromiseImpl(function(resolve, reject) {
           invoke(method, arg, resolve, reject);
         });
       }
@@ -90184,21 +89568,24 @@ var runtime = (function (exports) {
 
     // Define the unified helper method that is used to implement .next,
     // .throw, and .return (see defineIteratorMethods).
-    this._invoke = enqueue;
+    defineProperty(this, "_invoke", { value: enqueue });
   }
 
   defineIteratorMethods(AsyncIterator.prototype);
-  AsyncIterator.prototype[asyncIteratorSymbol] = function () {
+  define(AsyncIterator.prototype, asyncIteratorSymbol, function () {
     return this;
-  };
+  });
   exports.AsyncIterator = AsyncIterator;
 
   // Note that simple async functions are implemented on top of
   // AsyncIterator objects; they just return a Promise for the value of
   // the final result produced by the iterator.
-  exports.async = function(innerFn, outerFn, self, tryLocsList) {
+  exports.async = function(innerFn, outerFn, self, tryLocsList, PromiseImpl) {
+    if (PromiseImpl === void 0) PromiseImpl = Promise;
+
     var iter = new AsyncIterator(
-      wrap(innerFn, outerFn, self, tryLocsList)
+      wrap(innerFn, outerFn, self, tryLocsList),
+      PromiseImpl
     );
 
     return exports.isGeneratorFunction(outerFn)
@@ -90291,31 +89678,32 @@ var runtime = (function (exports) {
   // delegate iterator, or by modifying context.method and context.arg,
   // setting context.delegate to null, and returning the ContinueSentinel.
   function maybeInvokeDelegate(delegate, context) {
-    var method = delegate.iterator[context.method];
+    var methodName = context.method;
+    var method = delegate.iterator[methodName];
     if (method === undefined) {
       // A .throw or .return when the delegate iterator has no .throw
-      // method always terminates the yield* loop.
+      // method, or a missing .next mehtod, always terminate the
+      // yield* loop.
       context.delegate = null;
 
-      if (context.method === "throw") {
-        // Note: ["return"] must be used for ES3 parsing compatibility.
-        if (delegate.iterator["return"]) {
-          // If the delegate iterator has a return method, give it a
-          // chance to clean up.
-          context.method = "return";
-          context.arg = undefined;
-          maybeInvokeDelegate(delegate, context);
+      // Note: ["return"] must be used for ES3 parsing compatibility.
+      if (methodName === "throw" && delegate.iterator["return"]) {
+        // If the delegate iterator has a return method, give it a
+        // chance to clean up.
+        context.method = "return";
+        context.arg = undefined;
+        maybeInvokeDelegate(delegate, context);
 
-          if (context.method === "throw") {
-            // If maybeInvokeDelegate(context) changed context.method from
-            // "return" to "throw", let that override the TypeError below.
-            return ContinueSentinel;
-          }
+        if (context.method === "throw") {
+          // If maybeInvokeDelegate(context) changed context.method from
+          // "return" to "throw", let that override the TypeError below.
+          return ContinueSentinel;
         }
-
+      }
+      if (methodName !== "return") {
         context.method = "throw";
         context.arg = new TypeError(
-          "The iterator does not provide a 'throw' method");
+          "The iterator does not provide a '" + methodName + "' method");
       }
 
       return ContinueSentinel;
@@ -90373,20 +89761,20 @@ var runtime = (function (exports) {
   // unified ._invoke helper method.
   defineIteratorMethods(Gp);
 
-  Gp[toStringTagSymbol] = "Generator";
+  define(Gp, toStringTagSymbol, "Generator");
 
   // A Generator should always return itself as the iterator object when the
   // @@iterator function is called on it. Some browsers' implementations of the
   // iterator prototype chain incorrectly implement this, causing the Generator
   // object to not be returned from this call. This ensures that doesn't happen.
   // See https://github.com/facebook/regenerator/issues/274 for more details.
-  Gp[iteratorSymbol] = function() {
+  define(Gp, iteratorSymbol, function() {
     return this;
-  };
+  });
 
-  Gp.toString = function() {
+  define(Gp, "toString", function() {
     return "[object Generator]";
-  };
+  });
 
   function pushTryEntry(locs) {
     var entry = { tryLoc: locs[0] };
@@ -90419,7 +89807,8 @@ var runtime = (function (exports) {
     this.reset(true);
   }
 
-  exports.keys = function(object) {
+  exports.keys = function(val) {
+    var object = Object(val);
     var keys = [];
     for (var key in object) {
       keys.push(key);
@@ -90705,14 +90094,19 @@ try {
 } catch (accidentalStrictMode) {
   // This module should not be running in strict mode, so the above
   // assignment should always work unless something is misconfigured. Just
-  // in case runtime.js accidentally runs in strict mode, we can escape
+  // in case runtime.js accidentally runs in strict mode, in modern engines
+  // we can explicitly access globalThis. In older engines we can escape
   // strict mode using a global Function call. This could conceivably fail
   // if a Content Security Policy forbids using Function, but in that case
   // the proper solution is to fix the accidental strict mode problem. If
   // you've misconfigured your bundler to force strict mode and applied a
   // CSP to forbid Function, and you're not willing to fix either of those
   // problems, please detail your unique predicament in a GitHub issue.
-  Function("r", "regeneratorRuntime = r")(runtime);
+  if (typeof globalThis === "object") {
+    globalThis.regeneratorRuntime = runtime;
+  } else {
+    Function("r", "regeneratorRuntime = r")(runtime);
+  }
 }
 
 

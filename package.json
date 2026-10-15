@@ -1,7 +1,11 @@
 {
   "author": "Shinichi Tomita <shinichi.tomita@gmail.com>",
-  "name": "jsforce",
+  "name": "@jucamola/jsforce",
   "description": "Salesforce API Library for JavaScript",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
   "keywords": [
     "salesforce",
     "salesforce.com",
@@ -13,7 +17,7 @@
   "version": "3.11.1",
   "repository": {
     "type": "git",
-    "url": "git://github.com/jsforce/jsforce.git"
+    "url": "git+https://github.com/Jucamola/jsforce.git"
   },
   "license": "MIT",
   "licenses": [

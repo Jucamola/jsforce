@@ -25,7 +25,7 @@ function filterBrowserFiles(filePath: string): boolean {
 
   const pjson = await readJson<PJSON>('package.json');
 
-  pjson.name = '@jsforce/jsforce-node';
+  pjson.name = '@jucamola/jsforce-node';
 
   // dev mode - just change the pkg name
   //

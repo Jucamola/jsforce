@@ -6,6 +6,7 @@ on:
   push:
     branches:
       - main
+      - custom-main
     tags-ignore:
       - '*'
   workflow_dispatch:
@@ -37,6 +38,9 @@ jobs:
           output-file: 'CHANGELOG.md'
           pre-commit: ./scripts/bump-version-file.js
           tag-prefix: ''
+          # On custom-main, generate prerelease versions (e.g. 3.13.0-custom.1)
+          pre-release: ${{ github.ref_name == 'custom-main' }}
+          pre-release-identifier: 'custom'
           # On a push, skip the release if there are no semantic commits.
           # On a manual run (workflow_dispatch), force the release even with no semantic commits.
           skip-on-empty: ${{ github.event_name == 'push' }}
@@ -54,3 +58,5 @@ jobs:
           tag_name: ${{ steps.packageVersion.outputs.prop }}
           body: ${{ steps.changelog.outputs.clean_changelog }}
           release_name: ${{ steps.packageVersion.outputs.prop }}
+          prerelease: ${{ github.ref_name == 'custom-main' }}
+

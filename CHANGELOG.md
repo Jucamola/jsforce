@@ -1,13 +1,13 @@
-# [3.12.0](https://github.com/jsforce/jsforce/compare/3.11.1...3.12.0) (2026-10-16)
+# [3.13.0](https://github.com/Jucamola/jsforce/compare/3.12.0...3.13.0) (2026-10-16)
 
 
 ### Features
 
-* support configurable trace propagators @W-24547770@ ([#1851](https://github.com/jsforce/jsforce/issues/1851)) ([69686d7](https://github.com/jsforce/jsforce/commit/69686d7f132c6903e2d66098faaad882e34d546a))
+* support configurable trace propagators @W-24547770@ ([#1851](https://github.com/Jucamola/jsforce/issues/1851)) ([af77786](https://github.com/Jucamola/jsforce/commit/af77786394dc93133e524fc467dcb422772e737c))
 
 
 
-## [3.11.1](https://github.com/jsforce/jsforce/compare/3.11.0...3.11.1) (2026-10-15)
+# [3.12.0](https://github.com/Jucamola/jsforce/compare/4523b716b2727d590a34a33a451b4c478f2cfa7b...3.12.0) (2026-10-15)
 
 
 ### Bug Fixes
@@ -112,25 +112,37 @@
 
 ### Features
 
-* add opt-in W3C trace context forwarding ([#1836](https://github.com/jsforce/jsforce/issues/1836)) ([04571dc](https://github.com/jsforce/jsforce/commit/04571dc88bdc6b4bbf97ae39ceea0b5a2878cc43))
+* add checkDeployStatus for REST W-18012955 ([#1670](https://github.com/Jucamola/jsforce/issues/1670)) ([b36e429](https://github.com/Jucamola/jsforce/commit/b36e429d894d6deec4766523aa4809b702bac7c8))
+* add node-only release ([#1375](https://github.com/Jucamola/jsforce/issues/1375)) ([c0e947c](https://github.com/Jucamola/jsforce/commit/c0e947c20c228a55a51f1afe296b94b336b15cd6))
+* add opt-in W3C trace context forwarding ([#1836](https://github.com/Jucamola/jsforce/issues/1836)) ([04571dc](https://github.com/Jucamola/jsforce/commit/04571dc88bdc6b4bbf97ae39ceea0b5a2878cc43))
+* add SOAP undelete ([#1533](https://github.com/Jucamola/jsforce/issues/1533)) ([ce075ee](https://github.com/Jucamola/jsforce/commit/ce075ee96289304b0016a5518a5ed9ecc9f89b4e))
+* add support for multipart/form-data requests ([58b8cb3](https://github.com/Jucamola/jsforce/commit/58b8cb3af6f2cfe3b939337e0b8faa9b8c96f46b))
+* allow skipping template eval on query update ([b26270c](https://github.com/Jucamola/jsforce/commit/b26270c491ee227d91a643ec4bd723cb4855d666))
+* bulk2 refactor ([#1397](https://github.com/Jucamola/jsforce/issues/1397)) ([b8ae5d5](https://github.com/Jucamola/jsforce/commit/b8ae5d5212233d8e7a1adc158a1a1b603213ee29))
+* **bulk2:** allow to get raw job results ([#1603](https://github.com/Jucamola/jsforce/issues/1603)) ([2cc5761](https://github.com/Jucamola/jsforce/commit/2cc5761b0a0556c8a4e47c645c5c9fd906297034))
+* **cli:** allow schema generator to filter objects. ([#1386](https://github.com/Jucamola/jsforce/issues/1386)) ([b997db2](https://github.com/Jucamola/jsforce/commit/b997db2da879e61f13ac41e904af37d67e6fa20a))
+* **conn:** multiple upserts use sobject collection  ([#1692](https://github.com/Jucamola/jsforce/issues/1692)) ([#1713](https://github.com/Jucamola/jsforce/issues/1713)) ([8c51295](https://github.com/Jucamola/jsforce/commit/8c512956e9eeb64125f09521e1e56e5dbc60a119))
+* **http-proxy:** support lowercase env vars ([97acbac](https://github.com/Jucamola/jsforce/commit/97acbacacdfc2dc1ea7f9cf3be291caa5fefbc44))
+* mdapi schema for SourceTrackingSettings ([2b9b2c1](https://github.com/Jucamola/jsforce/commit/2b9b2c17fb494088756f192625fdfeb5594114ec))
+* metadata rest deploy ([1ab2f62](https://github.com/Jucamola/jsforce/commit/1ab2f62eaacc73e6e6102398271e71202ab4a829))
+* **metadata:** add `cancelDeploy` method ([#1551](https://github.com/Jucamola/jsforce/issues/1551)) ([ecdcbaa](https://github.com/Jucamola/jsforce/commit/ecdcbaa23ee205c3c97f25b0be957932350b3935))
+* migrate JWT auth class to jsforce ([24c6140](https://github.com/Jucamola/jsforce/commit/24c61409a7574ed89cfcd1bdfc7ad3c0f49ad212))
+* remove deprecated jwt class ([#1406](https://github.com/Jucamola/jsforce/issues/1406)) ([a4fd725](https://github.com/Jucamola/jsforce/commit/a4fd7259e52af2f9ec35968f8793349a042eed6b))
+* retry on network errors ([4fe209f](https://github.com/Jucamola/jsforce/commit/4fe209f144c1f7d5f971206a0b8f31ec02c0e7ae))
+* retry on statusCodes ([4010b8c](https://github.com/Jucamola/jsforce/commit/4010b8ceb1d651fe482d44d291da148ec70a6917))
+* scanAll option for bulk2 ([#1347](https://github.com/Jucamola/jsforce/issues/1347)) ([a98792f](https://github.com/Jucamola/jsforce/commit/a98792f6e11e22ff1556dfdedfa21335d77ca7f0))
+* set content-length header ([822eb73](https://github.com/Jucamola/jsforce/commit/822eb73f6df68c3c6e4181ad043d2e4ec55e5452))
+* support arbitrary response decoding ([#1326](https://github.com/Jucamola/jsforce/issues/1326)) ([994ec80](https://github.com/Jucamola/jsforce/commit/994ec807a755b9bdc041d34e0f2967a4019a297e))
+* use native abortController ([#1587](https://github.com/Jucamola/jsforce/issues/1587)) ([f584563](https://github.com/Jucamola/jsforce/commit/f584563b526a24260d62dc27f2acd61230f52939))
 
 
+### Reverts
 
-## [3.10.29](https://github.com/jsforce/jsforce/compare/3.10.28...3.10.29) (2026-10-08)
-
-
-### Bug Fixes
-
-* instance url in jwt auth ([#1847](https://github.com/jsforce/jsforce/issues/1847)) ([0c5d0bb](https://github.com/jsforce/jsforce/commit/0c5d0bb9e43f05242809d41027d4bc3dc7b4b854))
-
-
-
-## [3.10.28](https://github.com/jsforce/jsforce/compare/3.10.27...3.10.28) (2026-10-02)
-
-
-### Bug Fixes
-
-* use cross-spawn in SFDX registry to prevent OS command injection @W-24329517@ ([#1838](https://github.com/jsforce/jsforce/issues/1838)) ([edd6af6](https://github.com/jsforce/jsforce/commit/edd6af6aef6073eaf2b26bc6548687c76b1598a6))
+* Revert "Use URL API for OAuth2 endpoint construction @W-23807280@ (#1819)" (#1821) ([10c8e30](https://github.com/Jucamola/jsforce/commit/10c8e30cf618fe2d9207d39d9c30fc5e7e69f715)), closes [#1819](https://github.com/Jucamola/jsforce/issues/1819) [#1821](https://github.com/Jucamola/jsforce/issues/1821)
+* Revert "remove unused ref" ([f4d8c26](https://github.com/Jucamola/jsforce/commit/f4d8c2678592370d5624781ff6f9cae4ab321867))
+* Revert "remove jwtOAuth2 as oauth2 now supports arbitrary grant types including JWT bearer" ([2efa0bc](https://github.com/Jucamola/jsforce/commit/2efa0bcc58a03f816b5e80bfa3acae4fa5b6bed8))
+* Revert "temporary revert test script to old interface" ([fdc8c5a](https://github.com/Jucamola/jsforce/commit/fdc8c5aa6e8e060c287c2be7aa98c07450501ae6))
+* Revert "use single worker" ([f0201c0](https://github.com/Jucamola/jsforce/commit/f0201c0234600166d163d6cd2087b23a9af4ae44))
 
 
 

@@ -38,9 +38,11 @@ jobs:
           output-file: 'CHANGELOG.md'
           pre-commit: ./scripts/bump-version-file.js
           tag-prefix: ''
-          # On custom-main, generate prerelease versions (e.g. 3.13.0-custom.1)
+          # On custom-main, generate prerelease versions (e.g. 3.12.0-custom.0)
           pre-release: ${{ github.ref_name == 'custom-main' }}
           pre-release-identifier: 'custom'
+          pre-release-smart-bump: true
+          pre-changelog-generation: ./scripts/release-version-hook.js
           # On a push, skip the release if there are no semantic commits.
           # On a manual run (workflow_dispatch), force the release even with no semantic commits.
           skip-on-empty: ${{ github.event_name == 'push' }}

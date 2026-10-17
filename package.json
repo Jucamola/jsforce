@@ -14,7 +14,7 @@
     "database.com"
   ],
   "homepage": "http://github.com/jsforce/jsforce",
-  "version": "3.12.0",
+  "version": "3.12.1-custom.0",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Jucamola/jsforce.git"

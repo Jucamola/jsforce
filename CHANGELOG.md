@@ -1,45 +1,140 @@
-# [3.12.0](https://github.com/jsforce/jsforce/compare/3.11.1...3.12.0) (2026-10-16)
+## 3.12.1-custom.0 (2026-10-17)
+
+
+### Bug Fixes
+
+* `Connection.queryMore` takes generic type([#1568](https://github.com/Jucamola/jsforce/issues/1568)) ([60a6364](https://github.com/Jucamola/jsforce/commit/60a63648f59366535c71c119909ae90bae853b77))
+* `jsforce.VERSION` matches current version ([#1507](https://github.com/Jucamola/jsforce/issues/1507)) ([2621d0b](https://github.com/Jucamola/jsforce/commit/2621d0b863487056ce25f949ad8d007125ed04b7))
+* add missing data to errors ([8dc3ac9](https://github.com/Jucamola/jsforce/commit/8dc3ac955921f3d96496abd6385abdac59553f15))
+* add missing type prop unmatching with api/soap/schema.ts ([d08f628](https://github.com/Jucamola/jsforce/commit/d08f62873cca2d3706ecffe1367a08dbce4d7091))
+* add soap login warning ([bc75011](https://github.com/Jucamola/jsforce/commit/bc75011cfd30fead4067654482903f48aa7a52f8))
+* autofetch handling the no records scenario (data.done undefined) ([46bf8f1](https://github.com/Jucamola/jsforce/commit/46bf8f18ec78e895ce12d89f158bb52f54ba74c7))
+* autofetch queries don't return early ([5612e8b](https://github.com/Jucamola/jsforce/commit/5612e8b40c745155e34144290110d3292571966a))
+* **bulk v2:** paginate to get all job results ([ab81d79](https://github.com/Jucamola/jsforce/commit/ab81d79ec0f0f4c93cd67a3b7e0cb54088621476))
+* **bulk2:** `jobComplete` event includes job info ([#1588](https://github.com/Jucamola/jsforce/issues/1588)) ([2f4388b](https://github.com/Jucamola/jsforce/commit/2f4388b86bf86c33aba64fdd65ac4e318b3a3f31))
+* **bulk2:** always pass bodyParams to jobCreate ([8e63fd0](https://github.com/Jucamola/jsforce/commit/8e63fd024c8afe6cf6c2f721072727b91c94aee9))
+* **bulk:** add missing `created` field ([#1454](https://github.com/Jucamola/jsforce/issues/1454)) ([b661afd](https://github.com/Jucamola/jsforce/commit/b661afdd21729812974f1056e392f2f58fc21096))
+* **bulk:** stop polling if job was aborted ([a8cb374](https://github.com/Jucamola/jsforce/commit/a8cb374210aaa51ea3cd98e9b9c7675148e351ac))
+* **bulk:** update JobInfo type ([#1636](https://github.com/Jucamola/jsforce/issues/1636)) ([4755f00](https://github.com/Jucamola/jsforce/commit/4755f0065d90c1d2437d7d3831e5c0cee7a57d2c))
+* bump babel deps ([#1683](https://github.com/Jucamola/jsforce/issues/1683)) ([57e23f0](https://github.com/Jucamola/jsforce/commit/57e23f08aa7476a20c11b32146d10e30dd528a92))
+* bump csv-stringify ([#1756](https://github.com/Jucamola/jsforce/issues/1756)) ([5776a77](https://github.com/Jucamola/jsforce/commit/5776a776cf0868afd4da8154974e1b1140b66a43))
+* bump dependencies-@W-24222954@ ([#1835](https://github.com/Jucamola/jsforce/issues/1835)) ([dab4c58](https://github.com/Jucamola/jsforce/commit/dab4c5831969770e1f6e500711e2798c2dfad637))
+* bump minor ([f65d617](https://github.com/Jucamola/jsforce/commit/f65d6179bf804ccd417dcc9beaa8d049abfaf50e))
+* bump package version ([fb87fb6](https://github.com/Jucamola/jsforce/commit/fb87fb6de521510dbeb7fdd7c4de5f82b27c5c54))
+* bump xml2js ([#1319](https://github.com/Jucamola/jsforce/issues/1319)) ([74d4dd3](https://github.com/Jucamola/jsforce/commit/74d4dd37f385f2ae1ab3af1747793afb853755d1))
+* cause release ([#1733](https://github.com/Jucamola/jsforce/issues/1733)) ([1653327](https://github.com/Jucamola/jsforce/commit/16533272718be313e913208736436e346faa380a))
+* check object prop ([b440acb](https://github.com/Jucamola/jsforce/commit/b440acb98c242f28e6b37de6df9701e2a8df51be))
+* checking updated files for release ([039f45a](https://github.com/Jucamola/jsforce/commit/039f45a1939a44d387df17b5a811553bd2dbdd06))
+* **ci:** wrong syntax in manualRelease workflow ([4a57166](https://github.com/Jucamola/jsforce/commit/4a5716613f994b80127be0367ebcaa41677eed15))
+* codereview ([b8cb90c](https://github.com/Jucamola/jsforce/commit/b8cb90c9f2edb2f998fd4e2dbecfd0b9c1cfa449))
+* combine all batches from bulk api into single stream ([4523b71](https://github.com/Jucamola/jsforce/commit/4523b716b2727d590a34a33a451b4c478f2cfa7b))
+* **conn:** validate `instanceUrl` is not a lightning URL ([#1418](https://github.com/Jucamola/jsforce/issues/1418)) ([c41676d](https://github.com/Jucamola/jsforce/commit/c41676dca047a9b48911b989cce6ae1011a82316))
+* **deps:** bump @babel/runtime-corejs3 from 7.27.0 to 7.27.6 ([#1710](https://github.com/Jucamola/jsforce/issues/1710)) ([9f263b3](https://github.com/Jucamola/jsforce/commit/9f263b374a93cf1e941a96907c3ff1ec51a57f35))
+* **deps:** bump @babel/runtime-corejs3 from 7.27.6 to 7.28.3 ([#1748](https://github.com/Jucamola/jsforce/issues/1748)) ([78adff2](https://github.com/Jucamola/jsforce/commit/78adff2a2fa4c72d3fba9b0e536472472b29254e))
+* **deps:** bump core-js from 3.37.0 to 3.45.0 ([#1746](https://github.com/Jucamola/jsforce/issues/1746)) ([c958986](https://github.com/Jucamola/jsforce/commit/c9589866ee6fffd3fc634afa04ad3f43c3386ac3))
+* **deps:** bump form-data from 4.0.0 to 4.0.4 ([#1729](https://github.com/Jucamola/jsforce/issues/1729)) ([1b03c76](https://github.com/Jucamola/jsforce/commit/1b03c76b7a27f973428ab42da532a4574f9c11d1))
+* **deps:** bump lodash from 4.17.21 to 4.18.1 ([#1850](https://github.com/Jucamola/jsforce/issues/1850)) ([a0c5665](https://github.com/Jucamola/jsforce/commit/a0c566577f04f54ce1fd0660615efbfe1a119ee6))
+* **deps:** bump tmp and inquirer ([#1747](https://github.com/Jucamola/jsforce/issues/1747)) ([6a55815](https://github.com/Jucamola/jsforce/commit/6a5581515cc6cdfe68d02fba9d7915dd6496f4c2))
+* **deps:** bump ws, engine.io, socket.io-adapter and puppeteer ([#1549](https://github.com/Jucamola/jsforce/issues/1549)) ([ffea541](https://github.com/Jucamola/jsforce/commit/ffea54109b4a0e4546489519a4de13554389522f))
+* do not retry if body stream was read ([7923f8e](https://github.com/Jucamola/jsforce/commit/7923f8e9bae67a8721911fa174978b50ff588b54))
+* docs creation action should work again @W-23176525@ ([#1810](https://github.com/Jucamola/jsforce/issues/1810)) ([4eec8e4](https://github.com/Jucamola/jsforce/commit/4eec8e45a1ac1b13cb0a75baab65b48009f0822f))
+* downgrade sindresorhus/is ([8b15078](https://github.com/Jucamola/jsforce/commit/8b15078a898b5a37a573a95d56926bfaf84af2f1))
+* emit erro ([0ba3b67](https://github.com/Jucamola/jsforce/commit/0ba3b677015c803c4a85749b78f1875c71931e3c))
+* ensure it throws on bad status code ([50d1e8a](https://github.com/Jucamola/jsforce/commit/50d1e8a147f9993077564ce531f8df4a4fe9f511))
+* ensure query stops after reaching max records ([11fb447](https://github.com/Jucamola/jsforce/commit/11fb4474e232551f1ce9ee28d940d7c88face8d7))
+* export describe-related types from common ([#1828](https://github.com/Jucamola/jsforce/issues/1828)) ([311b183](https://github.com/Jucamola/jsforce/commit/311b183a8fa690bc5e92814d03544b7ef9d2f972))
+* expose line ending ([93f8194](https://github.com/Jucamola/jsforce/commit/93f8194b3af6f4d7cbe7da3d91248b5232c43fb8))
+* fix header for REST recentlyValidatedDeploy ([aa6d551](https://github.com/Jucamola/jsforce/commit/aa6d551cee13016202327d92cfc9344753801065))
+* force release ([#1825](https://github.com/Jucamola/jsforce/issues/1825)) ([bd91d08](https://github.com/Jucamola/jsforce/commit/bd91d08177ac4f3fac3171881a35f11733213953))
+* form data length ([1206f76](https://github.com/Jucamola/jsforce/commit/1206f7629cfa1a49a37bd0242db3129a2ac96969))
+* handle multiple errors ([84e80ad](https://github.com/Jucamola/jsforce/commit/84e80adbc3533500495e18b193e42ce087d8358c))
+* **http:** handle more CSV delimiters on parse ([#1622](https://github.com/Jucamola/jsforce/issues/1622)) ([c96e9c7](https://github.com/Jucamola/jsforce/commit/c96e9c7d1c822b45b17e3adb8bcb3b0050b197c4))
+* **http:** limit retries on 420 responses W-19971144 ([#1772](https://github.com/Jucamola/jsforce/issues/1772)) ([0b210c6](https://github.com/Jucamola/jsforce/commit/0b210c61ff7ec29dc8d4916fdc87bd79aa7eed25))
+* **http:** reduce buffer allocations when reading responses W-18649787 ([#1784](https://github.com/Jucamola/jsforce/issues/1784)) ([f43fc77](https://github.com/Jucamola/jsforce/commit/f43fc7773ce8aa15ddfb3a105dbf3ea9ac704885))
+* **http:** return res/err after after retry is done ([be37b13](https://github.com/Jucamola/jsforce/commit/be37b1379877a45e944194145f0d728c83ce4027))
+* implement minTimeout ([33a2e58](https://github.com/Jucamola/jsforce/commit/33a2e582cedf2720f0cfc114752280b838275a44))
+* import namespace eventemitter instead of the default module ([08ed1ce](https://github.com/Jucamola/jsforce/commit/08ed1ceb973cb5058204b79d4d6108fb8c0f5230))
+* increase request timeout to 5 minutes ([#1745](https://github.com/Jucamola/jsforce/issues/1745)) ([6ca7894](https://github.com/Jucamola/jsforce/commit/6ca78941670a6b36d2c9d26758e8fd8fe9f90cc6))
+* increase timeout- W-19332431 ([#1760](https://github.com/Jucamola/jsforce/issues/1760)) ([d918534](https://github.com/Jucamola/jsforce/commit/d9185343790b1951c25d4f20d4671dc2b7fe6a73))
+* indentation ([c5ff48d](https://github.com/Jucamola/jsforce/commit/c5ff48d3939502d10476f118b37adc75b0b3912f))
+* instance url in jwt auth ([#1847](https://github.com/Jucamola/jsforce/issues/1847)) ([0c5d0bb](https://github.com/Jucamola/jsforce/commit/0c5d0bb9e43f05242809d41027d4bc3dc7b4b854))
+* **login:** throw if password expired ([#1517](https://github.com/Jucamola/jsforce/issues/1517)) ([c7a35a5](https://github.com/Jucamola/jsforce/commit/c7a35a55bf82fa6c7a5ee027f57a15eed8ad1dd2))
+* missing types ([6fdb6e6](https://github.com/Jucamola/jsforce/commit/6fdb6e67f7ba116a0d5f3b46387c9a6a1fa8f834))
+* no async ([63e9f42](https://github.com/Jucamola/jsforce/commit/63e9f42583fdac4b445dc1fd127d5f0c4c75e0b5))
+* no setting content-length in browser ([#1730](https://github.com/Jucamola/jsforce/issues/1730)) ([5ca9dd2](https://github.com/Jucamola/jsforce/commit/5ca9dd2a936959da4336d901e6683c5b29e4f80a))
+* **oauth2:** don't strip URL path ([85d7d00](https://github.com/Jucamola/jsforce/commit/85d7d00e704d330b77260a687c8a4dc5e2be0173))
+* **oauth2:** ensure endpoints are valid ([#1525](https://github.com/Jucamola/jsforce/issues/1525)) ([61e3623](https://github.com/Jucamola/jsforce/commit/61e3623d0693b2911bca6d639585bad2a8f99338))
+* override `whatwg-url` ([#1542](https://github.com/Jucamola/jsforce/issues/1542)) ([4f0fc3e](https://github.com/Jucamola/jsforce/commit/4f0fc3e4baabe878ab29913ae4ac9f44fc886a2f))
+* proper serialization of `null` value in soap request ([#1615](https://github.com/Jucamola/jsforce/issues/1615)) ([caaf888](https://github.com/Jucamola/jsforce/commit/caaf888abee693cd48ab5f975426d4ad5be733a1))
+* re-enable linux/nuts tests ([8c3d6aa](https://github.com/Jucamola/jsforce/commit/8c3d6aa7430bd96bb78bc8933e02e06ed0c0b5e1))
+* reenabling proper node tests @W-22477115@ ([#1808](https://github.com/Jucamola/jsforce/issues/1808)) ([8babac6](https://github.com/Jucamola/jsforce/commit/8babac66213646f1d2110050eeb92caaa0909431))
+* release ([8ce0df6](https://github.com/Jucamola/jsforce/commit/8ce0df66c0e5274a466ef4c07a20c30eb3a76f55))
+* remove dist dirs, pre-commit build step ([#1421](https://github.com/Jucamola/jsforce/issues/1421)) ([52aeb9a](https://github.com/Jucamola/jsforce/commit/52aeb9a935b8495edbf432efb2b0c1df3b365f30))
+* remove ESM entry point in pjson ([#1574](https://github.com/Jucamola/jsforce/issues/1574)) ([791c082](https://github.com/Jucamola/jsforce/commit/791c082dd7e5ea235a65250774dcf5bdd31b14a0))
+* Remove redirectUri checking in OAuth2 Username-Password Flow ([#1419](https://github.com/Jucamola/jsforce/issues/1419)) ([0184e21](https://github.com/Jucamola/jsforce/commit/0184e2113962ec9f3193a9a8b41db3ccdfcd44a7))
+* remove unused import ([2e524c8](https://github.com/Jucamola/jsforce/commit/2e524c8190986559f3fab614609f4561c9cc493e))
+* **rest:** other methods can set content-length ([11084e6](https://github.com/Jucamola/jsforce/commit/11084e6560f8649263c584d99f489381028b15c3))
+* retry on 420 responses ([#1520](https://github.com/Jucamola/jsforce/issues/1520)) ([214dffa](https://github.com/Jucamola/jsforce/commit/214dffa53ab12e4911634b04774cc60c60a87486))
+* save and return merged results ([d934db4](https://github.com/Jucamola/jsforce/commit/d934db46abd3859e897076b0698bb0fb3f156ecb))
+* **session-refresh:** improve error message ([7b0a2a4](https://github.com/Jucamola/jsforce/commit/7b0a2a4de1dabc47d906f4bb3366fd19b97b0af7))
+* set default request timeout W-18649787 ([#1738](https://github.com/Jucamola/jsforce/issues/1738)) ([4a722cd](https://github.com/Jucamola/jsforce/commit/4a722cdd455f0dee68c30e893c146ee3ceefb15e))
+* skip session refresh if connection is blocked W-19992404 ([#1774](https://github.com/Jucamola/jsforce/issues/1774)) ([c5c1d58](https://github.com/Jucamola/jsforce/commit/c5c1d582c66aad2ac85bf57a7f71d55565c9569c))
+* skip session refresh on bad Agent API reqs ([870dcc6](https://github.com/Jucamola/jsforce/commit/870dcc665e1cf49ddad38fb6cc9723c5c199be4e))
+* **SOAP:** block connections using JWT tokens ([e601069](https://github.com/Jucamola/jsforce/commit/e601069efc00801d78394fbad17773d6998324d3))
+* **soap:** handle content-lenght header on session refresh ([f67bc8e](https://github.com/Jucamola/jsforce/commit/f67bc8e744c6bd2f7c349c354206c15015e09d5c))
+* support HTTPS proxy env ([7a0c03a](https://github.com/Jucamola/jsforce/commit/7a0c03a8b31f22fb6d141e17d8a600068adf0b6b))
+* switched from node-fetch to native fetch API @W-23121570@ ([#1807](https://github.com/Jucamola/jsforce/issues/1807)) ([ccddfee](https://github.com/Jucamola/jsforce/commit/ccddfee319fc08ecca25e967c22fc69727e5a4a9))
+* timeouts calculate once instead of repeatedly ([#1792](https://github.com/Jucamola/jsforce/issues/1792)) ([22705e7](https://github.com/Jucamola/jsforce/commit/22705e79380c1414e3d71abb1d79e77657afdb76))
+* Transport follow redirects ([7ce934c](https://github.com/Jucamola/jsforce/commit/7ce934c784e40397d5c69b0df6c57f093a0a6bf6))
+* try removing // from URl ([#1550](https://github.com/Jucamola/jsforce/issues/1550)) ([8f833a0](https://github.com/Jucamola/jsforce/commit/8f833a04370deb5d9c81a0c436526737a7d31d0f))
+* typo ([5f4d88e](https://github.com/Jucamola/jsforce/commit/5f4d88e96e4a154a57de0a11b4b86149118e6a69))
+* update `TokenResponse` type ([#1777](https://github.com/Jucamola/jsforce/issues/1777)) ([1535cac](https://github.com/Jucamola/jsforce/commit/1535cac7123e44b07950bf64995104e92d15a2b7))
+* update dist files ([344e3b9](https://github.com/Jucamola/jsforce/commit/344e3b9a48cdb5e2efc487e15bbde5f655539219))
+* update package-lock.json ([39fc221](https://github.com/Jucamola/jsforce/commit/39fc22135dabaf337db94db402712c4c529b4e25))
+* use cross-spawn in SFDX registry to prevent OS command injection @W-24329517@ ([#1838](https://github.com/Jucamola/jsforce/issues/1838)) ([edd6af6](https://github.com/Jucamola/jsforce/commit/edd6af6aef6073eaf2b26bc6548687c76b1598a6))
+* use error.data ([d87ad8c](https://github.com/Jucamola/jsforce/commit/d87ad8cde4fb3fe138ddff99bfdb285ce6034da9))
+* use logger ([7dd6580](https://github.com/Jucamola/jsforce/commit/7dd6580c93d2130ae902b00f6a5f619ad3de10ff))
+* use logger instead of `console.error` ([#1540](https://github.com/Jucamola/jsforce/issues/1540)) ([fc3b936](https://github.com/Jucamola/jsforce/commit/fc3b936f56801da5869cd225cc758ed5a89060e3))
+* use native fs (remove fs-extra) ([#1538](https://github.com/Jucamola/jsforce/issues/1538)) ([59f57c1](https://github.com/Jucamola/jsforce/commit/59f57c14cd566b1b35c5a1ca865fc067374a1746))
+* use nextRecordsUrl for subqueries ([654fb3f](https://github.com/Jucamola/jsforce/commit/654fb3f5aae6bdcd165d9a320b93e843775b4eaa))
+* Use URL API for OAuth2 endpoint construction @W-23807280@ ([#1820](https://github.com/Jucamola/jsforce/issues/1820)) ([2946d08](https://github.com/Jucamola/jsforce/commit/2946d087a036be29343192474cc7773a52c370d5))
+* Use URL API for OAuth2 endpoint construction @W-23807280@ ([#1823](https://github.com/Jucamola/jsforce/issues/1823)) ([2b721bc](https://github.com/Jucamola/jsforce/commit/2b721bc4da115dbba8c140393d026744e934e71d))
 
 
 ### Features
 
-* support configurable trace propagators @W-24547770@ ([#1851](https://github.com/jsforce/jsforce/issues/1851)) ([69686d7](https://github.com/jsforce/jsforce/commit/69686d7f132c6903e2d66098faaad882e34d546a))
+* add checkDeployStatus for REST W-18012955 ([#1670](https://github.com/Jucamola/jsforce/issues/1670)) ([b36e429](https://github.com/Jucamola/jsforce/commit/b36e429d894d6deec4766523aa4809b702bac7c8))
+* add node-only release ([#1375](https://github.com/Jucamola/jsforce/issues/1375)) ([c0e947c](https://github.com/Jucamola/jsforce/commit/c0e947c20c228a55a51f1afe296b94b336b15cd6))
+* add opt-in W3C trace context forwarding ([#1836](https://github.com/Jucamola/jsforce/issues/1836)) ([04571dc](https://github.com/Jucamola/jsforce/commit/04571dc88bdc6b4bbf97ae39ceea0b5a2878cc43))
+* add SOAP undelete ([#1533](https://github.com/Jucamola/jsforce/issues/1533)) ([ce075ee](https://github.com/Jucamola/jsforce/commit/ce075ee96289304b0016a5518a5ed9ecc9f89b4e))
+* add support for multipart/form-data requests ([58b8cb3](https://github.com/Jucamola/jsforce/commit/58b8cb3af6f2cfe3b939337e0b8faa9b8c96f46b))
+* allow skipping template eval on query update ([b26270c](https://github.com/Jucamola/jsforce/commit/b26270c491ee227d91a643ec4bd723cb4855d666))
+* bulk2 refactor ([#1397](https://github.com/Jucamola/jsforce/issues/1397)) ([b8ae5d5](https://github.com/Jucamola/jsforce/commit/b8ae5d5212233d8e7a1adc158a1a1b603213ee29))
+* **bulk2:** allow to get raw job results ([#1603](https://github.com/Jucamola/jsforce/issues/1603)) ([2cc5761](https://github.com/Jucamola/jsforce/commit/2cc5761b0a0556c8a4e47c645c5c9fd906297034))
+* **cli:** allow schema generator to filter objects. ([#1386](https://github.com/Jucamola/jsforce/issues/1386)) ([b997db2](https://github.com/Jucamola/jsforce/commit/b997db2da879e61f13ac41e904af37d67e6fa20a))
+* **conn:** multiple upserts use sobject collection  ([#1692](https://github.com/Jucamola/jsforce/issues/1692)) ([#1713](https://github.com/Jucamola/jsforce/issues/1713)) ([8c51295](https://github.com/Jucamola/jsforce/commit/8c512956e9eeb64125f09521e1e56e5dbc60a119))
+* **http-proxy:** support lowercase env vars ([97acbac](https://github.com/Jucamola/jsforce/commit/97acbacacdfc2dc1ea7f9cf3be291caa5fefbc44))
+* mdapi schema for SourceTrackingSettings ([2b9b2c1](https://github.com/Jucamola/jsforce/commit/2b9b2c17fb494088756f192625fdfeb5594114ec))
+* metadata rest deploy ([1ab2f62](https://github.com/Jucamola/jsforce/commit/1ab2f62eaacc73e6e6102398271e71202ab4a829))
+* **metadata:** add `cancelDeploy` method ([#1551](https://github.com/Jucamola/jsforce/issues/1551)) ([ecdcbaa](https://github.com/Jucamola/jsforce/commit/ecdcbaa23ee205c3c97f25b0be957932350b3935))
+* migrate JWT auth class to jsforce ([24c6140](https://github.com/Jucamola/jsforce/commit/24c61409a7574ed89cfcd1bdfc7ad3c0f49ad212))
+* remove deprecated jwt class ([#1406](https://github.com/Jucamola/jsforce/issues/1406)) ([a4fd725](https://github.com/Jucamola/jsforce/commit/a4fd7259e52af2f9ec35968f8793349a042eed6b))
+* retry on network errors ([4fe209f](https://github.com/Jucamola/jsforce/commit/4fe209f144c1f7d5f971206a0b8f31ec02c0e7ae))
+* retry on statusCodes ([4010b8c](https://github.com/Jucamola/jsforce/commit/4010b8ceb1d651fe482d44d291da148ec70a6917))
+* scanAll option for bulk2 ([#1347](https://github.com/Jucamola/jsforce/issues/1347)) ([a98792f](https://github.com/Jucamola/jsforce/commit/a98792f6e11e22ff1556dfdedfa21335d77ca7f0))
+* set content-length header ([822eb73](https://github.com/Jucamola/jsforce/commit/822eb73f6df68c3c6e4181ad043d2e4ec55e5452))
+* support arbitrary response decoding ([#1326](https://github.com/Jucamola/jsforce/issues/1326)) ([994ec80](https://github.com/Jucamola/jsforce/commit/994ec807a755b9bdc041d34e0f2967a4019a297e))
+* support configurable trace propagators @W-24547770@ ([#1851](https://github.com/Jucamola/jsforce/issues/1851)) ([69686d7](https://github.com/Jucamola/jsforce/commit/69686d7f132c6903e2d66098faaad882e34d546a))
+* use native abortController ([#1587](https://github.com/Jucamola/jsforce/issues/1587)) ([f584563](https://github.com/Jucamola/jsforce/commit/f584563b526a24260d62dc27f2acd61230f52939))
 
 
+### Reverts
 
-## [3.11.1](https://github.com/jsforce/jsforce/compare/3.11.0...3.11.1) (2026-10-15)
-
-
-### Bug Fixes
-
-* **deps:** bump lodash from 4.17.21 to 4.18.1 ([#1850](https://github.com/jsforce/jsforce/issues/1850)) ([a0c5665](https://github.com/jsforce/jsforce/commit/a0c566577f04f54ce1fd0660615efbfe1a119ee6))
-
-
-
-# [3.11.0](https://github.com/jsforce/jsforce/compare/3.10.29...3.11.0) (2026-10-14)
-
-
-### Features
-
-* add opt-in W3C trace context forwarding ([#1836](https://github.com/jsforce/jsforce/issues/1836)) ([04571dc](https://github.com/jsforce/jsforce/commit/04571dc88bdc6b4bbf97ae39ceea0b5a2878cc43))
-
-
-
-## [3.10.29](https://github.com/jsforce/jsforce/compare/3.10.28...3.10.29) (2026-10-08)
-
-
-### Bug Fixes
-
-* instance url in jwt auth ([#1847](https://github.com/jsforce/jsforce/issues/1847)) ([0c5d0bb](https://github.com/jsforce/jsforce/commit/0c5d0bb9e43f05242809d41027d4bc3dc7b4b854))
-
-
-
-## [3.10.28](https://github.com/jsforce/jsforce/compare/3.10.27...3.10.28) (2026-10-02)
-
-
-### Bug Fixes
-
-* use cross-spawn in SFDX registry to prevent OS command injection @W-24329517@ ([#1838](https://github.com/jsforce/jsforce/issues/1838)) ([edd6af6](https://github.com/jsforce/jsforce/commit/edd6af6aef6073eaf2b26bc6548687c76b1598a6))
+* Revert "Use URL API for OAuth2 endpoint construction @W-23807280@ (#1819)" (#1821) ([10c8e30](https://github.com/Jucamola/jsforce/commit/10c8e30cf618fe2d9207d39d9c30fc5e7e69f715)), closes [#1819](https://github.com/Jucamola/jsforce/issues/1819) [#1821](https://github.com/Jucamola/jsforce/issues/1821)
+* Revert "remove unused ref" ([f4d8c26](https://github.com/Jucamola/jsforce/commit/f4d8c2678592370d5624781ff6f9cae4ab321867))
+* Revert "remove jwtOAuth2 as oauth2 now supports arbitrary grant types including JWT bearer" ([2efa0bc](https://github.com/Jucamola/jsforce/commit/2efa0bcc58a03f816b5e80bfa3acae4fa5b6bed8))
+* Revert "temporary revert test script to old interface" ([fdc8c5a](https://github.com/Jucamola/jsforce/commit/fdc8c5aa6e8e060c287c2be7aa98c07450501ae6))
+* Revert "use single worker" ([f0201c0](https://github.com/Jucamola/jsforce/commit/f0201c0234600166d163d6cd2087b23a9af4ae44))
 
 
 
